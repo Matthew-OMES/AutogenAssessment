@@ -1,0 +1,1874 @@
+SECTION ***A*** Identification Information 
+1. 	***QB*** NAME
+	a.***T*** First Name                       
+	b.***T*** Middle initial
+	c.***T*** Last Name                                  
+	d.***T*** Suffix
+2. 	***DD*** SEX
+1   &&& Male           
+2   &&& Female	
+3. 	***Date*** BIRTHDATE 
+4. 	***QB*** NUMERIC IDENTIFIERS
+a.	***T*** Health Care Identification Number
+	
+b.	***T*** Province or Territory Issuing Health Care Identification Number
+	
+c.	***T*** Case Record Number     
+	
+5. 	***T*** AGENCY IDENTIFIER 
+	
+6.	***QB*** CURRENT PAYMENT SOURCES
+a.	***DD*** Provincial or territorial government plan ^^^ this province or territory	
+0	&&& No	
+1	&&& Yes
+
+b.	***DD*** Provincial or territorial government plan ^^^ other province or territory
+0	&&& No	
+1	&&& Yes
+
+c.	***DD*** Federal government ^^^ First Nations and Inuit Health Branch (FNIHB)
+0	&&& No	
+1	&&& Yes
+
+d.	***DD*** Canadian resident, insurance pay
+0	&&& No	
+1	&&& Yes
+
+e.	***DD*** Canadian resident, public trustee pay
+0	&&& No	
+1	&&& Yes
+	
+f.	***DD*** Canadian resident, self-pay
+0	&&& No	
+1	&&& Yes
+		
+g.	***DD*** Other country resident, self-pay
+0	&&& No	
+1	&&& Yes
+		
+h.	***DD*** Responsibility for payment unknown or unavailable
+0	&&& No	
+1	&&& Yes
+		
+7.	***DD*** REASON FOR ASSESSMENT		
+1	&&& First assessment	
+2	&&& Routine reassessment
+3	&&& Return assessment
+4	&&& Significant change in status reassessment
+5	&&& Discharge assessment covers last 3–7 days of service
+6 	&&& Discharge tracking only
+7	&&& Other — e.g., research
+8.	***Date*** ASSESSMENT REFERENCE DATE
+9.	***QB*** EXPRESSED GOALS
+a.	***T*** Child’s / youth’s goals
+b.	***T*** Parent’s / caregiver’s goals ^^^ for child / youth
+		
+10. ***DD*** LEGAL GUARDIANSHIP 	
+1	&&& Both parents 	
+2	&&& Mother only	
+3	&&& Father only	
+4	&&& Neither parent but other relative(s) or nonrelative(s)
+5	&&& Child protection agency (e.g., CAS)
+6	&&& Youth responsible for self
+11.	***QB*** CURRENT DISPUTE OVER CUSTODY OR CHILD / YOUTH ACCESS
+a.	***DD***This child / youth
+0	&&& No	
+1	&&& Yes
+		
+b. ***DD***Other child(ren) / youth
+0	&&& No	
+1	&&& Yes
+			
+
+
+SECTION ***B*** Intake and Initial History
+1.	***QB*** REASONS FOR ADMISSION
+a.	***DD*** Threat or danger to self
+0	&&& No	
+1	&&& Yes
+	
+b.	***DD*** Threat or danger to others
+0	&&& No	
+1	&&& Yes
+	
+c.	***DD*** Problem with addiction or dependency
+0	&&& No	
+1	&&& Yes
+	
+d.	***DD*** Specific psychiatric symptoms ^^^ e.g., severe behaviour problems, depression, hallucinations	
+0	&&& No	
+1	&&& Yes
+
+e.	***DD*** Involvement with youth justice system
+0	&&& No	
+1	&&& Yes
+	
+2.	***Date*** DATE CASE OPENED
+        
+3.	***QB*** ABORIGINAL IDENTITY ^^^ Child / youth identifies self as First Nations, Metis, or Inuit 
+a.	***DD*** First Nations
+0	&&& No	
+1	&&& Yes
+	
+b.	***DD*** Metis
+0	&&& No	
+1	&&& Yes
+	
+c.	***DD*** Inuit
+0	&&& No	
+1	&&& Yes
+	
+4.	***DD*** PRIMARY LANGUAGE ^^^ See HCC Language Codes document for additional codes
+eng	&&& English	
+fre  	&&& French 	
+asl	&&& American Sign Language
+5.	***QB*** INTERPRETER NEEDED 
+a.	***DD*** Child / youth
+0	&&& No	
+1	&&& Yes	
+b.	***DD*** Either parent / primary caregiver
+0	&&& No	
+1	&&& Yes	
+6.	***DD*** BIOLOGICAL MOTHER’S AGE AT TIME OF CHILD’S / YOUTH’S BIRTH		
+1	&&& Under 16	
+2	&&& 16–19	
+3	&&& 20–29 	
+4	&&& 30–39
+5	&&& 40+
+8	&&& Unknown
+7.	***DD*** MARITAL STATUS OF PARENTS	
+1	&&& Never married
+2	&&& Married
+3	&&& Partner / significant other	
+4	&&& Widowed
+5	&&& Separated
+6	&&& Divorced
+8	&&& Marital status unknown
+8.	***DD*** HISTORY OF FOSTER FAMILY PLACEMENT ^^^ Include present placement, if applicable; include any kinship care placements	
+0	&&& None
+1	&&& 1 foster family
+2 	&&& Multiple foster families
+9.	***QB*** HISTORY OF CARE INCLUDES SEVERE FAILURE TO PROVIDE FOR BASIC NEEDS ^^^ Code for child’s / youth’s age at earliest occurrence
+a. ***DD***	Emotional neglect ^^^ e.g., left in crib for prolonged periods	
+0	&&& None
+1	&&& 0–4 years
+2	&&& 5–11 years
+3	&&& 12–18 years
+
+b.	***DD*** Physical needs ^^^ e.g., inadequate winter clothing	
+0	&&& None
+1	&&& 0–4 years
+2	&&& 5–11 years
+3	&&& 12–18 years
+
+c.	***DD*** Safety needs ^^^ e.g., child left in car in summer heat
+0	&&& None
+1	&&& 0–4 years
+2	&&& 5–11 years
+3	&&& 12–18 years
+	
+10.	***QB*** MATERNAL SUBSTANCE USE DURING PREGNANCY
+a.	***DD*** Alcohol use	
+0	&&& No
+1	&&& Yes
+8	&&& Unknown / uncertain
+
+b.	***DD*** Drug use — EXCLUDE PRESCRIBED MEDICATION THAT WAS TAKEN AS DIRECTED	
+0	&&& No
+1	&&& Yes
+8	&&& Unknown / uncertain
+
+11.	***DD*** CHILD RAISED WITH FREQUENT DISRUPTIONS IN CARE ^^^ e.g., institutional care, multiple caregivers [EXCLUDE NANNY]  
+0	&&& No	
+1	&&& Yes
+12.	***QB***DEVELOPMENTAL HISTORY ^^^ Child / youth achieved developmental milestones within appropriate time frame
+a.	***DD*** Walking ^^^ By 18 months, walked independently
+0	&&& No
+1	&&& Yes
+8	&&& Unknown
+	
+b.	***DD*** Talking ^^^ By 24 months, combined 2–4 words into short sentences AND had vocabulary ranging from 50–200 words	
+0	&&& No
+1	&&& Yes
+8	&&& Unknown
+
+c.	***DD*** Toilet training ^^^ By 4 years, daytime toilet trained
+0	&&& No
+1	&&& Yes
+8	&&& Unknown
+	
+13.	***QB*** CURRENT MEMBERS OF PRIMARY HOUSEHOLD ^^^ Code only if child’s / youth’s primary household is a private home. For all other usual living arrangements, code “99”
+a.	***T*** Number of adults 	
+b. ***T*** Number of minors 
+	
+14.	***DD*** RESIDENTIAL / LIVING STATUS AT TIME OF ASSESSMENT 
+1	&&& Private home / apartment / rented room
+2	&&& Board and care
+3	&&& Assisted living or semi-independent living
+4	&&& Mental health residence — e.g., psychiatric group home
+5	&&& Group home for persons with physical disability	
+6	&&& Setting for persons with intellectual disability
+7	&&& Psychiatric hospital / unit
+8	&&& Homeless (with or without shelter)
+9	&&& Residential care facility — e.g., long-term care home, nursing home
+10	&&& Rehabilitation hospital / unit
+11	&&& Hospice facility / palliative care unit
+12	&&& Acute care hospital / unit
+13	&&& Continuing care hospital / unit
+14	&&& Residential treatment facility
+15 	&&& Other
+
+15.	***T*** POSTAL CODE OF USUAL LIVING ARRANGEMENT
+ 	
+16.	***DD*** LIVING ARRANGEMENT	
+1	&&& Alone 
+2	&&& With parent(s) or primary caregiver(s) 
+3	&&& With sibling(s), no parent(s) / primary caregiver(s)
+4	&&& With other relative(s)
+5	&&& With foster family
+6	&&& With nonrelative(s), excluding foster family
+
+17.	***QB*** RESIDENTIAL / LIVING STATUS OVER LAST 2 YEARS ^^^ Code for any of the following settings child / youth lived in 
+a.	***DD*** Group home	
+0	&&& No	
+1	&&& Yes
+b.	***DD*** Shelter	
+0	&&& No	
+1	&&& Yes
+c.	***DD*** Facility for persons with intellectual disability	
+0	&&& No	
+1	&&& Yes
+
+18.	***DD*** RESIDENTIAL INSTABILITY OVER LAST 2 YEARS ^^^ e.g., 3 or more moves, no permanent address, homeless, living in shelter, “couch surfing” 		
+0	&&& No	
+1	&&& Yes
+
+19.	***DD*** TIME SINCE LAST CONTACT WITH COMMUNITY MENTAL HEALTH AGENCY OR PROFESSIONAL IN PAST YEAR ^^^ e.g., psychiatrist, social worker 
+0	&&& No contact in past year
+1	&&& 31 days or more
+2	&&& 30 days or less
+
+20.	***QB*** MENTAL HEALTH RESIDENTIAL / IN-PATIENT HISTORY
+a.	***DD*** Time since discharge from last admission 	
+1	&&& 30 days or less (from this facility)
+2	&&& 30 days or less (from another facility) 
+3	&&& 31 days–90 days
+4	&&& 91 days–1 year
+5	&&& More than 1 year
+6	&&& Not applicable (no prior admission)
+b. ***DD***	Number of lifetime admissions	
+0	&&& None	
+1	&&& 1–3 	
+2	&&& 4–5
+3	&&& 6 or more
+
+c.	***DD*** Number of admissions in LAST 2 YEARS	
+0	&&& None	
+1	&&& 1–2	
+2	&&& 3 or more
+d.	***DD*** Age in years at first overnight stay 	
+0	&&& Never	
+1	&&& 0–5	
+2	&&& 6–10
+3	&&& 11–14
+4	&&& 15+
+
+21.	***Text*** NUMBER OF YEARS (LIFETIME) SPENT IN AN INSTITUTIONAL SETTING FOR PERSONS WITH INTELLECTUAL DISABILITY	^^^ Code “00” if child / youth was never in an institutional setting. Code “99” if unknown. If less than 1 year, code as 1 year.
+
+22.	***DD*** NATURE OF INTELLECTUAL DISABILITY	^^^ Refer to manual for additional codes
+1	&&& Cause unspecified
+2	&&& Fragile X syndrome
+3	&&& 22q deletion syndrome
+4	&&& Congenital hypothyroidism
+5	&&& Autism spectrum disorder
+6	&&& Down syndrome
+
+
+23.	***DD*** DOCUMENTED SEVERITY OF INTELLECTUAL DISABILITY	
+0	&&& None	
+1	&&& Borderline	
+2	&&& Mild	
+3	&&& Moderate
+4	&&& Severe
+5	&&& Profound
+8	&&& Not documented
+
+SECTION ***C*** Mental State Indicators 
+1.	***QB*** Mental State Indicators - Distraction and Hyperactivity  ^^^ Code for indicators observed in the last 3 days, irrespective of the assumed cause [Note: Whenever possible, ask child / youth]
+
+a.	***DD*** Impulsive ^^^ e.g., running into traffic; takes risky actions without thinking; difficulty taking turns; interrupts 	
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1–2 of last 3 days
+	3	&&& Exhibited daily in last 3 days, 1–2 episodes 
+	4	&&& Exhibited daily in last 3 days, 3 or more episodes or continuously
+b.	***DD*** Easily distracted ^^^ e.g., episodes of difficulty paying attention; gets sidetracked	
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1–2 of last 3 days
+	3	&&& Exhibited daily in last 3 days, 1–2 episodes 
+	4	&&& Exhibited daily in last 3 days, 3 or more episodes or continuously
+c.	***DD*** Hyperactivity ^^^ Excessive level of activity 	
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1–2 of last 3 days
+	3	&&& Exhibited daily in last 3 days, 1–2 episodes 
+	4	&&& Exhibited daily in last 3 days, 3 or more episodes or continuously
+d.	***DD*** Disorganization ^^^ e.g., problems organizing personal belongings; difficulty adhering to schedule	
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1–2 of last 3 days
+	3	&&& Exhibited daily in last 3 days, 1–2 episodes 
+	4	&&& Exhibited daily in last 3 days, 3 or more episodes or continuously
+
+2.	***QB*** Mental State Indicators - Mood Disturbance  ^^^ Code for indicators observed in the last 3 days, irrespective of the assumed cause [Note: Whenever possible, ask child / youth]
+
+a.	***DD*** Sad, pained, or worried facial expressions ^^^ e.g., furrowed brow, constant frowning	
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1–2 of last 3 days
+	3	&&& Exhibited daily in last 3 days, 1–2 episodes 
+	4	&&& Exhibited daily in last 3 days, 3 or more episodes or continuously
+b.	***DD*** Crying, tearfulness	
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1–2 of last 3 days
+	3	&&& Exhibited daily in last 3 days, 1–2 episodes 
+	4	&&& Exhibited daily in last 3 days, 3 or more episodes or continuously
+c.	***DD*** Decreased energy ^^^ Statements of decrease in energy level (e.g., “I just don’t feel like doing anything; I am too tired”) 
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1–2 of last 3 days
+	3	&&& Exhibited daily in last 3 days, 1–2 episodes 
+	4	&&& Exhibited daily in last 3 days, 3 or more episodes or continuously	
+d.	***DD*** Made negative statements ^^^ e.g., “Nothing matters; No one likes me; I hate my life” 	
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1–2 of last 3 days
+	3	&&& Exhibited daily in last 3 days, 1–2 episodes 
+	4	&&& Exhibited daily in last 3 days, 3 or more episodes or continuously
+e.	***DD*** Self-deprecation ^^^ e.g., “I am stupid; I am bad; I can’t do anything right” 	
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1–2 of last 3 days
+	3	&&& Exhibited daily in last 3 days, 1–2 episodes 
+	4	&&& Exhibited daily in last 3 days, 3 or more episodes or continuously
+f.	***DD*** Expressions of guilt or shame ^^^ e.g., “I’ve done something awful; This is all my fault; I am a terrible person” 	
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1–2 of last 3 days
+	3	&&& Exhibited daily in last 3 days, 1–2 episodes 
+	4	&&& Exhibited daily in last 3 days, 3 or more episodes or continuously
+g.	***DD*** Expressions of hopelessness ^^^ e.g., “There’s no hope for the future; Nothing’s going to change for the better” 
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1–2 of last 3 days
+	3	&&& Exhibited daily in last 3 days, 1–2 episodes 
+	4	&&& Exhibited daily in last 3 days, 3 or more episodes or continuously	
+h.	***DD*** Inflated self-worth ^^^ e.g., exaggerated self-opinion, arrogance, inflated belief about one’s own ability	
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1–2 of last 3 days
+	3	&&& Exhibited daily in last 3 days, 1–2 episodes 
+	4	&&& Exhibited daily in last 3 days, 3 or more episodes or continuously
+i.	***DD*** Irritability ^^^ Marked increase in being short-tempered or easily upset	
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1–2 of last 3 days
+	3	&&& Exhibited daily in last 3 days, 1–2 episodes 
+	4	&&& Exhibited daily in last 3 days, 3 or more episodes or continuously
+j.	***DD*** Pressured speech or racing thoughts ^^^ Rapid speech, rapid transition from topic to topic	
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1–2 of last 3 days
+	3	&&& Exhibited daily in last 3 days, 1–2 episodes 
+	4	&&& Exhibited daily in last 3 days, 3 or more episodes or continuously
+k.	***DD*** Labile affect ^^^ Affect fluctuates frequently with or without an external explanation	
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1–2 of last 3 days
+	3	&&& Exhibited daily in last 3 days, 1–2 episodes 
+	4	&&& Exhibited daily in last 3 days, 3 or more episodes or continuously
+l.	***DD*** Hypersexuality ^^^ Age-inappropriate sexual activity or urges 	
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1–2 of last 3 days
+	3	&&& Exhibited daily in last 3 days, 1–2 episodes 
+	4	&&& Exhibited daily in last 3 days, 3 or more episodes or continuously
+m.	***DD*** Flat or blunted affect ^^^ Indifference, non-responsiveness, hard to get to smile, etc. 	
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1–2 of last 3 days
+	3	&&& Exhibited daily in last 3 days, 1–2 episodes 
+	4	&&& Exhibited daily in last 3 days, 3 or more episodes or continuously
+
+3.	***QB*** Mental State Indicators - Anxiety  ^^^ Code for indicators observed in the last 3 days, irrespective of the assumed cause [Note: Whenever possible, ask child / youth]
+
+a.	***DD*** Repetitive anxious complaints / concerns (non-health-related) ^^^ e.g., persistently seeks attention / reassurance regarding schedules, school, sports, clothing, relationships	
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1–2 of last 3 days
+	3	&&& Exhibited daily in last 3 days, 1–2 episodes 
+	4	&&& Exhibited daily in last 3 days, 3 or more episodes or continuously
+b.	***DD*** Expressions, including nonverbal, of what appear to be unrealistic fears ^^^ e.g., fear of being abandoned or left alone; of being with others; intense fear of specific objects or situations	
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1–2 of last 3 days
+	3	&&& Exhibited daily in last 3 days, 1–2 episodes 
+	4	&&& Exhibited daily in last 3 days, 3 or more episodes or continuously
+c.	***DD*** Obsessive thoughts ^^^ Unwanted ideas or thoughts that cannot be eliminated		
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1–2 of last 3 days
+	3	&&& Exhibited daily in last 3 days, 1–2 episodes 
+	4	&&& Exhibited daily in last 3 days, 3 or more episodes or continuously
+d.	***DD*** Compulsive behaviour ^^^ e.g., hand washing, repetitive checking of room, counting, hoarding	
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1–2 of last 3 days
+	3	&&& Exhibited daily in last 3 days, 1–2 episodes 
+	4	&&& Exhibited daily in last 3 days, 3 or more episodes or continuously
+e.	***DD*** Intrusive thoughts or flashbacks ^^^ Disturbing memories or images that intrude into thoughts, unexpected recall of adverse events	
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1–2 of last 3 days
+	3	&&& Exhibited daily in last 3 days, 1–2 episodes 
+	4	&&& Exhibited daily in last 3 days, 3 or more episodes or continuously
+f.	***DD*** Re-enactment through play of traumatic life events	
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1–2 of last 3 days
+	3	&&& Exhibited daily in last 3 days, 1–2 episodes 
+	4	&&& Exhibited daily in last 3 days, 3 or more episodes or continuously
+g.	***DD*** Episodes of panic ^^^ Cascade of symptoms of fear, anxiety, loss of control		
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1–2 of last 3 days
+	3	&&& Exhibited daily in last 3 days, 1–2 episodes 
+	4	&&& Exhibited daily in last 3 days, 3 or more episodes or continuously
+h.	***DD*** Nightmares ^^^ e.g., reports frightening dreams, wakes from sleep with expressions of fear (including nonverbal) 
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1–2 of last 3 days
+	3	&&& Exhibited daily in last 3 days, 1–2 episodes 
+	4	&&& Exhibited daily in last 3 days, 3 or more episodes or continuously	
+i.	***DD*** Hypervigilance ^^^ “Jumpiness” or feeling as though in danger 	
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1–2 of last 3 days
+	3	&&& Exhibited daily in last 3 days, 1–2 episodes 
+	4	&&& Exhibited daily in last 3 days, 3 or more episodes or continuously
+j.	***DD*** Converses only in specific social situations ^^^ e.g., speaks at home but not at school; includes sign language 	
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1–2 of last 3 days
+	3	&&& Exhibited daily in last 3 days, 1–2 episodes 
+	4	&&& Exhibited daily in last 3 days, 3 or more episodes or continuously
+
+4.	***QB*** Mental State Indicators - Psychosis  ^^^ Code for indicators observed in the last 3 days, irrespective of the assumed cause [Note: Whenever possible, ask child / youth]
+
+a.	***DD*** Hallucinations ^^^ False sensory perceptions, of any type, with or without insight, without corresponding stimuli (e.g., auditory, visual, tactile, olfactory, gustatory hallucinations, excluding command hallucinations) 	
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1–2 of last 3 days
+	3	&&& Exhibited daily in last 3 days, 1–2 episodes 
+	4	&&& Exhibited daily in last 3 days, 3 or more episodes or continuously
+b.	***DD*** Command hallucinations ^^^ Hallucinations directing the child / youth to do something or to act in a particular manner (e.g., to harm self or others)    
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1–2 of last 3 days
+	3	&&& Exhibited daily in last 3 days, 1–2 episodes 
+	4	&&& Exhibited daily in last 3 days, 3 or more episodes or continuously 
+c.	***DD*** Delusions ^^^ Fixed false beliefs (e.g., grandiose, paranoid, somatic, excluding beliefs specific to child’s / youth’s culture or religion) 	
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1–2 of last 3 days
+	3	&&& Exhibited daily in last 3 days, 1–2 episodes 
+	4	&&& Exhibited daily in last 3 days, 3 or more episodes or continuously
+d.	***DD*** Abnormal thought process ^^^ e.g., loosening of associations, blocking, flight of ideas, tangentiality, circumstantiality 	
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1–2 of last 3 days
+	3	&&& Exhibited daily in last 3 days, 1–2 episodes 
+	4	&&& Exhibited daily in last 3 days, 3 or more episodes or continuously
+
+5.	***QB*** Mental State Indicators - Negative Symptoms  ^^^ Code for indicators observed in the last 3 days, irrespective of the assumed cause [Note: Whenever possible, ask child / youth]
+
+a.	***DD*** Lack of interest in social interaction	
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1–2 of last 3 days
+	3	&&& Exhibited daily in last 3 days, 1–2 episodes 
+	4	&&& Exhibited daily in last 3 days, 3 or more episodes or continuously
+b.	***DD*** Lack of motivation ^^^ Absence of spontaneous goal-directed activity	
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1–2 of last 3 days
+	3	&&& Exhibited daily in last 3 days, 1–2 episodes 
+	4	&&& Exhibited daily in last 3 days, 3 or more episodes or continuously
+c.	***DD*** Expressions, including nonverbal, of a lack of pleasure in life (anhedonia) ^^^ e.g., “I don’t have fun anymore”; gloomy during favourite activities   
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1–2 of last 3 days
+	3	&&& Exhibited daily in last 3 days, 1–2 episodes 
+	4	&&& Exhibited daily in last 3 days, 3 or more episodes or continuously
+d.	***DD*** Withdrawal from activities of interest ^^^ e.g., long-standing activities, being with family / friends
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1–2 of last 3 days
+	3	&&& Exhibited daily in last 3 days, 1–2 episodes 
+	4	&&& Exhibited daily in last 3 days, 3 or more episodes or continuously	
+
+6.	***QB*** Mental State Indicators - Other  ^^^ Code for indicators observed in the last 3 days, irrespective of the assumed cause [Note: Whenever possible, ask child / youth]
+
+a.	***DD*** Repetitive health complaints ^^^ e.g., persistently seeks attention for physical symptoms such as headaches and stomach ache; incessant concern with body functions	
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1–2 of last 3 days
+	3	&&& Exhibited daily in last 3 days, 1–2 episodes 
+	4	&&& Exhibited daily in last 3 days, 3 or more episodes or continuously
+b.	***DD*** Unusual or abnormal physical movements ^^^ Unusual facial expressions or mannerisms, peculiar motor behaviour or body posturing (e.g., stereotypies, motor tics, spasticity) 	
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1–2 of last 3 days
+	3	&&& Exhibited daily in last 3 days, 1–2 episodes 
+	4	&&& Exhibited daily in last 3 days, 3 or more episodes or continuously
+c.	***DD*** Phonic tics — Unusual, abrupt, repetitive, and involuntary sounds ^^^ e.g., clearing of throat, barking, repeating words or phrases	
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1–2 of last 3 days
+	3	&&& Exhibited daily in last 3 days, 1–2 episodes 
+	4	&&& Exhibited daily in last 3 days, 3 or more episodes or continuously
+d.	***DD*** Hygiene ^^^ Unusually poor hygiene, unkempt, dishevelled	
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1–2 of last 3 days
+	3	&&& Exhibited daily in last 3 days, 1–2 episodes 
+	4	&&& Exhibited daily in last 3 days, 3 or more episodes or continuously
+e.	***DD*** Denies or minimizes harm done to others ^^^ e.g., “They can afford it”; “I didn’t hit the kid that hard” 	
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1–2 of last 3 days
+	3	&&& Exhibited daily in last 3 days, 1–2 episodes 
+	4	&&& Exhibited daily in last 3 days, 3 or more episodes or continuously
+f.	***DD*** Difficulty falling asleep or staying asleep ^^^ e.g., waking up too early; restlessness, nonrestful sleep	
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1–2 of last 3 days
+	3	&&& Exhibited daily in last 3 days, 1–2 episodes 
+	4	&&& Exhibited daily in last 3 days, 3 or more episodes or continuously
+g.	***DD*** Wakes multiple times at night	
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1–2 of last 3 days
+	3	&&& Exhibited daily in last 3 days, 1–2 episodes 
+	4	&&& Exhibited daily in last 3 days, 3 or more episodes or continuously
+h.	***DD*** Falls asleep during the day (exclude naptime) 	
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1–2 of last 3 days
+	3	&&& Exhibited daily in last 3 days, 1–2 episodes 
+	4	&&& Exhibited daily in last 3 days, 3 or more episodes or continuously
+i.	***DD*** Resists bedtime ^^^ e.g., getting into / staying in bed; difficulty going to bed without parent / caregiver intervention; reluctant to sleep on appropriate schedule	
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1–2 of last 3 days
+	3	&&& Exhibited daily in last 3 days, 1–2 episodes 
+	4	&&& Exhibited daily in last 3 days, 3 or more episodes or continuously
+j.	***DD*** Episodes of disorganized speech ^^^ e.g., speech is nonsensical, irrelevant, or rambling from subject to subject	
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1–2 of last 3 days
+	3	&&& Exhibited daily in last 3 days, 1–2 episodes 
+	4	&&& Exhibited daily in last 3 days, 3 or more episodes or continuously
+k.	***DD*** Expressions supportive of criminal activity ^^^ e.g., “It’s only a crime if you get caught” 	
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1–2 of last 3 days
+	3	&&& Exhibited daily in last 3 days, 1–2 episodes 
+	4	&&& Exhibited daily in last 3 days, 3 or more episodes or continuously
+l.	***DD*** Demonstrates excessive naivete ^^^ e.g., financially exploited by peers; tricked into transporting drugs for a gang
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1–2 of last 3 days
+	3	&&& Exhibited daily in last 3 days, 1–2 episodes 
+	4	&&& Exhibited daily in last 3 days, 3 or more episodes or continuously	
+m.	***DD*** Underestimates own abilities ^^^ e.g., knows how to swim but claims inability to do so	
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1–2 of last 3 days
+	3	&&& Exhibited daily in last 3 days, 1–2 episodes 
+	4	&&& Exhibited daily in last 3 days, 3 or more episodes or continuously
+
+7.	***DD*** SLEEP PROBLEMS RELATED TO HYPOMANIA OR MANIA ^^^ Child / youth had 24-hour period with less than 2 hours of sleep caused by increased energy level (Code for most recent instance)
+0	&&& Never	
+1	&&& More than 1 year ago	
+2	&&& 31 days–1 year ago	 
+3	&&& 8–30 days ago
+4	&&& 4–7 days ago
+5	&&& In last 3 days
+
+8.	***QB*** PERSISTENT BEHAVIOUR PATTERNS THAT HINDER SOCIALIZATION
+a.	***DD*** Narrowly restricted range of interest ^^^ e.g., constantly talks about trains	
+	0	&&& No	
+	1	&&& Yes	
+b.	***DD*** Excessive preoccupation with an activity or routine	
+	0	&&& No	
+	1	&&& Yes
+c.	***DD*** Demonstrates lack of social and emotional conventions when socializing ^^^ e.g., lack of eye contact	
+	0	&&& No	
+	1	&&& Yes
+d.	***DD*** Extreme shyness ^^^ e.g., severe inhibition in familiar social situations	
+	0	&&& No	
+	1	&&& Yes
+
+9.	***QB*** CHILD / YOUTH LACKS BASIC AWARENESS OF HIS / HER ENVIRONMENT
+
+a.	***DD*** Lacks awareness of safety concerns ^^^ e.g., child / youth will walk into busy street; child / youth will trust strangers implicitly
+	0	&&& No	
+	1	&&& Yes	
+b.	***DD*** Lacks awareness of need to match behaviour to environment ^^^ e.g., child / youth will use “outdoor voice” in a quiet room	
+	0	&&& No	
+	1	&&& Yes
+c.	***DD*** Lacks awareness of others ^^^ e.g., child / youth will not notice others enter the room	
+	0	&&& No	
+	1	&&& Yes
+
+10. ***DD*** CHANGE IN SEVERITY OR FREQUENCY OF PSYCHIATRIC SYMPTOMS COMPARED TO 30 DAYS AGO, OR SINCE LAST ASSESSMENT IF LESS THAN 30 DAYS AGO	
+1	&&& Deterioration	
+2	&&& No change	
+3	&&& Improvement
+4	&&& Marked improvement
+
+
+SECTION ***D*** Substance Use or Excessive Behaviour
+1.	***DD*** SOCIAL ENVIRONMENT ENCOURAGES OR FACILITATES ABUSE OF DRUGS OR ALCOHOL	
+0	&&& No	
+1	&&& Yes
+
+2.	***DD*** USES CAFFEINE OR ENERGY DRINKS	^^^ Highest number of caffeinated beverages or energy drinks consumed in any single day of the LAST 3 DAYS
+0	&&& None	
+1	&&& 1–2 	
+2	&&& 3–5
+3 	&&& 6 or more  
+
+3.	***DD*** SMOKES TOBACCO DAILY	
+0	&&& No 
+1	&&& Not in last 3 days, but smokes occasionally
+2	&&& Not in last 3 days, but is usually a daily smoker
+3	&&& Yes
+
+4.	***DD*** USES OTHER NICOTINE PRODUCT DAILY ^^^ e.g., electronic cigarette, smokeless tobacco	
+0	&&& No	
+1	&&& Not in last 3 days, but uses occasionally
+2	&&& Not in last 3 days, but is usually a daily user
+3	&&& Yes
+
+5.	***QB*** PROBLEM VIDEO GAMING AND INTERNET USE IN LAST 90 DAYS — Code for disruption caused by child’s / youth’s usual pattern of video gaming / Internet use
+a.	***DD***  Problem video gaming 	
+	0	&&& None
+	1 	&&& Minimal — Video gaming / Internet use results in disruption of in-person social activities, but completes normal day-to-day activities, attends to paid and unpaid work responsibilities (e.g., competitive employment, school, household chores)
+	2 	&&& Moderate — Video gaming / Internet use results in reduced attention to personal needs (e.g., hygiene, sleeping, eating); limited in-person social activity outside of video gaming / online interactions; poor productivity and attendance at work or school
+	3	&&& Severe — Video gaming / Internet use results in inattention to personal needs; negligible participation in in-person social or household activities; not attending work or school, or at serious risk of workplace dismissal or failure at school
+b.	***DD***  Problem Internet use 	
+	0	&&& None
+	1 	&&& Minimal — Video gaming / Internet use results in disruption of in-person social activities, but completes normal day-to-day activities, attends to paid and unpaid work responsibilities (e.g., competitive employment, school, household chores)
+	2 	&&& Moderate — Video gaming / Internet use results in reduced attention to personal needs (e.g., hygiene, sleeping, eating); limited in-person social activity outside of video gaming / online interactions; poor productivity and attendance at work or school
+	3	&&& Severe — Video gaming / Internet use results in inattention to personal needs; negligible participation in in-person social or household activities; not attending work or school, or at serious risk of workplace dismissal or failure at school
+
+
+SECTION ***E*** Harm to Self and Others
+
+1.	***QB*** SELF-INJURIOUS IDEATION OR ATTEMPT	^^^ Code for most recent instance
+a.	***DD*** Considered performing a self-injurious act	
+	0	&&& Never 	
+	1	&&& More than 1 year ago	
+	2	&&& 31 days–1 year ago	
+	3	&&& 8–30 days ago
+	4	&&& 4–7 days ago
+	5	&&& In last 3 days
+b.	***DD*** Most recent self-injurious attempt 	
+	0	&&& Never 	
+	1	&&& More than 1 year ago	
+	2	&&& 31 days–1 year ago	
+	3	&&& 8–30 days ago
+	4	&&& 4–7 days ago
+	5	&&& In last 3 days
+2.	***DD*** INTENT OF ANY SELF-INJURIOUS ATTEMPT WAS TO KILL SELF	
+0	&&& No	
+1	&&& Yes	
+8	&&& No attempt
+
+3.	***QB***OTHER INDICATORS OF SELF-INJURIOUS BEHAVIOUR
+a.	***DD*** Family, caregiver, friend, or staff expresses concern that child / youth is at risk for self-injury	
+0	&&& No	
+1	&&& Yes
+b.	***DD*** Suicide plan — In LAST 30 DAYS, formulated a scheme to end own life
+0	&&& No	
+1	&&& Yes	
+
+4.	***QB*** VIOLENCE ^^^ Code for most recent instance 
+a.	***DD*** Violent ideation — e.g., reports of premeditated thoughts, statements, plans to commit violence	
+	0	&&& Never 
+	1	&&& More than 1 year ago
+	2	&&& 31 days–1 year ago
+	3	&&& 8–30 days ago
+	4	&&& 4–7 days ago
+	5	&&& In last 3 days
+b.	***DD*** Intimidation of others or threatened violence — Intentionally makes threatening gestures, verbalizations or stance with no physical contact (e.g., throwing furniture, explicit threats of violence) 	
+	0	&&& Never 
+	1	&&& More than 1 year ago
+	2	&&& 31 days–1 year ago
+	3	&&& 8–30 days ago
+	4	&&& 4–7 days ago
+	5	&&& In last 3 days
+c.	***DD*** Violence to others — Acts with purposeful, malicious, or vicious intent, resulting in physical harm to another (e.g., stabbing, choking, beating) 	
+	0	&&& Never 
+	1	&&& More than 1 year ago
+	2	&&& 31 days–1 year ago
+	3	&&& 8–30 days ago
+	4	&&& 4–7 days ago
+	5	&&& In last 3 days
+
+5.	***DD*** EXTREME BEHAVIOUR DISTURBANCE	^^^ History of extreme behaviour(s) that suggests serious risk of harm to self (e.g., severe self-mutilation) or others (e.g., torture, homicide) 
+0	&&& No
+1	&&& Yes, but not exhibited in last 7 days
+2	&&& Yes, exhibited in last 7 days 
+
+6.	***QB*** OTHER INDICATORS OF VIOLENCE ^^^ Code for most recent instance
+a.	***DD*** Fire setting or misuse of ignition materials or accelerants	
+0	&&& Never 	
+1	&&& More than 1 year ago	
+2	&&& 31 days–1 year ago	
+3	&&& 8–30 days ago
+4	&&& 4–7 days ago
+5	&&& In last 3 days
+
+b.	***DD*** Cruelty to animals — Deliberate mistreatment or physical injury to or torture of animals — EXCLUDE BEHAVIOURS THAT ARE CONSISTENT WITH CULTURAL NORMS	
+0	&&& Never 	
+1	&&& More than 1 year ago	
+2	&&& 31 days–1 year ago	
+3	&&& 8–30 days ago
+4	&&& 4–7 days ago
+5	&&& In last 3 days
+
+c.	***DD*** Preoccupation with violence — e.g., depictions of violence, verbalizations about violence	
+0	&&& Never 	
+1	&&& More than 1 year ago	
+2	&&& 31 days–1 year ago	
+3	&&& 8–30 days ago
+4	&&& 4–7 days ago
+5	&&& In last 3 days
+
+7.	***DD*** CHILD / YOUTH HAS BEEN KNOWN TO CARRY OR USE WEAPON(S) IN THE LAST YEAR	
+0	&&& No	
+1	&&& Yes
+
+
+SECTION ***F*** Behaviour
+1.	***QB*** BEHAVIOUR SYMPTOMS ^^^ Code for indicators observed, irrespective of the assumed cause
+a.	***DD*** Verbal abuse ^^^ e.g., others were threatened, cursed at	
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1– 2 of last 3 days
+	3	&&& Exhibited daily in last 3 days, 1–2 episodes 
+	4	&&& Exhibited daily in last 3 days, 3 or more episodes or continuously
+b.	***DD*** Physical abuse ^^^ e.g., hits schoolmate; punches sibling in face	
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1– 2 of last 3 days
+	3	&&& Exhibited daily in last 3 days, 1–2 episodes 
+	4	&&& Exhibited daily in last 3 days, 3 or more episodes or continuously
+c.	***DD*** Socially inappropriate or disruptive behaviour ^^^ e.g., screamed out during class, smeared or threw food or feces	
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1– 2 of last 3 days
+	3	&&& Exhibited daily in last 3 days, 1–2 episodes 
+	4	&&& Exhibited daily in last 3 days, 3 or more episodes or continuously
+d.	***DD*** Resists care ^^^ e.g., resists taking medications / injections, ADL assistance, eating	
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1– 2 of last 3 days
+	3	&&& Exhibited daily in last 3 days, 1–2 episodes 
+	4	&&& Exhibited daily in last 3 days, 3 or more episodes or continuously
+e.	***DD*** Destructive behaviour toward property ^^^ e.g., throwing or breaking objects, turning over beds or tables, vandalism	
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1– 2 of last 3 days
+	3	&&& Exhibited daily in last 3 days, 1–2 episodes 
+	4	&&& Exhibited daily in last 3 days, 3 or more episodes or continuously
+f.	***DD*** Outburst of anger ^^^ Intense flare-up of anger in reaction to a specific action or event (e.g., tantrums when told “no”) 	
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1– 2 of last 3 days
+	3	&&& Exhibited daily in last 3 days, 1–2 episodes 
+	4	&&& Exhibited daily in last 3 days, 3 or more episodes or continuously
+g.	***DD*** Defiant behaviour ^^^ Active, persistent refusal to comply with reasonable requests by others		
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1– 2 of last 3 days
+	3	&&& Exhibited daily in last 3 days, 1–2 episodes 
+	4	&&& Exhibited daily in last 3 days, 3 or more episodes or continuously
+h.	***DD*** Argumentativeness ^^^ Verbally combative, belligerent, quarrelsome, unreasonably and excessively argumentative 	
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1– 2 of last 3 days
+	3	&&& Exhibited daily in last 3 days, 1–2 episodes 
+	4	&&& Exhibited daily in last 3 days, 3 or more episodes or continuously
+i.	***DD*** Extreme risk-taking ^^^ e.g., jumping off high rooftop, playing with firearms		
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1– 2 of last 3 days
+	3	&&& Exhibited daily in last 3 days, 1–2 episodes 
+	4	&&& Exhibited daily in last 3 days, 3 or more episodes or continuously
+j.	***DD*** Repetitive lying ^^^ Misrepresentations for personal gain	
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1– 2 of last 3 days
+	3	&&& Exhibited daily in last 3 days, 1–2 episodes 
+	4	&&& Exhibited daily in last 3 days, 3 or more episodes or continuously
+k.	***DD*** Self-injurious behaviour ^^^ e.g., bangs head; pinching, biting, scratching, hitting self; pulling own hair 	
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1– 2 of last 3 days
+	3	&&& Exhibited daily in last 3 days, 1–2 episodes 
+	4	&&& Exhibited daily in last 3 days, 3 or more episodes or continuously
+l.	***DD*** Self-stimulating behaviour that interferes with normal activities — e.g., finger flicking, rocking, spinning objects		
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1– 2 of last 3 days
+	3	&&& Exhibited daily in last 3 days, 1–2 episodes 
+	4	&&& Exhibited daily in last 3 days, 3 or more episodes or continuously
+m.	***DD*** Pica ^^^ Ingestion of non-food items (e.g., soap, dirt, feces) 	
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1– 2 of last 3 days
+	3	&&& Exhibited daily in last 3 days, 1–2 episodes 
+	4	&&& Exhibited daily in last 3 days, 3 or more episodes or continuously
+n.	***DD*** Inappropriate eating behaviour ^^^ e.g., gorging, rumination, regurgitation (EXCLUDE PICA) 		
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1– 2 of last 3 days
+	3	&&& Exhibited daily in last 3 days, 1–2 episodes 
+	4	&&& Exhibited daily in last 3 days, 3 or more episodes or continuously
+o.	***DD*** Wandering ^^^ Moved with no rational purpose, seemingly oblivious to needs or safety	
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1– 2 of last 3 days
+	3	&&& Exhibited daily in last 3 days, 1–2 episodes 
+	4	&&& Exhibited daily in last 3 days, 3 or more episodes or continuously
+p.	***DD*** Bolting / fleeing ^^^ Suddenly reacts to external stimuli (e.g., runs away at the sight of a dog)	 	
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1– 2 of last 3 days
+	3	&&& Exhibited daily in last 3 days, 1–2 episodes 
+	4	&&& Exhibited daily in last 3 days, 3 or more episodes or continuously
+q.	***DD*** Excessive or unusual reaction to sensory stimuli ^^^ e.g., screams in response to loud noise; recoils from touch	
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1– 2 of last 3 days
+	3	&&& Exhibited daily in last 3 days, 1–2 episodes 
+	4	&&& Exhibited daily in last 3 days, 3 or more episodes or continuously
+r.	***DD*** Regressive behaviour ^^^ Child / youth has behaviours that revert to a previous stage in development (e.g., begins sucking thumb again) 	
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1– 2 of last 3 days
+	3	&&& Exhibited daily in last 3 days, 1–2 episodes 
+	4	&&& Exhibited daily in last 3 days, 3 or more episodes or continuously
+s.	***DD*** Inappropriate public sexual behaviour or public disrobing	
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1– 2 of last 3 days
+	3	&&& Exhibited daily in last 3 days, 1–2 episodes 
+	4	&&& Exhibited daily in last 3 days, 3 or more episodes or continuously
+
+2.	***DD*** EVIDENCE OF HIGHLY INAPPROPRIATE SEXUAL KNOWLEDGE OR EXCESSIVE PREOCCUPATION WITH SEX IN LAST 90 DAYS	
+0	&&& No	
+1	&&& Yes
+
+3.	***DD*** FAMILY, CAREGIVER, FRIEND, OR STAFF EXPRESSES CONCERN ABOUT HIGHLY RISKY OR PROBLEMATIC SEXUAL BEHAVIOUR	
+0	&&& No	
+1	&&& Yes
+
+4.	***QB*** CONDUCT PROBLEMS ^^^ Code for most recent time of event
+a.	***DD*** Stealing — e.g., theft from family, shoplifting 	
+	0	&&& Never 	
+	1	&&& More than 1 year ago	
+	2	&&& 31 days–1 year ago 	
+	3	&&& 8–30 days ago
+	4	&&& 4–7 days ago
+	5	&&& In last 3 days
+b.	***DD*** Bullying peers — Pattern of repeated oppression or victimization of others	
+	0	&&& Never 	
+	1	&&& More than 1 year ago	
+	2	&&& 31 days–1 year ago 	
+	3	&&& 8–30 days ago
+	4	&&& 4–7 days ago
+	5	&&& In last 3 days
+c.	***DD*** Elopement attempts / threats	
+	0	&&& Never 	
+	1	&&& More than 1 year ago	
+	2	&&& 31 days–1 year ago 	
+	3	&&& 8–30 days ago
+	4	&&& 4–7 days ago
+	5	&&& In last 3 days
+
+5.	***DD*** CHILD / YOUTH REPORTS THAT MOST RECENT ELOPEMENT ATTEMPT WAS BASED ON FEAR FOR PERSONAL SAFETY ^^^ Ask child / youth reason for elopement directly
+0	&&& No
+1	&&& Yes
+8	&&& No attempt or threat
+
+6.	***DD*** COMPARING BEHAVIOUR AT HOME AND SCHOOL	^^^ In school, behaviour is:
+0	&&& Better than home
+1	&&& Same as home
+2	&&& Worse than home
+8	&&& Don’t know or not applicable
+
+7.	***QB*** CHILD / YOUTH HAS BEHAVIOR PROBLEMS THAT RESPOND TO CAREGIVER INTERVENTION
+a.	***DD*** Child / youth can be redirected	
+	0	&&& No
+	1	&&& Yes
+b.	***DD*** Child / youth responds to reinforcement — e.g., praise, tokens	
+	0	&&& No
+	1	&&& Yes
+
+
+SECTION ***G*** Strengths and Resilience
+1.	***QB*** STRENGTHS ^^^ (Note: Whenever possible, ask child / youth)
+a.	***DD*** Reports having a confidant	
+	0	&&& No
+	1	&&& Yes
+b.	***DD*** Notable talent ^^^ e.g., excels in art, sports, or performance	
+	0	&&& No
+	1	&&& Yes
+c.	***DD*** Good school performance in LAST 6 MONTHS	
+	0	&&& No
+	1	&&& Yes
+d.	***DD*** School engagement ^^^ Actively involved in school-based activities (e.g., sports team, club, student council) 	
+	0	&&& No
+	1	&&& Yes
+e.	***DD*** Consistent positive outlook	
+	0	&&& No
+	1	&&& Yes
+f.	***DD*** Strong and supportive relationship with family	
+	0	&&& No
+	1	&&& Yes
+g.	***DD*** Strong and supportive relationship with friends / peers	
+	0	&&& No
+	1	&&& Yes
+h.	***DD*** Has at least one friend with whom visits / plays / socializes regularly		
+	0	&&& No
+	1	&&& Yes
+i.	***DD*** Social inclusion by peers ^^^ e.g., playmates at recess	
+	0	&&& No
+	1	&&& Yes
+j.	***DD*** Tolerates frustration well	
+	0	&&& No
+	1	&&& Yes
+
+2.	***QB*** INVOLVEMENT IN STRUCTURED ACTIVITIES IN LAST 90 DAYS ^^^ (Note: Whenever possible, ask child / youth)
+a.	***DD*** Extracurricular lessons / classes ^^^ e.g., music, yoga	
+	0	&&& No
+	1	&&& Yes
+b.	***DD*** Volunteers ^^^ e.g., for community services	
+	0	&&& No
+	1	&&& Yes
+c.	***DD*** Organized club or team program ^^^ e.g., soccer, Scouts	
+	0	&&& No
+	1	&&& Yes
+d.	***DD*** Day program ^^^ e.g., specialized summer camp program	
+	0	&&& No
+	1	&&& Yes
+
+SECTION ***H*** Cognition and Executive Functioning
+1.	***DD*** COGNITIVE SKILLS FOR DAILY DECISION MAKING	^^^ Making decisions regarding tasks of daily life — e.g., when to get up or have meals, which clothes to wear or activities to do
+	0	&&& Independent — Decisions consistent, reasonable, and safe
+	1	&&& Modified independence — Some difficulty in new situations only
+	2	&&& Minimally dependent — In specific recurring situations, cues /supervision necessary
+	3	&&& Moderately dependent — Cues / supervision required at all times
+	4	&&& Severely dependent — Never or rarely makes decisions
+	5	&&& No discernible consciousness, coma
+	
+2.	***QB*** MEMORY / RECALL ABILITY  ^^^ Code for recall of what was learned or known
+0	Yes, memory OK	1	Memory problem  
+a.	***DD*** Short-term memory OK — Seems / appears to recall after 20–30 seconds	
+b.	***DD*** Procedural memory OK — Can perform all or almost all steps in a multitask sequence without cues	
+
+3.	***DD*** ADAPTABILITY TO CHANGE IN ROUTINE OR ENVIRONMENT 	
+0	&&& Adapts without difficulty
+1	&&& Adapts with some difficulty 
+2	&&& Has difficulty adapting to even minor change
+
+4.	***QB*** EXECUTIVE FUNCTIONING ^^^ Code for adequacy of child’s / youth’s executive functioning ability compared with typical child / youth of same age 
+a.	***DD*** Problem-solving and reasoning ability ^^^ How finds solutions to everyday problems, arrives at inferences and conclusions
+	0	&&& Adequate or better	
+	1	&&& Inadequate
+	8	&&& Minimal or no evidence thereof	
+b.	***DD*** Task initiation ^^^ Ability to initiate a task independently	
+	0	&&& Adequate or better	
+	1	&&& Inadequate
+	8	&&& Minimal or no evidence thereof
+c.	***DD*** Goal setting and self-monitoring ^^^ Ability to set goals, monitor own performance, and evaluate own progress	
+	0	&&& Adequate or better	
+	1	&&& Inadequate
+	8	&&& Minimal or no evidence thereof
+
+5.	***DD*** CHILD / YOUTH ASSESSED FOR LEARNING DISORDER IN LAST 3 YEARS	
+	0	&&& No
+	1	&&& Yes
+
+
+SECTION ***I*** Independence in Daily Activities
+1.	***QB*** IADL SELF-PERFORMANCE ^^^ Code for PERFORMANCE in routine activities around the home or in the community during the LAST 7 DAYS
+a.	***DD*** Ordinary housework — How ordinary work around the house is performed (e.g., chores such as doing dishes, making bed, tidying up toys)
+	0	&&& Independent — No help, set-up, or supervision
+	1	&&& Set-up help only
+	2	&&& Supervision — Oversight / cueing
+	3	&&& Limited assistance — Help on some occasions
+	4	&&& Extensive assistance — Help throughout task, but performs 50% or more of task on own
+	5	&&& Maximal assistance — Help throughout task, but performs less than 50% of task on own
+	6	&&& Total dependence — Full performance by others during entire period
+	8	&&& Activity did not occur — During entire period 
+b.	***DD*** Phone use — How telephone calls are made or received (with assistive devices as needed)
+	0	&&& Independent — No help, set-up, or supervision
+	1	&&& Set-up help only
+	2	&&& Supervision — Oversight / cueing
+	3	&&& Limited assistance — Help on some occasions
+	4	&&& Extensive assistance — Help throughout task, but performs 50% or more of task on own
+	5	&&& Maximal assistance — Help throughout task, but performs less than 50% of task on own
+	6	&&& Total dependence — Full performance by others during entire period
+	8	&&& Activity did not occur — During entire period 
+c.	***DD*** Use of technology — e.g., how gets on the Internet, uses the computer to play games and do homework
+	0	&&& Independent — No help, set-up, or supervision
+	1	&&& Set-up help only
+	2	&&& Supervision — Oversight / cueing
+	3	&&& Limited assistance — Help on some occasions
+	4	&&& Extensive assistance — Help throughout task, but performs 50% or more of task on own
+	5	&&& Maximal assistance — Help throughout task, but performs less than 50% of task on own
+	6	&&& Total dependence — Full performance by others during entire period
+	8	&&& Activity did not occur — During entire period 
+d.	***DD*** School tasks — How organizes class materials, including homework and school supplies
+	0	&&& Independent — No help, set-up, or supervision
+	1	&&& Set-up help only
+	2	&&& Supervision — Oversight / cueing
+	3	&&& Limited assistance — Help on some occasions
+	4	&&& Extensive assistance — Help throughout task, but performs 50% or more of task on own
+	5	&&& Maximal assistance — Help throughout task, but performs less than 50% of task on own
+	6	&&& Total dependence — Full performance by others during entire period
+	8	&&& Activity did not occur — During entire period 
+e.	***DD*** Orientation in familiar indoor environment — e.g., how moves between classes and orients self when at school
+	0	&&& Independent — No help, set-up, or supervision
+	1	&&& Set-up help only
+	2	&&& Supervision — Oversight / cueing
+	3	&&& Limited assistance — Help on some occasions
+	4	&&& Extensive assistance — Help throughout task, but performs 50% or more of task on own
+	5	&&& Maximal assistance — Help throughout task, but performs less than 50% of task on own
+	6	&&& Total dependence — Full performance by others during entire period
+	8	&&& Activity did not occur — During entire period 
+f.	***DD*** Stairs — How manages full flight of stairs (12–14 stairs)
+	0	&&& Independent — No help, set-up, or supervision
+	1	&&& Set-up help only
+	2	&&& Supervision — Oversight / cueing
+	3	&&& Limited assistance — Help on some occasions
+	4	&&& Extensive assistance — Help throughout task, but performs 50% or more of task on own
+	5	&&& Maximal assistance — Help throughout task, but performs less than 50% of task on own
+	6	&&& Total dependence — Full performance by others during entire period
+	8	&&& Activity did not occur — During entire period 
+
+2.	***QB*** IADL CAPACITY ^^^ Code for CAPACITY based on presumed ability to carry out activity as independently as possible. This will require “speculation” by the assessor.
+a.	***DD*** Ordinary housework — How ordinary work around the house is performed (e.g., chores such as doing dishes, making bed, tidying up toys)
+	0	&&& Independent — No help, set-up, or supervision
+	1	&&& Set-up help only
+	2	&&& Supervision — Oversight / cueing
+	3	&&& Limited assistance — Help on some occasions
+	4	&&& Extensive assistance — Help throughout task, but performs 50% or more of task on own
+	5	&&& Maximal assistance — Help throughout task, but performs less than 50% of task on own
+	6	&&& Total dependence — Full performance by others during entire period
+b.	***DD*** Phone use — How telephone calls are made or received (with assistive devices as needed)
+	0	&&& Independent — No help, set-up, or supervision
+	1	&&& Set-up help only
+	2	&&& Supervision — Oversight / cueing
+	3	&&& Limited assistance — Help on some occasions
+	4	&&& Extensive assistance — Help throughout task, but performs 50% or more of task on own
+	5	&&& Maximal assistance — Help throughout task, but performs less than 50% of task on own
+	6	&&& Total dependence — Full performance by others during entire period
+c.	***DD*** Use of technology — e.g., how gets on the Internet, uses the computer to play games and do homework
+	0	&&& Independent — No help, set-up, or supervision
+	1	&&& Set-up help only
+	2	&&& Supervision — Oversight / cueing
+	3	&&& Limited assistance — Help on some occasions
+	4	&&& Extensive assistance — Help throughout task, but performs 50% or more of task on own
+	5	&&& Maximal assistance — Help throughout task, but performs less than 50% of task on own
+	6	&&& Total dependence — Full performance by others during entire period
+d.	***DD*** School tasks — How organizes class materials, including homework and school supplies
+	0	&&& Independent — No help, set-up, or supervision
+	1	&&& Set-up help only
+	2	&&& Supervision — Oversight / cueing
+	3	&&& Limited assistance — Help on some occasions
+	4	&&& Extensive assistance — Help throughout task, but performs 50% or more of task on own
+	5	&&& Maximal assistance — Help throughout task, but performs less than 50% of task on own
+	6	&&& Total dependence — Full performance by others during entire period
+e.	***DD*** Orientation in familiar indoor environment — e.g., how moves between classes and orients self when at school
+	0	&&& Independent — No help, set-up, or supervision
+	1	&&& Set-up help only
+	2	&&& Supervision — Oversight / cueing
+	3	&&& Limited assistance — Help on some occasions
+	4	&&& Extensive assistance — Help throughout task, but performs 50% or more of task on own
+	5	&&& Maximal assistance — Help throughout task, but performs less than 50% of task on own
+	6	&&& Total dependence — Full performance by others during entire period
+f.	***DD*** Stairs — How manages full flight of stairs (12–14 stairs)
+	0	&&& Independent — No help, set-up, or supervision
+	1	&&& Set-up help only
+	2	&&& Supervision — Oversight / cueing
+	3	&&& Limited assistance — Help on some occasions
+	4	&&& Extensive assistance — Help throughout task, but performs 50% or more of task on own
+	5	&&& Maximal assistance — Help throughout task, but performs less than 50% of task on own
+	6	&&& Total dependence — Full performance by others during entire period
+
+3.	***QB*** ADL SELF-PERFORMANCE ^^^ Consider all episodes over 7-day period. If all episodes are performed at the same level, score ADL at that level. If any episodes at level 6, and others less dependent, score ADL as 5. Otherwise, focus on the three most dependent episodes (or all episodes if performed fewer than 3 times). If most dependent episode is 1, score ADL as 1. If not, score ADL as least dependent of those episodes in range 2–5.
+a.	***DD*** Personal hygiene — How manages personal hygiene, including combing hair, brushing teeth, shaving, applying makeup, washing and drying face and hands — EXCLUDE BATHS AND SHOWERS	
+	0	&&& Independent — No physical assistance, set-up, or supervision in any episode
+	1	&&& Independent, set-up help only — Article or device provided or placed within reach, no physical assistance or supervision in any episode
+	2	&&& Supervision — Oversight / cueing
+	3	&&& Limited assistance — Guided manoeuvring of limbs, physical guidance without taking weight
+	4	&&& Extensive assistance — Weight-bearing support (including lifting limbs) by 1 helper where child / youth still performs 50% or more of subtasks
+	5	&&& Maximal assistance — Weight-bearing support (including lifting limbs) by 2+ helpers — OR — Weight-bearing support for more than 50% of subtasks
+	6	&&& Total dependence — Full performance by others during all episodes
+	8	&&& Activity did not occur during entire period
+b.	***DD*** Bathing — How takes a full-body bath / shower. Includes how transfers in and out of tub or shower AND how each part of the body is bathed: arms, upper and lower legs, chest, abdomen and perineal area — EXCLUDE WASHING OF BACK AND HAIR	
+	0	&&& Independent — No physical assistance, set-up, or supervision in any episode
+	1	&&& Independent, set-up help only — Article or device provided or placed within reach, no physical assistance or supervision in any episode
+	2	&&& Supervision — Oversight / cueing
+	3	&&& Limited assistance — Guided manoeuvring of limbs, physical guidance without taking weight
+	4	&&& Extensive assistance — Weight-bearing support (including lifting limbs) by 1 helper where child / youth still performs 50% or more of subtasks
+	5	&&& Maximal assistance — Weight-bearing support (including lifting limbs) by 2+ helpers — OR — Weight-bearing support for more than 50% of subtasks
+	6	&&& Total dependence — Full performance by others during all episodes
+	8	&&& Activity did not occur during entire period
+c.	***DD*** Dressing upper body — How dresses and undresses (street clothes, underwear) above the waist, including prostheses, orthotics, fasteners, pullovers, etc.     
+	0	&&& Independent — No physical assistance, set-up, or supervision in any episode
+	1	&&& Independent, set-up help only — Article or device provided or placed within reach, no physical assistance or supervision in any episode
+	2	&&& Supervision — Oversight / cueing
+	3	&&& Limited assistance — Guided manoeuvring of limbs, physical guidance without taking weight
+	4	&&& Extensive assistance — Weight-bearing support (including lifting limbs) by 1 helper where child / youth still performs 50% or more of subtasks
+	5	&&& Maximal assistance — Weight-bearing support (including lifting limbs) by 2+ helpers — OR — Weight-bearing support for more than 50% of subtasks
+	6	&&& Total dependence — Full performance by others during all episodes
+	8	&&& Activity did not occur during entire period
+d.	***DD*** Dressing lower body — How dresses and undresses (street clothes, underwear) from the waist down, including prostheses, orthotics, belts, pants, skirts, shoes, fasteners, etc. 	
+	0	&&& Independent — No physical assistance, set-up, or supervision in any episode
+	1	&&& Independent, set-up help only — Article or device provided or placed within reach, no physical assistance or supervision in any episode
+	2	&&& Supervision — Oversight / cueing
+	3	&&& Limited assistance — Guided manoeuvring of limbs, physical guidance without taking weight
+	4	&&& Extensive assistance — Weight-bearing support (including lifting limbs) by 1 helper where child / youth still performs 50% or more of subtasks
+	5	&&& Maximal assistance — Weight-bearing support (including lifting limbs) by 2+ helpers — OR — Weight-bearing support for more than 50% of subtasks
+	6	&&& Total dependence — Full performance by others during all episodes
+	8	&&& Activity did not occur during entire period
+e.	***DD*** Locomotion — How moves between locations on same floor (walking or wheeling). If in wheelchair, self-sufficiency once in chair	
+	0	&&& Independent — No physical assistance, set-up, or supervision in any episode
+	1	&&& Independent, set-up help only — Article or device provided or placed within reach, no physical assistance or supervision in any episode
+	2	&&& Supervision — Oversight / cueing
+	3	&&& Limited assistance — Guided manoeuvring of limbs, physical guidance without taking weight
+	4	&&& Extensive assistance — Weight-bearing support (including lifting limbs) by 1 helper where child / youth still performs 50% or more of subtasks
+	5	&&& Maximal assistance — Weight-bearing support (including lifting limbs) by 2+ helpers — OR — Weight-bearing support for more than 50% of subtasks
+	6	&&& Total dependence — Full performance by others during all episodes
+	8	&&& Activity did not occur during entire period
+f.	***DD*** Toilet use — How uses the toilet room (or commode, bedpan, urinal), cleanses self after toilet use or incontinent episode(s), changes bed pad, manages ostomy or catheter, adjusts clothes — EXCLUDE TRANSFER ON AND OFF TOILET		
+	0	&&& Independent — No physical assistance, set-up, or supervision in any episode
+	1	&&& Independent, set-up help only — Article or device provided or placed within reach, no physical assistance or supervision in any episode
+	2	&&& Supervision — Oversight / cueing
+	3	&&& Limited assistance — Guided manoeuvring of limbs, physical guidance without taking weight
+	4	&&& Extensive assistance — Weight-bearing support (including lifting limbs) by 1 helper where child / youth still performs 50% or more of subtasks
+	5	&&& Maximal assistance — Weight-bearing support (including lifting limbs) by 2+ helpers — OR — Weight-bearing support for more than 50% of subtasks
+	6	&&& Total dependence — Full performance by others during all episodes
+	8	&&& Activity did not occur during entire period
+g.	***DD*** Eating — How eats and drinks (regardless of skill). Includes intake of nourishment by other means (e.g., tube feeding) 	
+	0	&&& Independent — No physical assistance, set-up, or supervision in any episode
+	1	&&& Independent, set-up help only — Article or device provided or placed within reach, no physical assistance or supervision in any episode
+	2	&&& Supervision — Oversight / cueing
+	3	&&& Limited assistance — Guided manoeuvring of limbs, physical guidance without taking weight
+	4	&&& Extensive assistance — Weight-bearing support (including lifting limbs) by 1 helper where child / youth still performs 50% or more of subtasks
+	5	&&& Maximal assistance — Weight-bearing support (including lifting limbs) by 2+ helpers — OR — Weight-bearing support for more than 50% of subtasks
+	6	&&& Total dependence — Full performance by others during all episodes
+	8	&&& Activity did not occur during entire period
+
+4.	***DD*** CHANGE IN ADL STATUS AS COMPARED TO 90 DAYS AGO, OR SINCE LAST ASSESSMENT IF LESS THAN 90 DAYS AGO		
+0	&&& Improved 	
+1	&&& No change	
+2	&&& Declined
+8	&&& Uncertain
+
+5.	***DD*** PRIMARY MODE OF LOCOMOTION	
+0	&&& Walking, no assistive device
+1	&&& Walking, uses assistive device — e.g., cane, walker, crutch 
+2	&&& Wheelchair, scooter
+3	&&& Bedbound
+
+
+SECTION J. Communication
+1.	COMMUNICATION METHODS	
+Code for primary type of expressive communication
+0	Verbal — i.e., speech
+1	Nonverbal — e.g., gestures, sign language, sounds, writing
+2.	COMMUNICATION MODES USED DAILY
+0	Not used	
+1	Used, but not in last 3 days	
+2 	Used on 1–2 of last 3 days
+3 	Used daily in last 3 days
+a.	Speech — Including speech reading (lip reading) 	
+b.	Written or printed text	
+c.	Any sign language — e.g., American Sign Language	
+d.	Any adapted or manually coded language — e.g., Signed Exact English 	
+e.	Communication board or device	
+f.	Idiosyncratic signs, gestures, behaviours	
+g.	Tangible symbols — e.g., 3D objects, 2D pictures	
+3.	MAKING SELF UNDERSTOOD (Expression) 	
+Expressing information content — both verbal and nonverbal
+0	Understood — Expresses ideas without difficulty
+1	Usually understood — Difficulty finding words or finishing thoughts BUT if given time, little or no prompting required
+2	Often understood — Difficulty finding words or finishing thoughts AND prompting usually required
+3	Sometimes understood — Ability is limited to making concrete requests, e.g., regarding food, drink, toilet 
+4	Rarely or never understood
+4.	ONE OR MORE PARENT(S) / PRIMARY CAREGIVER(S) ABLE TO COMMUNICATE WITH CHILD / YOUTH IN CHILD’S / YOUTH’S PREFERRED COMMUNICATION MODE	
+0	No	1	Yes	
+5.	ABILITY TO UNDERSTAND OTHERS (Comprehension) 	
+Understanding verbal information content (however able; with hearing appliance normally used)
+0	Understands — Clear comprehension
+1	Usually understands — Misses some part / intent of message BUT comprehends most conversation
+2	Often understands — Misses some part / intent of message BUT with repetition or explanation can often comprehend conversation
+3	Sometimes understands — Responds adequately to simple, direct communication only
+4	Rarely or never understands
+6.	SPEECH PATTERNS
+Code for most recent episode of unusual speech
+0	Not present
+1	Present but not exhibited in last 3 days
+2	Exhibited on 1–2 of last 3 days
+3	Exhibited daily in last 3 days, 1–2 episodes per day
+4	Exhibited daily in last 3 days, 3 or more episodes or continuously
+a.	Echolalia — Repeats the words spoken by others	
+b.	Excessive repetition of stereotyped phrases or idiosyncratic language — Says preferred phrases out of context (e.g., “what’s up buttercup” in the middle of a conversation about dogs) or uses neologisms (e.g., “go to blue riding” to indicate “go to the park with the blue swings”) 	
+c.	Odd intonation that interferes with interactions — e.g., “sing-song” or rhythmic speech; flat or “robotic” speech	
+
+
+
+SECTION K. Hearing, Vision, and Motor
+1.	HEARING	
+Ability to hear (with hearing appliance normally used)
+0	Adequate — No difficulty in normal conversation, social interaction, listening to TV
+1	Minimal difficulty — Difficulty in some environments (e.g., when person speaks softly or is more than 2 metres [6 feet] away)
+2	Moderate difficulty — Problem hearing normal conversation, requires quiet setting to hear well
+3	Severe difficulty — Difficulty in all situations (e.g., speaker has to talk loudly or speak very slowly; or child / youth reports that all speech is mumbled)
+4	No hearing
+2.	VISION	
+Ability to see in adequate light (with glasses or with other visual appliance normally used)
+0	Adequate — Sees fine detail, including regular print in newspapers / books
+1	Minimal difficulty — Sees large print, but not regular print in newspapers / books
+2	Moderate difficulty — Limited vision; not able to see newspaper headlines, but can identify objects
+3	Severe difficulty — Object identification in question, but eyes appear to follow objects; sees only light, colours, shapes
+4	No vision
+3.	DISTANCE VISION	
+Ability to see in adequate light (with glasses or with other visual appliance normally used)
+0	Adequate — Sees and can identify faces across the room
+1 	Minimal difficulty — Sees and can identify faces at conversation distance, but not across the room
+2 	Moderate difficulty — Limited vision; can see but not identify faces at conversation distance
+3 	Severe difficulty — Object identification in question, but eyes appear to follow objects; sees only light, colours, shapes
+4 	No vision
+4.	GROSS MOTOR SKILLS 	
+Ability to perform skills requiring balance and large muscles of the body in coordinated movement (e.g., jumping, kicking a ball, catching a ball)
+0 	Adequate — Performs skills with satisfactory speed and quality of movement both indoors and outdoors (including uneven ground) 
+1 	Minimal difficulty — Slight difficulty maintaining balance or controlling limb movement (e.g., appears clumsy, slower movements)
+2 	Moderate difficulty — Noticeable deficits in balance and controlling limb movements (e.g., frequently stumbles, drops objects, walks into objects)
+3 	Severe difficulty — Limitations in trunk, head, and limb control resulting in severe difficulty with coordination of own movements (e.g., unable to reach for a glass of water without knocking it over)
+4 	No ability to move body (full paralysis) 
+5.	FINE MOTOR SKILLS	
+Ability to perform coordinated movements that involve small muscles (e.g., grasping a pencil, managing buttons, using scissors)
+0 	Adequate — Performs movements within appropriate time frame and with appropriate quality of movement
+1 	Minimal difficulty — Slight difficulty controlling movement (e.g., somewhat slow or easily fatigued)
+2 	Moderate difficulty — Noticeable deficits in fine motor skill development (e.g., unable to hold pencil properly and produce legible writing)
+3 	Severe difficulty — Severe limitation in ability to coordinate small muscle movement (e.g., significant struggle to pick up an object using thumb and forefinger)
+4 	No ability to move body (full paralysis)
+
+
+SECTION L. Health Conditions 
+1.	PROBLEM FREQUENCY
+Code for presence in last 3 days
+0	Not present
+1	Present but not exhibited in last 3 days
+2	Exhibited on 1 of last 3 days
+3	Exhibited on 2 of last 3 days
+4	Exhibited daily in last 3 days
+Balance
+a.	Dizziness	
+b.	Unsteady gait	
+GI Status
+c.	Increase or decrease in normal appetite	
+d.	Vomiting	
+e.	Nausea	
+f.	Problem swallowing	
+g.	Constipation	
+h.	Diarrhea	
+Other
+i.	Daytime drowsiness or sedation	
+j.	Emergent conditions — e.g., itching, fever, rash, bleeding, airway constriction		
+k.	Headache	
+l.	Seizures	
+m.	Aspiration	
+n.	Dry mouth	
+o.	Hypersalivation or drooling	
+2.	DYSPNEA (Shortness of breath) — e.g. asthma	
+0	Absence of symptom
+1 	Absent at rest, but present when performed moderate activities
+2	Absent at rest, but present when performed normal day-to-day activities
+3	Present at rest
+3.	FATIGUE	
+Inability to complete normal daily activities — e.g., ADLs, IADLs
+0	None
+1	Minimal — Diminished energy but completes normal day-to-day activities 
+2	Moderate — Due to diminished energy, UNABLE TO FINISH normal day-to-day activities
+3	Severe — Due to diminished energy, UNABLE TO START SOME normal day-to-day activities
+4	Unable to commence any normal day-to-day activities — Due to diminished energy
+4.	PAIN SYMPTOMS
+Note: Always ask the child / youth about pain frequency and intensity. Observe child / youth and ask others who are in contact with the child / youth.
+a.	Frequency with which child / youth complains or shows evidence of pain (including grimacing, teeth clenching, moaning, withdrawal when touched, or other nonverbal signs suggesting pain) 	
+0	No pain
+1	Present but not exhibited in last 3 days
+2	Exhibited on 1–2 of last 3 days
+3	Exhibited daily in last 3 days	
+b.	Intensity of highest level of pain present	
+0	No pain
+1	Mild 
+2	Moderate
+3	Severe
+4	Times when pain is horrible or excruciating
+5.	EXTRAPYRAMIDAL SYMPTOMS DURING LAST 3 DAYS
+0	No	1	Yes
+a.	Akathisia — Subjective feeling of restlessness or need for movement	
+b.	Dyskinesia — Involuntary movements without apparent purpose, e.g., chewing, puckering movement of mouth; movement of lips; rocking /writhing of trunk	
+c.	Tremor — Involuntary rhythmic movements of the fingers, limbs, head, mouth, tongue	
+d.	Bradykinesia — Decrease in spontaneous movements (e.g., reduced body movement, or poverty of facial expression, gestures, speech) 	
+e.	Rigidity — Resistance to flexion and extension of muscles 	
+f.	Dystonia — Muscle hypertonicity (e.g., muscle spasms or stiffness, protruding tongue, upward deviation of the eyes) 	
+g.	Slow shuffling gait — Reduction in speed and stride length, usually with a decrease in pendular arm movement	
+6.	BLADDER CONTINENCE	
+0	Continent — Complete control; DOES NOT USE any type of catheter or other urinary collection device
+1	Control with any catheter or ostomy over last 3 days
+2	Infrequently incontinent — Not incontinent over last 3 days, but does have incontinent episodes
+3	Occasionally incontinent — Less than daily
+4	Frequently incontinent — Daily, but some control present
+5	Incontinent — No control present
+8	Did not occur — No urine output from bladder in last 3 days 
+7.	BOWEL CONTINENCE	
+0	Continent — Complete control; DOES NOT USE any type of ostomy device
+1	Control with ostomy — Control with ostomy device over last 3 days
+2	Infrequently incontinent — Not incontinent over last 3 days, but does have incontinent episodes
+3	Occasionally incontinent — Less than daily
+4	Frequently incontinent — Daily, but some control present
+5	Incontinent — No control present
+8	Did not occur — No bowel movement in last 3 days 
+8.	SCHEDULED TOILETING	
+0	No	1	Yes
+9.	TOTAL HOURS OF EXERCISE OR PHYSICAL ACTIVITY IN LAST 3 DAYS		
+ — e.g., walking, dancing, biking, sports
+0	None	
+1	Less than 1 hour	
+2	1–2 hours
+3	3–4 hours
+4	More than 4 hours
+
+
+SECTION M. Family and Social Relations
+1.	PARENTING
+Code for parent / primary caregiver interaction with child / youth. Take into account developmental level of child.
+0	Most of the time	2	Rarely or never
+1	Occasionally 	8	No parent / primary caregiver
+a.	Communicates effectively with child / youth — e.g., parent listens, validates appropriate concerns	
+b.	Assists child / youth with the regulation of emotions — e.g., when overly upset, parent puts things into perspective		
+c.	Uses appropriate disciplinary practices — e.g., calmly addresses misbehaviour, uses discipline that is developmentally appropriate	
+d.	Demonstrates warmth and support — Responsive to child’s / youth’s needs, shows affection	
+e.	Appropriate supervision and monitoring — e.g., very young child or low-functioning youth is supervised at all times	
+f.	Appropriate limit setting or expectations — Clear, reasonable limits are set for child / youth (e.g., 5-year-old is not allowed to cook on stove; 11-year-old is not allowed to stay out all night with friends) 	
+2.	COMFORT-SEEKING BEHAVIOUR
+0	No	8	No parent / primary caregiver	
+1	Yes	
+a.	Severe reluctance to accept comfort from parent(s) / primary caregiver(s) when distressed	
+b.	When seeking comfort, demonstrates anger and ambivalence toward the parent / primary caregiver	
+c.	Seeks comfort from any available adult	
+3.	FAMILY ACTIVITIES
+0	Never
+1	More than 30 days ago
+2	8–30 days ago
+3	4–7 days ago
+4	In last 3 days
+8	Unable to determine
+a.	Family went on outings for recreation	
+b.	Family participated in sit-down meals together	
+4.	UNPAID SUPPORTS CURRENTLY AVAILABLE TO FAMILY
+Presence of one or more family members (outside nuclear family) or close friends who are willing and able to provide the following types of support 
+0	Not needed 	
+1	Consistently available 		
+2	Occasionally available
+3	Not available
+a.	Crisis situations 	
+b.	Financial problems	
+c.	Babysitting	
+d.	Emotional support 	
+e.	Respite	
+5.	UNSETTLED RELATIONSHIPS
+0	No	8	Not applicable		
+1	Yes	
+a.	Conflict with or repeated criticism of family 	
+b.	Conflict with or repeated criticism of close friends	
+c.	Staff report persistent frustration in dealing with child / youth	
+d.	Family are persistently hostile or critical of child / youth	
+e.	Friends are persistently hostile or critical of child / youth 	
+f.	Pervasive conflict with peers (EXCLUDE CLOSE FRIENDS) 	
+g.	Conflict or repeated criticism between parents / primary caregivers	
+h.	Family members report feeling overwhelmed by child’s / youth’s condition		
+6.	LENGTH OF TIME WITHOUT PARENTAL SUPERVISION IN TYPICAL 24-HOUR PERIOD IN USUAL RESIDENCE 	
+0	None
+1	More than none but less than 1 hour
+2	1–2 hours
+3	More than 2 hours but less than 8 hours
+4	8 hours or more
+8 	Does not leave facility-based care
+7.	TWO KEY CAREGIVERS
+a.	Relationship to child / youth     	Caregiver 1   Caregiver 2 
+1	Parent
+2	Grandparent
+3	Sibling	   
+4	Spouse / significant other	
+5	Other relative
+6	Foster parent
+7	Friend or neighbour
+8	Other
+9	No caregiver 
+b.	Lives with child / youth	Caregiver 1   Caregiver 2 
+0	No
+1	Yes, 6 months or less
+2	Yes, more than 6 months
+8	No caregiver
+8.	CAREGIVER STATUS 
+0	No	8	No caregiver
+1	Yes 
+a.	In school or work full-time	Caregiver 1   Caregiver 2 
+b.	In school or work part-time	Caregiver 1   Caregiver 2 
+9.	PEER GROUP INCLUDES INDIVIDUALS WITH PERSISTENT ANTISOCIAL BEHAVIOUR	
+0	No	1	Yes
+
+
+SECTION N. Psychosocial Well-Being
+1.	NUMBER OF DAYS OF PARTICIPATION IN PREFERRED RECREATION AND LEISURE ACTIVITIES IN LAST 7 DAYS	
+2.	CHILD’S / YOUTH’S SENSE OF INVOLVEMENT
+0	Not present
+1	Present but not exhibited in last 3 days
+2	Exhibited on 1–2 of last 3 days
+3	Exhibited daily in last 3 days
+a.	At ease interacting with others	
+b.	At ease doing planned or structured activities	
+c.	Pursues involvement in activities of school, residential setting, or community	
+d.	Initiates interaction(s) with others	
+e.	Reacts positively to interactions initiated by others	
+3.	CHILD / YOUTH PREFERS CHANGE (WHEN ASKED)
+0	No or not applicable	
+1	Yes
+8	Could not (would not) respond
+a.	Recreational activities — e.g., type, number, or what level of participation		
+b.	Living arrangements — e.g., location, type, who lives with	
+c.	Daily routine — e.g., diet, sleep schedule, clothes to wear	
+d.	Supports and services — e.g., programs, staff	
+e.	Relationships — e.g., establishing friendships, improving existing relationships	
+4.	CHILD / YOUTH DEMONSTRATES LIMITED ABILITY TO ENGAGE IN UNSTRUCTURED PLAY OR LEISURE — e.g., does not interact with play materials, does not spontaneously initiate play	
+0	No	1	Yes 
+
+
+SECTION O. Stress and Trauma
+1.	LIFE EVENTS
+Code for most recent time of event
+0	Never 	
+1	More than 1 year ago	
+2	31 days–1 year ago	
+3	8–30 days ago
+4	4–7 days ago
+5	In last 3 days
+a.	Serious accident or physical impairment	
+b.	Death or loss of parent or primary caregiver	
+c.	Death or loss of other close family member	
+d.	Witnessed severe accident, disaster, terrorism, violence, or abuse — EXCLUDE DOMESTIC VIOLENCE OR ABUSE	
+e.	Victim of crime — EXCLUDE ASSAULT	
+f.	Victim of sexual assault or abuse	
+g.	Victim of physical assault or abuse	
+h.	Victim of emotional abuse	
+i.	Victim of bullying	
+j.	Abandoned by parent(s) / primary caregiver(s) 	
+k.	Witnessed domestic violence	
+l.	Parental addiction or substance abuse	
+m.	Lives in neighbourhood with pervasive violence or criminal activity	
+2.	DESCRIBES ONE OR MORE OF THESE LIFE EVENTS (O1) AS INVOKING A SENSE OF HORROR OR INTENSE FEAR	
+0	No or not applicable 
+1	Yes
+8	Could not (would not) respond
+3.	MAJOR LIFE STRESSORS FOR PARENT(S) / PRIMARY CAREGIVER(S) IN LAST 90 DAYS — e.g., episode of severe illness, death or severe illness of close family member / friend, loss of home, major loss of income / assets, victim of crime or robbery, persistent unemployment	
+0	No	8	Unknown or not applicable	
+1	Yes
+4.	FAMILY MEMBER(S) OR OTHER PRIMARY CAREGIVER(S) HAS (HAVE) CURRENT DEVELOPMENTAL OR MENTAL HEALTH ISSUES 
+0	No	1	Yes
+a.	Parent(s) / primary caregiver(s) 	
+b.	Sibling(s) 	
+5.	CAREGIVER DISTRESS
+0	No	
+1	Yes	
+8	No parent / primary caregiver
+a.	Parent / primary caregiver is unable or unwilling to continue in caring activities — e.g., caregiver’s health makes it difficult to continue; lack of desire, competing responsibilities	
+b.	Parent / primary caregiver expresses feelings of distress, anger, or depression	
+6.	FINANCES	
+Because of limited funds, during the last 30 days PARENT / PRIMARY CAREGIVER OR YOUTH (if youth is an emancipated minor) made trade-offs among purchasing any of the following: adequate food, shelter, clothing; prescribed medications; sufficient home heat or cooling; necessary care
+0	No	1	Yes
+7.	CHILD / YOUTH HAS EVER BEEN REMOVED FROM HOME BY CHILD PROTECTION AGENCY OR COURT 	
+0	No	1	Yes
+8.	OTHER INDICATORS OF ABUSE OF CHILD / YOUTH
+0	No	1	Yes	
+a.	Fearful of a family member or close acquaintance	
+b.	Unexplained bruises or other injuries — e.g., burns, cuts	
+c.	Child / youth has concerns for his / her safety	
+d.	Family, caregiver, friend, or staff expresses concern that child / youth is at imminent risk for victimization	
+e.	Child / youth regularly misses medications, prescribed care routines, therapies, or physician visits	
+
+SECTION P. Medications 
+1.	LIST OF ALL MEDICATIONS [Optional]
+Document medications on last page in space provided
+2.	ADHERENT WITH MEDICATIONS PRESCRIBED BY PHYSICIAN	
+0	Always adherent
+1	Adherent 80% of time or more
+2	Adherent less than 80% of time, including failure to purchase prescribed medications
+8	No medications prescribed
+3.	CHILD / YOUTH STOPPED TAKING PSYCHOTROPIC MEDICATION IN LAST 90 DAYS BECAUSE OF SIDE EFFECTS	
+0	No, or no psychotropic medications	
+1	Yes
+4.	CHILD / YOUTH REFUSED TO TAKE SOME OR ALL OF PRESCRIBED MEDICATION IN LAST 3 DAYS		
+0	No, or no medications
+1 	Yes
+5.	PARENT / CAREGIVER ASSISTS WITH MEDICATION USE — e.g., provides supervision; administers medications; fills prescriptions	
+0	No	
+1	Yes		
+8	Not needed or no parent / primary caregiver 
+6.	ALLERGY TO ANY DRUG	
+0	No known drug allergies	
+1	Yes
+
+
+SECTION Q. Prevention, Service Utilization, Treatments
+1.	PREVENTION
+0	No	1	Yes
+a.	Dental exam in last YEAR	
+b.	Immunizations up-to-date	
+c.	Eye exam in last YEAR	
+d.	Hearing exam in last YEAR	
+2.	FORMAL CARE
+Contact with formal care provider
+0	No contact in last 3 years
+1	No contact in last 90 days, but contact in last 3 years
+2	No contact in last 30 days, but contact 31– 90 days ago
+3	No contact in last 7 days, but contact 8–30 days ago
+4	Contact in last 7 days but not daily
+5	Daily contact in last 7 days
+a.	Psychiatrist	
+b.	Social worker	
+c.	Psychologist, psychometrist, psychological associate	
+d.	Occupational therapist, physiotherapist	
+e.	Behaviour therapist 	
+f.	Recreation, art, music, play therapist	
+g.	Registered nurse	
+h.	Child / youth counsellor	
+i.	Child protection	
+j.	Speech language pathologist	
+k.	Developmental services worker or direct care staff 	
+l.	Health care aide / personal support worker	
+m.	Dietician	
+3.	FOCUS OF INTERVENTIONS
+Code for types of issues that were a major focus of interventions in LAST 30 DAYS (or since admission if LESS THAN 30 DAYS)
+0	No intervention of this type	
+1	Offered, but refused
+2 	Not received, but scheduled to start within next 30 days
+3	Received 8–30 days ago
+4	Received in last 7 days
+a.	Life skills training — e.g., communication, money management	
+b.	Self-care skills — e.g., dressing, eating, hygiene	
+c.	Social skills — e.g., interpersonal skills, etiquette	
+d.	Family functioning — e.g., positive parenting, family cohesion	
+e.	Cognitive skills — e.g., reading, letters, colour recognition	
+f.	Behaviour management	
+g.	Crisis intervention	
+h.	Family preservation — e.g., intensive in-home program	
+i.	Family support — e.g., Wraparound, Respite Homes	
+j.	Sensory stimulation — e.g., aromatherapy, sensory room, music therapy	
+k.	Education on special topics — e.g., sexuality, safety	
+l.	Medication management	
+4.	TREATMENT MODALITIES
+Code for treatment modalities used in LAST 30 DAYS (or since admission if LESS THAN 30 DAYS)
+0	Not offered and not received	
+1	Offered, but refused	
+2 	Not received, but scheduled to start within next 30 days
+3	Received 8–30 days ago
+4	Received in last 7 days
+a.	Individual	
+b.	Group 	
+c.	Family or couple	
+d.	Self-help / consumer group	
+5.	CASE MANAGEMENT — Receives formal care coordination services	
+0	No	1	Yes
+6.	HOSPITAL USE, EMERGENCY ROOM USE, PHYSICIAN VISIT
+Code for number of times during the LAST 90 DAYS (or since last assessment if LESS THAN 90 DAYS AGO)
+a.	In-patient acute hospital with overnight stay (nonpsychiatric) 	
+b.	Emergency room visit (not counting overnight stay) 	
+c.	Physician visit (or authorized assistant or practitioner — EXCLUDE PSYCHIATRIST	
+7.	PROTECTIVE BODY GEAR USED IN LAST 7 DAYS — e.g., helmet, kneepads			
+0	No	1	Yes
+8.	FAMILY IS APPROPRIATELY ENGAGED IN OR SUPPORTIVE OF TREATMENT PROCESS	
+0	No		
+1	Yes
+8	No family contact	
+9.	TRANSITION PLANNING NEEDED — From one setting to another (e.g., educational, vocational, service sector) 	
+0	No	1	Yes
+
+SECTION R. Nutritional Status
+1.	MODE OF NUTRITIONAL INTAKE	
+0	Normal — Swallows all types of foods safely and efficiently
+1	Modified independent — e.g., liquid is sipped, takes limited solid food, need for modification may be unknown
+2	Requires diet modification to swallow solid food — e.g., mechanical diet (e.g., puréed, minced) or only able to ingest specific foods
+3	Requires modification to swallow liquids — e.g., thickener
+4	Can swallow only puréed solids AND thickened liquids — Requires BOTH puréed solids and thickened liquids for oral intake
+5	Combined oral and parenteral or tube feeding — Tube feeding via NGT, GT, JT AND some oral intake, OR parenteral feeding AND some oral intake
+6	Nasogastric tube feeding only — Nutritional intake occurs via a tube placed in the person’s stomach via the nasopharynx
+7	Abdominal tube feeding — Nutritional intake occurs only through abdominal tube (e.g., PEG tube); no oral intake
+8	Parenteral feeding only — Includes all types of parenteral feedings, such as total parenteral nutrition (TPN); no oral intake 
+9	Activity did not occur — Did not eat or receive any form of nutritional supplementation during entire period
+2.	FAMILY, CAREGIVER, FRIEND, OR STAFF EXPRESSES CONCERN ABOUT CHILD’S / YOUTH’S WEIGHT
+Code for nutritional status in LAST 90 DAYS
+0	No	1	Yes
+a.	Weight gain	
+b.	Weight loss	
+c.	Failure to gain weight	
+
+SECTION S. Education
+1.	ENROLLED IN FORMAL EDUCATION PROGRAM	
+0	Never enrolled  
+1	No, but previously enrolled
+2	Yes, part-time
+3	Yes, full-time
+If “0”, skip to Section T. If ”1”, skip to Item S6.
+2.	EDUCATION STATUS	
+1	Preschool 
+2	Home-schooled
+3	Regular class (no extra support)	
+4	Regular with special accommodations	
+5	Regular with extra support (e.g., 1:1 staff)
+6	Special education class(es)
+7	Special school / program (e.g., vocational training)
+3.	ATTENDANCE IN SCHOOL	
+Number of days absent from school in LAST 90 DAYS
+4.	RISK OF DISRUPTED EDUCATION IN LAST 90 DAYS
+0	No	8	Not applicable	
+1	Yes	
+a.	Increase in lateness or absenteeism	
+b.	Poor productivity or disruptiveness at school	
+c.	Expresses intent to quit school	
+d.	Conflict with school staff — e.g., persistent arguing with teachers; threatening principal	
+5.	STRONG, PERSISTENT DISSATISFACTION WITH SCHOOL	
+0	No	
+1	Child / youth only	
+2	Parent / primary caregiver only
+3	Both
+6.	CURRENT DISRUPTED EDUCATION
+0	No	1	Yes
+a.	Child / youth currently refuses to attend school	
+b.	Child / youth currently removed due to disruptive behaviour — 	
+e.g., currently suspended or expelled
+7.	LAST SCHOOL GRADE COMPLETED SUCCESSFULLY	
+Code “00” if no formal grade level completed
+8.	OVERALL ACADEMIC ABILITY
+Code for academic PERFORMANCE [P] compared with typical 	P  C 
+child / youth of same age.
+Code for academic CAPACITY [C] based on presumed academic potential. This will require “speculation” by the assessor.
+0	Exceptionally higher ability 	
+1	Typical ability
+2	Exceptionally lower ability
+3	Minimal or no evidence of ability
+8	Not applicable (DO NOT USE THIS CODE IN SCORING CAPACITY)
+
+
+SECTION T. Environmental Assessment
+1.	HOME ENVIRONMENT
+Code for any of the following that make home environment hazardous or uninhabitable (if temporarily in institution, base assessment on home visit)
+0	No	 
+1	Yes	
+8	Unknown, home not visited, or no information
+a.	Disrepair of the home — e.g., hazardous clutter, inadequate or no lighting, holes in floor, leaking pipes	
+b.	Squalid condition — e.g., extremely dirty, infestation by bugs	
+c.	Inadequate heating or cooling — e.g., too hot in summer, too cold in winter		
+d.	Lack of personal safety — e.g., fear of violence; safety problem in going to mailbox or visiting neighbours 	
+e.	Limited access to home or rooms in home — e.g., difficulty entering or leaving home; unable to climb stairs	
+
+
+
+SECTION U. Diagnostic and Other Health Information
+1.	GLOBAL ASSESSMENT OF FUNCTIONING	
+Record current GAF/CGAS score. 
+Record “888” if unknown.
+2.	DSM-IV PROVISIONAL DIAGNOSTIC CATEGORY [EXAMPLE — CANADA]
+Identify all provisional categories of DSM-IV diagnoses determined by the psychiatrist or attending physician and rank their importance as factors contributing to this admission (if no provisional diagnosis available, code all boxes “8”)
+0	Not present	
+1	Most important	
+2	Second most important	
+3	Third most important
+4	Less important
+8	No provisional diagnosis
+a.	Reactive attachment disorder	
+b.	Attention deficit hyperactivity disorder	
+c.	Disruptive behaviour disorder — e.g., oppositional defiant disorder, conduct disorder	
+d.	Learning or communication disorder 	
+e.	Autism spectrum disorder	
+f.	Substance-related disorders	
+g.	Schizophrenia and other psychotic disorders	
+h.	Mood disorders	
+i.	Anxiety disorders — e.g., separation anxiety disorder, obsessive compulsive disorder	
+j.	Eating disorders	
+k.	Sleep disorders	
+l.	Adjustment disorders	
+3.	PSYCHIATRIC DIAGNOSES [EXAMPLE — CANADA]
+Enter Axis I and Axis II DSM-IV diagnoses, if known. Must be completed on discharge, but also complete with earlier assessments if specific psychiatric diagnosis already determined.
+a.	AXIS I
+	1. ________________________________________________________
+		DSM-IV CODE: 
+	2. ________________________________________________________
+		DSM-IV CODE:  
+	3. ________________________________________________________
+		DSM-IV CODE:  
+b.	AXIS II
+	__________________________________________________________
+		DSM-IV CODE:  
+4.	MEDICAL DIAGNOSES
+0 	Not present
+1	Primary diagnosis / diagnoses for current stay
+2	Diagnosis present, receiving active treatment
+3	Diagnosis present, monitored but no active treatment
+a.	Asthma	
+b.	Diabetes mellitus	
+c.	Epilepsy or seizure disorders	
+d.	Fetal alcohol effects / syndrome	
+e.	Migraine	
+f.	Traumatic brain injury	
+g.	Severe (anaphylactic) allergy — EXCLUDE MEDICATION ALLERGIES 	
+ 	                                                      Disease                         ICD-10 Code	
+Other Medical Diagnoses           Code               [Example — Canada]
+h. ______________________________   	        [ • ]
+i. ______________________________   	        [ • ]
+j.  ______________________________   	        [ • ]
+
+[Note: Add lines as necessary for other disease diagnoses]
+5.	HISTORY OF CONCUSSION(S) 	
+0	None	2 	Two
+1	One	3 	Three or more
+6.	TIME NEEDED TO RECOVER FROM ANY CONCUSSION	
+Code for the greatest amount of time needed to recover from any current or previous concussion
+0 	Immediate recovery — Symptoms alleviated within 1 week
+1	Longer recovery — Symptoms persisted longer than 1 week but less than 3 months
+2 	Post-concussion syndrome — Symptoms persisted or are persisting longer than 3 months
+8	Unknown or no previous concussions  
+
+SECTION V. Service Termination
+1.	HOW LONG CHILD / YOUTH IS EXPECTED TO RECEIVE SERVICES FROM THIS AGENCY (Count from assessment reference date, including that day)  
+0	1–7 days	
+1	8–14 days	
+2	15–30 days
+3	31–90 days
+4	91 or more days
+2.	RESOURCES KNOWN TO BE AVAILABLE UPON DISCHARGE
+0	No		
+1	Yes	
+8	Not needed
+a.	Formal mental health treatment — e.g., psychiatrist, social worker	
+b.	Formal case coordination services — EXCLUDE SCHOOL	
+c.	School resources — e.g., behaviour support plan	
+
+
+SECTION W. Discharge 
+[Note: Complete Section W at discharge only]
+1.	LAST DAY OF INVOLVEMENT WITH PROGRAM OR AGENCY
+[  2  ][  0  ]                
+Year          Month    Day
+2.   DISCHARGED TO [EXAMPLE — CANADA] 	
+Code for expected initial arrangement at discharge
+1	Private home / apartment / rented room
+2	Board and care
+3	Assisted living or semi-independent living
+4	Mental health residence — e.g., psychiatric group home
+5	Group home for persons with physical disability
+6	Setting for persons with intellectual disability
+7	Psychiatric hospital / unit
+8	Homeless (with or without shelter) 
+9	Residential care facility — e.g., long-term care home, nursing home
+10	Rehabilitation hospital / unit
+11	Hospice facility / palliative care unit
+12	Acute care hospital / unit
+13	Continuing care hospital / unit
+14	Residential treatment facility
+15	Other
+16	Deceased
+3.	LIVING ARRANGEMENT AT DISCHARGE	
+1	Alone
+2	With parent(s) or primary caregiver(s) 
+3	With sibling(s), no parent(s ) / primary caregiver(s)
+4	With other relative(s)
+5	With foster family
+6	With nonrelative(s), excluding foster family
+
+SECTION X. Assessment Information
+SIGNATURE OF PERSON COORDINATING / COMPLETING THE ASSESSMENT
+
+
+1. Signature (sign on above line)
+2. Date assessment signed as complete
+[  2  ][  0  ] —  — 
+Year          Month    Day
+
+SECTION P. Medications (continued from page 9)
+1.	LIST OF ALL MEDICATIONS [Optional]
+List all active prescriptions, and any nonprescribed (over-the-counter) medications taken in the LAST 3 DAYS
+[NOTE: Use computerized records if possible; hand enter only when absolutely necessary]
+For each drug, record:
+a.	Name 
+b.	Dose — A positive number such as 0.5, 5, 150, 300. [Note: Never write a zero by itself after a decimal point (X mg). 
+Always use a zero before a decimal point (0.X mg)]
+c.	Unit — Code using the following list:
+gtts	(drops)	mcg	(microgram)	ml	(millilitre)	%	(percent)
+gm	(gram)	mEq	(milliequivalent)	oz	(ounce)	units	(units)
+L		(litre)	mg	(milligram)	puffs	(puffs)	OTH	(other)
+d.	Route of administration — Code using the following list:
+PO	(by mouth / oral)	SC	(subcutaneous)	ORINHL	(inhalation, oral)	TD	(transdermal)
+SL		(sublingual)	REC	(rectal)	NASINHL	(inhalation, nasal)	OPTH	(eye)
+IM	(intramuscular)	TOP	(topical)	ET	(enteral tube)	OTH	(other)
+IV		(intravenous)
+e.	Frequency — Code the number of times per day, week, or month the medication is administered using the following list:
+Q1H	(every hour)	Daily		5D	(5 times daily)	4W	(4 times weekly)
+Q2H	(every 2 hours)	BED	(at bedtime) 	Q2D	(every other day)	5W	(5 times weekly)
+Q3H	(every 3 hours)	BID	(2 times daily;	Q3D	(every 3 days)	6W	(6 times weekly)
+Q4H	(every 4 hours)		includes every 12 hrs)	Weekly			1M	(monthly)
+Q6H	(every 6 hours)	TID	(3 times daily)	2W	(2 times weekly)	2M	(twice every month)
+Q8H	(every 8 hours)	QID	(4 times daily)	3W	(3 times weekly)	OTH	(other)
+f.	PRN
+0	No	1	Yes
+g.	Computer-entered drug code [Example—Canada—DIN]
+
+a. Name 	b. Dose 	c. Unit 	d. Route 	e. Freq. 	f. PRN		g. Computer-entered drug code
+  1.													
+  2.													
+  3.													
+  4.													
+  5.													
+  6.													
+  7.													
+  8.													
+  9.													
+10.													
+11.													
+12.													
+[Note: Add additional lines, as necessary, for other drugs taken]
+[Abbreviations are Country Specific for Unit, Route, Frequency]

@@ -86,13 +86,14 @@ namespace AssessmentAutogen.Library
         {
             try
             {
-                if(precedingIndex == "B12")
-                {
-
-                }
                 var questionLine = fileLines[0].Split("***");
 
                 var questionIndex = questionLine[0].Trim().TrimEnd('.');
+
+                if (questionLine.Length < 3)
+                {
+                    throw new Exception($"Question parsed incorrectly: {precedingIndex} + {questionIndex}");
+                }
 
                 var questionText = questionLine[2].Split("^^^");
 
@@ -118,6 +119,12 @@ namespace AssessmentAutogen.Library
                         for (int i = 1; i < fileLines.Count; i++)
                         {
                             var choiceLine = fileLines[i].Split("&&&");
+
+                            if (choiceLine.Length < 2)
+                            {
+                                throw new Exception($"Answer choice parsed incorrectly: {precedingIndex} + {questionIndex}");
+                            }
+
                             question.Choices.Add(new ResponseModel
                             {
                                 Id = Guid.NewGuid(),

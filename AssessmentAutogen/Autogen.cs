@@ -7,8 +7,9 @@ namespace AssessmentAutogen
 {
     public static class Autogen
     {
-        public const string AssessmentFilePath = @"C:\Users\53108C\Documents\OMES\Waitlist\FormattedForAutogen_interRAI_ChYMH-DD_Form_Community-based_v9.3.0_2015 (1).txt";
-
+        //public const string AssessmentFilePath = @"C:\Users\53108C\Documents\OMES\Waitlist\FormattedForAutogen_interRAI_ChYMH-DD_Form_Community-based_v9.3.0_2015 (1).txt";
+        public const string AssessmentFilePath = @"C:\Users\53108C\Documents\git\Matthew-OMES\AutogenAssessment\FormattedForAutogen_interRAI_ChYMH-DD_Form_Community-based_v9.3.0_2015 (1).txt";
+        
         public const string ResultFilePath = @"C:\Users\53108C\Documents\OMES\Waitlist\AutogenResults\";
 
         public static AutogenSuccess CreateAdultAssessmentFromFile()
