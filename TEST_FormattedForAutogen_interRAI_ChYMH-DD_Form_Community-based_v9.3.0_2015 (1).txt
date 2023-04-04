@@ -1,0 +1,82 @@
+SECTION ***A*** Identification Information 
+1. 	***QB*** NAME
+	a.***T*** First Name                       
+	b.***T*** Middle initial
+	c.***T*** Last Name                                  
+	d.***T*** Suffix
+2. 	***DD*** SEX
+1   &&& Male           
+2   &&& Female	
+3. 	***Date*** BIRTHDATE 
+4. 	***QB*** NUMERIC IDENTIFIERS
+a.	***T*** Health Care Identification Number
+	
+b.	***T*** Province or Territory Issuing Health Care Identification Number
+	
+c.	***T*** Case Record Number     
+	
+5. 	***T*** AGENCY IDENTIFIER 
+	
+6.	***QB*** CURRENT PAYMENT SOURCES
+a.	***DD*** Provincial or territorial government plan ^^^ this province or territory	
+0	&&& No	
+1	&&& Yes
+
+b.	***DD*** Provincial or territorial government plan ^^^ other province or territory
+0	&&& No	
+1	&&& Yes
+
+c.	***DD*** Federal government ^^^ First Nations and Inuit Health Branch (FNIHB)
+0	&&& No	
+1	&&& Yes
+
+d.	***DD*** Canadian resident, insurance pay
+0	&&& No	
+1	&&& Yes
+
+e.	***DD*** Canadian resident, public trustee pay
+0	&&& No	
+1	&&& Yes
+	
+f.	***DD*** Canadian resident, self-pay
+0	&&& No	
+1	&&& Yes
+		
+g.	***DD*** Other country resident, self-pay
+0	&&& No	
+1	&&& Yes
+		
+h.	***DD*** Responsibility for payment unknown or unavailable
+0	&&& No	
+1	&&& Yes
+		
+7.	***DD*** REASON FOR ASSESSMENT		
+1	&&& First assessment	
+2	&&& Routine reassessment
+3	&&& Return assessment
+4	&&& Significant change in status reassessment
+5	&&& Discharge assessment covers last 3–7 days of service
+6 	&&& Discharge tracking only
+7	&&& Other — e.g., research
+8.	***Date*** ASSESSMENT REFERENCE DATE
+9.	***QB*** EXPRESSED GOALS
+a.	***T*** Child’s / youth’s goals
+b.	***T*** Parent’s / caregiver’s goals ^^^ for child / youth
+		
+10. ***DD*** LEGAL GUARDIANSHIP 	
+1	&&& Both parents 	
+2	&&& Mother only	
+3	&&& Father only	
+4	&&& Neither parent but other relative(s) or nonrelative(s)
+5	&&& Child protection agency (e.g., CAS)
+6	&&& Youth responsible for self
+11.	***QB*** CURRENT DISPUTE OVER CUSTODY OR CHILD / YOUTH ACCESS
+a.	***DD***This child / youth
+0	&&& No	
+1	&&& Yes
+		
+b. ***DD***Other child(ren) / youth
+0	&&& No	
+1	&&& Yes
+			
+

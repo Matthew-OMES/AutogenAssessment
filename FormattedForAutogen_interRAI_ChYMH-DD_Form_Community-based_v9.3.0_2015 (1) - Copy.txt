@@ -2169,3 +2169,300 @@ b.	***DD*** Weight loss
 c.	***DD*** Failure to gain weight	
 	0	&&& No	
 	1	&&& Yes
+
+SECTION ***S*** Education
+1.	***DD*** ENROLLED IN FORMAL EDUCATION PROGRAM ^^^ If “0”, skip to Section T. If ”1”, skip to Item S6.
+0	&&& Never enrolled  
+1	&&& No, but previously enrolled
+2	&&& Yes, part-time
+3	&&& Yes, full-time
+
+2.	***DD*** EDUCATION STATUS	
+1	&&& Preschool 
+2	&&& Home-schooled
+3	&&& Regular class (no extra support)	
+4	&&& Regular with special accommodations	
+5	&&& Regular with extra support (e.g., 1:1 staff)
+6	&&& Special education class(es)
+7	&&& Special school / program (e.g., vocational training)
+
+3.	***T*** ATTENDANCE IN SCHOOL ^^^ Number of days absent from school in LAST 90 DAYS
+
+4.	***QB*** RISK OF DISRUPTED EDUCATION IN LAST 90 DAYS	
+a.	***DD*** Increase in lateness or absenteeism	
+	0	&&& No	
+	1	&&& Yes	
+	8	&&& Not applicable
+b.	***DD*** Poor productivity or disruptiveness at school	
+	0	&&& No	
+	1	&&& Yes	
+	8	&&& Not applicable
+c.	***DD*** Expresses intent to quit school	
+	0	&&& No	
+	1	&&& Yes	
+	8	&&& Not applicable
+d.	***DD*** Conflict with school staff — e.g., persistent arguing with teachers; threatening principal	
+	0	&&& No	
+	1	&&& Yes	
+	8	&&& Not applicable
+
+5.	***DD*** STRONG, PERSISTENT DISSATISFACTION WITH SCHOOL	
+0	&&& No	
+1	&&& Child / youth only	
+2	&&& Parent / primary caregiver only
+3	&&& Both
+
+6.	***QB*** CURRENT DISRUPTED EDUCATION
+a.	***DD*** Child / youth currently refuses to attend school
+	0	&&& No	
+	1	&&& Yes	
+b.	***DD*** Child / youth currently removed due to disruptive behaviour ^^^ e.g., currently suspended or expelled
+	0	&&& No	
+	1	&&& Yes
+
+7.	***T*** LAST SCHOOL GRADE COMPLETED SUCCESSFULLY ^^^ Code “00” if no formal grade level completed
+
+8.	***DD*** OVERALL ACADEMIC ABILITY - Performance ^^^ Code for academic PERFORMANCE [P] compared with typical child / youth of same age.
+0	&&& Exceptionally higher ability 	
+1	&&& Typical ability
+2	&&& Exceptionally lower ability
+3	&&& Minimal or no evidence of ability
+8	&&& Not applicable (DO NOT USE THIS CODE IN SCORING CAPACITY)
+
+9.	***DD*** OVERALL ACADEMIC ABILITY - Capacity ^^^ Code for academic CAPACITY [C] based on presumed academic potential. This will require “speculation” by the assessor.
+0	&&& Exceptionally higher ability 	
+1	&&& Typical ability
+2	&&& Exceptionally lower ability
+3	&&& Minimal or no evidence of ability
+8	&&& Not applicable (DO NOT USE THIS CODE IN SCORING CAPACITY)
+
+
+SECTION ***T*** Environmental Assessment
+1.	***QB*** HOME ENVIRONMENT ^^^ Code for any of the following that make home environment hazardous or uninhabitable (if temporarily in institution, base assessment on home visit)
+a.	***DD*** Disrepair of the home — e.g., hazardous clutter, inadequate or no lighting, holes in floor, leaking pipes	
+	0	&&& No	 
+	1	&&& Yes	
+	8	&&& Unknown, home not visited, or no information
+b.	***DD*** Squalid condition — e.g., extremely dirty, infestation by bugs	
+	0	&&& No	 
+	1	&&& Yes	
+	8	&&& Unknown, home not visited, or no information
+c.	***DD*** Inadequate heating or cooling — e.g., too hot in summer, too cold in winter		
+	0	&&& No	 
+	1	&&& Yes	
+	8	&&& Unknown, home not visited, or no information
+d.	***DD*** Lack of personal safety — e.g., fear of violence; safety problem in going to mailbox or visiting neighbours 	
+	0	&&& No	 
+	1	&&& Yes	
+	8	&&& Unknown, home not visited, or no information
+e.	***DD*** Limited access to home or rooms in home — e.g., difficulty entering or leaving home; unable to climb stairs	
+	0	&&& No	 
+	1	&&& Yes	
+	8	&&& Unknown, home not visited, or no information
+
+
+
+SECTION ***U*** Diagnostic and Other Health Information
+1.	***T*** GLOBAL ASSESSMENT OF FUNCTIONING ^^^ Record current GAF/CGAS score. Record “888” if unknown.
+
+2.	***QB*** DSM-IV PROVISIONAL DIAGNOSTIC CATEGORY ^^^ Identify all provisional categories of DSM-IV diagnoses determined by the psychiatrist or attending physician and rank their importance as factors contributing to this admission (if no provisional diagnosis available, code all boxes “8”)
+a.	***DD*** Reactive attachment disorder	
+	0	&&& Not present	
+	1	&&& Most important	
+	2	&&& Second most important	
+	3	&&& Third most important
+	4	&&& Less important
+	8	&&& No provisional diagnosis
+b.	***DD*** Attention deficit hyperactivity disorder	
+	0	&&& Not present	
+	1	&&& Most important	
+	2	&&& Second most important	
+	3	&&& Third most important
+	4	&&& Less important
+	8	&&& No provisional diagnosis
+c.	***DD*** Disruptive behaviour disorder ^^^ e.g., oppositional defiant disorder, conduct disorder	
+	0	&&& Not present	
+	1	&&& Most important	
+	2	&&& Second most important	
+	3	&&& Third most important
+	4	&&& Less important
+	8	&&& No provisional diagnosis
+d.	***DD*** Learning or communication disorder 	
+	0	&&& Not present	
+	1	&&& Most important	
+	2	&&& Second most important	
+	3	&&& Third most important
+	4	&&& Less important
+	8	&&& No provisional diagnosis
+e.	***DD*** Autism spectrum disorder	
+	0	&&& Not present	
+	1	&&& Most important	
+	2	&&& Second most important	
+	3	&&& Third most important
+	4	&&& Less important
+	8	&&& No provisional diagnosis
+f.	***DD*** Substance-related disorders	
+	0	&&& Not present	
+	1	&&& Most important	
+	2	&&& Second most important	
+	3	&&& Third most important
+	4	&&& Less important
+	8	&&& No provisional diagnosis
+g.	***DD*** Schizophrenia and other psychotic disorders	
+	0	&&& Not present	
+	1	&&& Most important	
+	2	&&& Second most important	
+	3	&&& Third most important
+	4	&&& Less important
+	8	&&& No provisional diagnosis
+h.	***DD*** Mood disorders	
+	0	&&& Not present	
+	1	&&& Most important	
+	2	&&& Second most important	
+	3	&&& Third most important
+	4	&&& Less important
+	8	&&& No provisional diagnosis
+i.	***DD*** Anxiety disorders ^^^ e.g., separation anxiety disorder, obsessive compulsive disorder	
+	0	&&& Not present	
+	1	&&& Most important	
+	2	&&& Second most important	
+	3	&&& Third most important
+	4	&&& Less important
+	8	&&& No provisional diagnosis
+j.	***DD*** Eating disorders	
+	0	&&& Not present	
+	1	&&& Most important	
+	2	&&& Second most important	
+	3	&&& Third most important
+	4	&&& Less important
+	8	&&& No provisional diagnosis
+k.	***DD*** Sleep disorders	
+	0	&&& Not present	
+	1	&&& Most important	
+	2	&&& Second most important	
+	3	&&& Third most important
+	4	&&& Less important
+	8	&&& No provisional diagnosis
+l.	***DD*** Adjustment disorders	
+	0	&&& Not present	
+	1	&&& Most important	
+	2	&&& Second most important	
+	3	&&& Third most important
+	4	&&& Less important
+	8	&&& No provisional diagnosis
+
+3.	***QB*** PSYCHIATRIC DIAGNOSES ^^^ Enter Axis I and Axis II DSM-IV diagnoses, if known. Must be completed on discharge, but also complete with earlier assessments if specific psychiatric diagnosis already determined.
+a.	***T*** AXIS I - DSM-IV Code 1
+b.	***T*** AXIS I - DSM-IV Code 2
+c.	***T*** AXIS I - DSM-IV Code 3
+d.	***T*** AXIS II - DSM-IV Code 1
+
+4.	***QB*** MEDICAL DIAGNOSES
+a.	***DD*** Asthma	
+	0 	&&& Not present
+	1	&&& Primary diagnosis / diagnoses for current stay
+	2	&&& Diagnosis present, receiving active treatment
+	3	&&& Diagnosis present, monitored but no active treatment
+b.	***DD*** Diabetes mellitus	
+	0 	&&& Not present
+	1	&&& Primary diagnosis / diagnoses for current stay
+	2	&&& Diagnosis present, receiving active treatment
+	3	&&& Diagnosis present, monitored but no active treatment
+c.	***DD*** Epilepsy or seizure disorders	
+	0 	&&& Not present
+	1	&&& Primary diagnosis / diagnoses for current stay
+	2	&&& Diagnosis present, receiving active treatment
+	3	&&& Diagnosis present, monitored but no active treatment
+d.	***DD*** Fetal alcohol effects / syndrome	
+	0 	&&& Not present
+	1	&&& Primary diagnosis / diagnoses for current stay
+	2	&&& Diagnosis present, receiving active treatment
+	3	&&& Diagnosis present, monitored but no active treatment
+e.	***DD*** Migraine	
+	0 	&&& Not present
+	1	&&& Primary diagnosis / diagnoses for current stay
+	2	&&& Diagnosis present, receiving active treatment
+	3	&&& Diagnosis present, monitored but no active treatment
+f.	***DD*** Traumatic brain injury	
+	0 	&&& Not present
+	1	&&& Primary diagnosis / diagnoses for current stay
+	2	&&& Diagnosis present, receiving active treatment
+	3	&&& Diagnosis present, monitored but no active treatment
+g.	***DD*** Severe (anaphylactic) allergy ^^^ EXCLUDE MEDICATION ALLERGIES 	
+	0 	&&& Not present
+	1	&&& Primary diagnosis / diagnoses for current stay
+	2	&&& Diagnosis present, receiving active treatment
+	3	&&& Diagnosis present, monitored but no active treatment
+h. ***T*** Other Medical Diagnosis 1 ^^^ e.g. Medication - Disease Code - ICD-10 Code	
+i. ***T*** Other Medical Diagnosis 2 ^^^ e.g. Medication - Disease Code - ICD-10 Code	
+j. ***T*** Other Medical Diagnosis 3 ^^^ e.g. Medication - Disease Code - ICD-10 Code	
+
+5.	***DD*** HISTORY OF CONCUSSION(S) 	
+0	&&& None	
+1	&&& One	
+2 	&&& Two
+3 	&&& Three or more
+
+6.	***DD*** TIME NEEDED TO RECOVER FROM ANY CONCUSSION	^^^ Code for the greatest amount of time needed to recover from any current or previous concussion
+0 	&&& Immediate recovery — Symptoms alleviated within 1 week
+1	&&& Longer recovery — Symptoms persisted longer than 1 week but less than 3 months
+2 	&&& Post-concussion syndrome — Symptoms persisted or are persisting longer than 3 months
+8	&&& Unknown or no previous concussions  
+
+SECTION ***V*** Service Termination
+1.	***DD*** HOW LONG CHILD / YOUTH IS EXPECTED TO RECEIVE SERVICES FROM THIS AGENCY ^^^ Count from assessment reference date, including that day
+0	&&& 1–7 days	
+1	&&& 8–14 days	
+2	&&& 15–30 days
+3	&&& 31–90 days
+4	&&& 91 or more days
+
+2.	***QB*** RESOURCES KNOWN TO BE AVAILABLE UPON DISCHARGE
+a.	***DD*** Formal mental health treatment ^^^ e.g., psychiatrist, social worker	
+	0	&&& No		
+	1	&&& Yes	
+	8	&&& Not needed
+b.	***DD*** Formal case coordination services ^^^ EXCLUDE SCHOOL	
+	0	&&& No		
+	1	&&& Yes	
+	8	&&& Not needed
+c.	***DD*** School resources ^^^ e.g., behaviour support plan	
+	0	&&& No		
+	1	&&& Yes	
+	8	&&& Not needed
+
+
+SECTION ***W*** Discharge ^^^ [Note: Complete Section W at discharge only]
+1.	***Date*** LAST DAY OF INVOLVEMENT WITH PROGRAM OR AGENCY
+
+2.   ***DD*** DISCHARGED TO ^^^ Code for expected initial arrangement at discharge
+1	&&& Private home / apartment / rented room
+2	&&& Board and care
+3	&&& Assisted living or semi-independent living
+4	&&& Mental health residence — e.g., psychiatric group home
+5	&&& Group home for persons with physical disability
+6	&&& Setting for persons with intellectual disability
+7	&&& Psychiatric hospital / unit
+8	&&& Homeless (with or without shelter) 
+9	&&& Residential care facility — e.g., long-term care home, nursing home
+10	&&& Rehabilitation hospital / unit
+11	&&& Hospice facility / palliative care unit
+12	&&& Acute care hospital / unit
+13	&&& Continuing care hospital / unit
+14	&&& Residential treatment facility
+15	&&& Other
+16	&&& Deceased
+
+3.	***DD*** LIVING ARRANGEMENT AT DISCHARGE	
+1	&&& Alone
+2	&&& With parent(s) or primary caregiver(s) 
+3	&&& With sibling(s), no parent(s ) / primary caregiver(s)
+4	&&& With other relative(s)
+5	&&& With foster family
+6	&&& With nonrelative(s), excluding foster family
+
+SECTION ***X*** Assessment Information ^^^ SIGNATURE OF PERSON COORDINATING / COMPLETING THE ASSESSMENT
+
+1. ***T*** Signature ^^^ (sign on above line)
+2. ***Date*** Date assessment signed as complete
+

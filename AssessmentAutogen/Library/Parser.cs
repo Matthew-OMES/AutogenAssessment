@@ -36,6 +36,7 @@ namespace AssessmentAutogen.Library
 
                     var sectionInfo = fileLines[sectionStart].Split("***");
 
+                    section.Id = Guid.NewGuid();
                     section.Index = sectionInfo[1].Trim();
                     section.Description = sectionInfo[2];
 
