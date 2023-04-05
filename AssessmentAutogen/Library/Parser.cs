@@ -38,7 +38,7 @@ namespace AssessmentAutogen.Library
 
                     section.Id = Guid.NewGuid();
                     section.Index = sectionInfo[1].Trim();
-                    section.Description = sectionInfo[2];
+                    section.Description = sectionInfo[2].Trim();
 
                     var questionCount = 1;
 
@@ -103,8 +103,8 @@ namespace AssessmentAutogen.Library
                     Id = Guid.NewGuid(),
                     Index = questionIndex,
                     Name = questionText[0].CleanseName() + "_" + precedingIndex + questionIndex,
-                    Text = questionText[0],
-                    SubText = questionText.Length >= 2 ? questionText[1] : ""
+                    Text = questionText[0].Trim(),
+                    SubText = questionText.Length >= 2 ? questionText[1].Trim() : ""
                 };
 
                 switch (questionLine[1])
@@ -174,14 +174,19 @@ namespace AssessmentAutogen.Library
 
         public static string CleanseName(this string name)
         {
-            var parts = name.Split(new string[] { " ", "\t", ".", ",", "/", "-" , "(", ")", "\'", "\"" }, StringSplitOptions.None);
+            var parts = name.Split(
+                new string[] { " ", "\t", ".", ",", "/", "-" , "(", ")", "\'", "\"", "’", "—", "“", "”", ";", "–", ":" }, 
+                StringSplitOptions.None);
+
             var ti = new CultureInfo("en-US", false).TextInfo;
 
             var nameText = ti.ToTitleCase(string.Join(' ', parts).ToLower()).Replace(" ", "");
 
             var rgx = new Regex("[^a-zA-Z0-9]_");
 
-            return rgx.Replace(nameText, "");
+            var result = rgx.Replace(nameText, "");
+                
+            return result.Length > 120 ? result.Substring(0, 120) : result;
         }
 
         /*
