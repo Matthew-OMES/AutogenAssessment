@@ -1,7 +1,7 @@
 SECTION ***A*** Identification Information 
 1. 	***QB*** NAME
 	a.***T*** First Name                       
-	b.***T*** Middle initial
+	b.***T*** Middle Initial
 	c.***T*** Last Name                                  
 	d.***T*** Suffix
 2. 	***DD*** SEX

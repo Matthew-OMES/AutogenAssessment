@@ -1,16 +1,10 @@
 ﻿using AssessmentAutogen.Model;
 using AssessmentAutogen.Library;
-using static System.Collections.Specialized.BitVector32;
-using System.IO;
 
 namespace AssessmentAutogen
 {
     public static class Autogen
     {
-        //public const string AssessmentFilePath = @"C:\Users\53108C\Documents\OMES\Waitlist\FormattedForAutogen_interRAI_ChYMH-DD_Form_Community-based_v9.3.0_2015 (1).txt";
-        public const string AssessmentFilePath = @"C:\Users\53108C\Documents\git\Matthew-OMES\AutogenAssessment\FormattedForAutogen_interRAI_ChYMH-DD_Form_Community-based_v9.3.0_2015 (1).txt";
-        //public const string AssessmentFilePath = @"C:\Users\53108C\Documents\git\Matthew-OMES\AutogenAssessment\TEST_FormattedForAutogen_interRAI_ChYMH-DD_Form_Community-based_v9.3.0_2015 (1).txt";
-
         public const string ResultFilePath = @"C:\Users\53108C\Documents\OMES\Waitlist\AutogenResults\";
 
         public static void WriteNamesToFile()
@@ -38,9 +32,9 @@ namespace AssessmentAutogen
             File.WriteAllLines(fileName, names.ToArray());
         }
 
-        public static AutogenSuccess CreateAdultAssessmentFromFile()
+        public static AutogenSuccess CreateAssessmentFromFile(string filePath, string modelName, string description)
         {
-            var fileSuccess = CreateAssessmentFromFile(AssessmentFilePath);
+            var fileSuccess = CreateAssessmentModelFromFile(filePath, modelName, description);
 
             WriteAssessmentToFile(fileSuccess.Assessment);
             WriteAssessmentToMultipleFiles(fileSuccess.Assessment);
@@ -48,23 +42,19 @@ namespace AssessmentAutogen
             return fileSuccess;
         }
 
-        private static AutogenSuccess CreateAssessmentFromFile(string filePath)
+        private static AutogenSuccess CreateAssessmentModelFromFile(string filePath, string modelName, string description)
         {
             try
             {
                 var fileLines = File.ReadAllLines(filePath).ToList();
 
-                var assessmentSuccess = Parser.GenerateModel(
-                    filePath, 
-                    "ChildMentalHealthAndDisability",
-                    "Child and Youth Mental Health and Developmental Disability Community-Based Assessment", 
-                    fileLines);
+                var assessmentSuccess = Parser.GenerateModel(filePath, modelName, description, fileLines);
 
                 return assessmentSuccess;
             }
             catch (Exception ex)
             {
-                var error = $"Uncaught Exception for file {AssessmentFilePath}: {ex.Message}, {ex.InnerException?.Message ?? "No Inner Exception"}";
+                var error = $"Uncaught Exception for file {filePath}: {ex.Message}, {ex.InnerException?.Message ?? "No Inner Exception"}";
                 Console.WriteLine(error);
                 return new AutogenSuccess { Success = false, Text = error };
             }
@@ -72,14 +62,12 @@ namespace AssessmentAutogen
 
         private static void WriteAssessmentToMultipleFiles(AssessmentModel model)
         {
-            var directory = Directory.CreateDirectory(ResultFilePath + DateTime.Now.ToString("yyyyMMdd_hhmmss"));
+            var directory = Directory.CreateDirectory(ResultFilePath + model.Name + DateTime.Now.ToString("yyyyMMdd_hhmmss"));
 
             var assessmentResult = new List<string>
             {
                 //"using AssessmentAutogen.Model;",
-                "using Okdhs.Waitlist.Models.Assessment;",
-                "",
-                "namespace Okdhs.Waitlist.Service.Assessment",
+                "namespace Okdhs.Waitlist.Models.Assessment",
                 "{",
                 "public static class Assessments",
                 "{",
@@ -109,9 +97,7 @@ namespace AssessmentAutogen
                 var sectionResult = new List<string>
                 {
                     //"using AssessmentAutogen.Model;",
-                    "using Okdhs.Waitlist.Models.Assessment;",
-                    "",
-                    "namespace Okdhs.Waitlist.Service.Assessment",
+                    "namespace Okdhs.Waitlist.Models.Assessment",
                     "{",
                     $"public static partial class {model.Name}Assessment",
                     "{",
@@ -193,9 +179,7 @@ namespace AssessmentAutogen
             var result = new List<string>
             {
                 //"using AssessmentAutogen.Model;",
-                "using Okdhs.Waitlist.Models.Assessment;",
-                "",
-                "namespace Okdhs.Waitlist.Service.Assessment",
+                "namespace Okdhs.Waitlist.Models.Assessment",
                 "{",
                 "public static class AssessmentGeneration",
                 "{",
@@ -285,7 +269,7 @@ namespace AssessmentAutogen
             result.Add("}");
             result.Add("}");
 
-            var fileName = ResultFilePath + "AssessmentGeneration_" + DateTime.Now.ToString("yyyyMMdd_hhmmss") + ".txt";
+            var fileName = ResultFilePath + "AssessmentGeneration_" + model.Name + "_" + DateTime.Now.ToString("yyyyMMdd_hhmmss") + ".txt";
 
             File.WriteAllLines(fileName, result.ToArray());
         }

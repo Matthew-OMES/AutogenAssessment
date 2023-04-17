@@ -1,0 +1,1635 @@
+SECTION ***A*** Identification Information 
+1. ***QB*** NAME
+	a. ***T*** First Name                 
+	b. ***T*** Middle Initial   	
+	c. ***T*** Last Name                      
+	d. ***T*** Suffix
+2. ***DD***	SEX
+	1 &&& Male 	
+	2 &&& Female
+3. 	***Date*** BIRTHDATE
+4.	***DD*** MARITAL STATUS
+	1	&&& Never married	
+	2	&&& Married	
+	3	&&& Partner / significant other	
+	4	&&& Widowed 
+	5	&&& Separated 
+	6	&&& Divorced
+	
+5. 	***QB*** NUMERIC IDENTIFIERS
+	a.	***T*** Health Card Number
+	b.	***T*** Case Record Number
+
+6.	***QB*** PROVINCE OR TERRITORY OF USUAL LIVING ARRANGEMENT AND AGENCY IDENTIFIERS
+	a.	***T*** Province or Territory
+	b.	***T*** Agency Identifier
+	
+7.	***QB*** CURRENT PAYMENT SOURCES
+	a.	***DD*** Provincial or territorial government plan
+		0	&&& No	
+		1	&&& Yes
+	b.	***DD*** Provincial or territorial government plan 
+		0	&&& No	
+		1	&&& Yes
+	c.	***DD*** Federal government—Veterans Affairs Canada (VAC)
+		0	&&& No	
+		1	&&& Yes
+	d.	***DD*** Federal government—First Nations and Inuit Health Branch (FNIHB)	
+		0	&&& No	
+		1	&&& Yes
+	e.	***DD*** Federal government—Other
+		0	&&& No	
+		1	&&& Yes
+	f.	***DD*** Workers Compensation Board (WCB / WSIB)
+		0	&&& No	
+		1	&&& Yes
+	g.	***DD*** Canadian resident, insurance pay
+		0	&&& No	
+		1	&&& Yes
+	h.	***DD*** Canadian resident, public trustee pay
+		0	&&& No	
+		1	&&& Yes
+	i.	***DD*** Canadian resident, self-pay
+		0	&&& No	
+		1	&&& Yes
+	j.	***DD*** Other country resident, self-pay
+		0	&&& No	
+		1	&&& Yes
+	k.	***DD*** Responsibility for payment unknown or unavailable
+		0	&&& No	
+		1	&&& Yes
+
+8.	***DD*** REASON FOR ASSESSMENT
+	1	&&& First assessment	 
+	2	&&& Routine reassessment	
+	3	&&& Return assessment	
+	4	&&& Significant change in status reassessment 	
+	5 	&&& Discharge assessment, covers last 3 days of service
+	6	&&& Discharge tracking only
+	7	&&& Other—e.g., research
+	
+9.	***DD*** ASSESSMENT REFERENCE DATE
+
+10.	***T*** PERSON’S EXPRESSED GOALS 
+
+11.	***QB*** RESPONSIBILITY / LEGAL GUARDIAN
+a.	***DD*** Legal guardian
+	0	&&&  No	
+	1	&&& Yes 
+b.	***DD*** Other legal oversight
+	0	&&&  No	
+	1	&&& Yes 
+c.	***DD*** Durable power of attorney (health care)
+	0	&&&  No	
+	1	&&& Yes 
+d.	***DD*** Durable power of attorney (financial)
+	0	&&&  No	
+	1	&&& Yes 
+e.	***DD*** Family member responsible
+	0	&&&  No	
+	1	&&& Yes 
+f.	***DD*** Person responsible for self	
+	0	&&&  No	
+	1	&&& Yes 
+
+12.	***QB*** ADMITTED FROM AND USUAL RESIDENCE
+a.	***DD*** Admitted from
+	1	&&& Private home / apartment / rented room
+	2	&&& Board and care
+	3	&&& Assisted living or semi-independent living
+	4	&&& Mental health residence—e.g., psychiatric group home
+	5	&&& Group home for persons with physical disability
+	6	&&& Setting for persons with intellectual disability
+	7	&&& Psychiatric hospital / unit
+	8	&&& Homeless (with or without shelter)
+	9	&&& Long-term care facility (nursing home)
+	10	&&& Rehabilitation hospital / unit
+	11	&&& Hospice facility / palliative care unit
+	12	&&& Acute care hospital / unit
+	13	&&& Correctional facility
+	14	&&& Other
+b.	***DD*** Usual residential status
+	1	&&& Private home / apartment / rented room
+	2	&&& Board and care
+	3	&&& Assisted living or semi-independent living
+	4	&&& Mental health residence—e.g., psychiatric group home
+	5	&&& Group home for persons with physical disability
+	6	&&& Setting for persons with intellectual disability
+	7	&&& Psychiatric hospital / unit
+	8	&&& Homeless (with or without shelter)
+	9	&&& Long-term care facility (nursing home)
+	10	&&& Rehabilitation hospital / unit
+	11	&&& Hospice facility / palliative care unit
+	12	&&& Acute care hospital / unit
+	13	&&& Correctional facility
+	14	&&& Other
+
+13.	***T*** POSTAL CODE OF USUAL LIVING ARRANGEMENT
+
+14.	***DD*** LIVING ARRANGEMENT
+	1	&&& Alone
+	2	&&& With spouse / partner only	
+	3	&&& With spouse / partner and other(s)	
+	4	&&& With child (not spouse / partner)	
+	5	&&& With parent(s) or guardian(s) 
+	6	&&& With sibling(s)
+	7	&&& With other relative(s)
+	8 	&&& With nonrelative(s)
+
+
+SECTION ***B*** Intake and Initial History ^^^ NOTE: Complete Section B at Admission / First Assessment only
+1.	***Date*** DATE CASE OPENED
+
+2. 	***QB*** ABORIGINAL IDENTITY ^^^ Person identifies self as First Nations, Metis, or Inuit 
+	a.	***DD*** First Nations
+		0	&&& No	
+		1	&&& Yes 
+	b.	***DD*** Metis
+		0	&&& No	
+		1	&&& Yes 
+	c.	***DD*** Inuit
+		0	&&& No	
+		1	&&& Yes 
+3.	***DD*** PRIMARY LANGUAGE ^^^ See Language Codes in User’s Manual Appendix for additional codes
+	eng &&& English	
+	fra &&& French	
+
+4.	***DD*** NATURE OF INTELLECTUAL DISABILITY	^^^ See manual for additional codes
+	1	&&& Cause unspecified (i.e., intellectual or developmental disability)
+	2	&&& Down syndrome
+	3	&&& Autism spectrum disorder
+	4	&&& Fragile X syndrome
+	5 	&&& Fetal alcohol spectrum disorder
+
+5.	***DD*** DOCUMENTED SEVERITY OF INTELLECTUAL DISABILITY
+	0	&&& No intellectual disability	
+	1	&&& Borderline	
+	2	&&& Mild	
+	3	&&& Moderate
+	4	&&& Severe
+	5	&&& Profound
+	8	&&& Not documented
+
+6.	***T*** AGE AT WHICH PERSON LEFT FAMILY HOME ^^^ Code 88 if not applicable (i.e., person never left family home). Code 99 if unknown.
+
+7.	***T*** NUMBER OF YEARS (LIFETIME) SPENT IN AN INSTITUTIONAL SETTING FOR PERSONS WITH INTELLECTUAL DISABILITY ^^^ Code 0 if person was never in an institutional setting. Code 99 if unknown. If less than 1 year, code as 1 year.
+
+8.	***QB*** RESIDENTIAL HISTORY OVER LAST 5 YEARS ^^^ Code for all settings person lived in during 5 YEARS prior to date case opened (Item B1)
+a.	***DD*** Semi-independent living (SIL) 	
+	0	&&& No	
+	1	&&& Yes
+b.	***DD*** Board and care	
+	0	&&& No	
+	1	&&& Yes
+c.	***DD*** Group home
+	0	&&& No	
+	1	&&& Yes
+d.	***DD*** Institutional setting for persons with intellectual disability	
+	0	&&& No	
+	1	&&& Yes
+
+SECTION ***C*** Community and Social Involvement
+1.	***DD*** EMPLOYMENT STATUS										
+	1	&&& Employed
+	2	&&& Unemployed, seeking employment
+	3	&&& Unemployed, not seeking employment
+
+2.	***DD*** EMPLOYMENT ARRANGEMENTS (Exclude volunteering) 							
+	1	&&& Competitive employment	
+	2	&&& Supported employment
+	3	&&& Vocational rehabilitation	
+	8	&&& Not applicable
+
+3.	***QB*** INVOLVEMENT IN STRUCTURED ACTIVITIES
+a.	***DD*** Formal education program			
+	0	&&& No	
+	1	&&& Yes							
+b.	***DD*** Volunteerism—e.g., for community services	
+	0	&&& No	
+	1	&&& Yes							
+c.	***DD*** Day program					
+	0	&&& No	
+	1	&&& Yes						
+
+4. 	***T*** NUMBER OF DAYS OF PARTICIPATION IN PREFERRED RECREATION AND LEISURE ACTIVITIES IN LAST 7 DAYS		
+
+5.	***QB*** SENSE OF INVOLVEMENT
+a.	***DD*** At ease interacting with others		
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1–2 of last 3 days
+	3	&&& Exhibited daily in last 3 days								
+b.	***DD*** At ease doing planned or structured activities 
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1–2 of last 3 days
+	3	&&& Exhibited daily in last 3 days									
+c.	***DD*** Pursues involvement in activities of residential setting or community ^^^ e.g., makes or keeps friends; involved in group activities; responds positively to new activities; assists at religious services						
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1–2 of last 3 days
+	3	&&& Exhibited daily in last 3 days	
+6.	***QB*** PERSON PREFERS CHANGE (When asked)
+a.	***DD*** Paid employment—e.g., type, hours, pay	
+	0	&&& No	
+	1	&&& Yes		
+	8	&&& Could not (would not) respond								
+b.	***DD*** Recreational activities—e.g., type, number, or level of participation						
+	0	&&& No	
+	1	&&& Yes		
+	8	&&& Could not (would not) respond
+c.	***DD*** Living arrangements—e.g., location, type, who lives with							
+	0	&&& No	
+	1	&&& Yes		
+	8	&&& Could not (would not) respond
+d.	***DD*** Daily routine—e.g., diet, sleep schedule, clothes to wear							
+	0	&&& No	
+	1	&&& Yes		
+	8	&&& Could not (would not) respond
+e.	***DD*** Supports and services—e.g., programs, staff								
+	0	&&& No	
+	1	&&& Yes		
+	8	&&& Could not (would not) respond
+f. 	***DD*** Relationships—e.g., establishing friendships, improving existing relationships						
+	0	&&& No	
+	1	&&& Yes		
+	8	&&& Could not (would not) respond
+
+
+SECTION ***D*** Strengths, Relationships, and Supports
+1.	***QB*** STRENGTHS
+	a.	***DD*** Consistent positive outlook	
+		0	&&&& No	
+		1	&&&& Yes									
+	b.	***DD*** Finds meaning in day-to-day life									
+		0	&&&& No	
+		1	&&&& Yes	
+	c.	***DD*** Reports having a confidant										
+		0	&&&& No	
+		1	&&&& Yes	
+	d.	***DD*** Strong and supportive relationship with family								
+		0	&&&& No	
+		1	&&&& Yes	
+	e.	***DD*** Reports strong sense of involvement in community								
+		0	&&&& No	
+		1	&&&& Yes	
+
+2.	***QB*** SOCIAL RELATIONSHIPS ^^^ Note: Whenever possible, ask person
+a.	***DD*** Participation in social activities of long-standing interest	
+	0	&&& Never	
+	1	&&& More than 30 days ago	
+	2	&&& 8–30 days ago	 
+	3	&&& 4–7 days ago
+	4	&&& In last 3 days
+	8	&&& Unable to determine						
+b.	***DD*** Visit with a long-standing social relation or family member								
+	0	&&& Never	
+	1	&&& More than 30 days ago	
+	2	&&& 8–30 days ago	 
+	3	&&& 4–7 days ago
+	4	&&& In last 3 days
+	8	&&& Unable to determine
+c.	***DD*** Other interaction with long-standing social relation or family member ^^^ e.g., telephone, e-mail				
+	0	&&& Never	
+	1	&&& More than 30 days ago	
+	2	&&& 8–30 days ago	 
+	3	&&& 4–7 days ago
+	4	&&& In last 3 days
+	8	&&& Unable to determine
+d.	***DD*** Overnight stay of 1 or more nights at home of family member or long-standing social relation				
+	0	&&& Never	
+	1	&&& More than 30 days ago	
+	2	&&& 8–30 days ago	 
+	3	&&& 4–7 days ago
+	4	&&& In last 3 days
+	8	&&& Unable to determine
+
+3.	***QB*** UNSETTLED RELATIONSHIPS 
+a.	***DD*** Conflict with or repeated criticism of family or friends		
+	0	&&& No	
+	1	&&& Yes					
+b.	***DD*** Conflict with or repeated criticism of other clients									
+	0	&&& No	
+	1	&&& Yes		
+c.	***DD*** Conflict with or repeated criticism of staff									
+	0	&&& No	
+	1	&&& Yes		
+d.	***DD*** Family or close friends are persistently hostile toward person								
+	0	&&& No	
+	1	&&& Yes		
+
+4.	***QB*** TWO KEY SUPPORTS - Helper 1
+a.	***DD*** Relationship to person										  	
+	1	&&& Child or child-in-law	
+	2	&&& Spouse	
+	3	&&& Partner / significant other	
+	4	&&& Parent / guardian			
+	5	&&& Sibling
+	6	&&& Other relative	
+	7	&&& Friend
+	8	&&& Neighbour
+	9	&&& No informal helper
+b.	***DD*** Areas of unpaid support during last 3 days: General oversight or cueing	
+	0	&&& No	
+	1	&&& Yes	
+	8	&&& No unpaid support 										  
+c.	***DD*** Areas of unpaid support during last 3 days: IADL												  
+	0	&&& No	
+	1	&&& Yes	
+	8	&&& No unpaid support 	
+d.	***DD*** Areas of unpaid support during last 3 days: ADL												  
+	0	&&& No	
+	1	&&& Yes	
+	8	&&& No unpaid support 	
+e. 	***DD*** Areas of unpaid support during last 3 days: Crisis support											  
+	0	&&& No	
+	1	&&& Yes	
+	8	&&& No unpaid support 	
+f. 	***DD*** Areas of unpaid support during last 3 days: Social inclusion and participation									  
+	0	&&& No	
+	1	&&& Yes	
+	8	&&& No unpaid support 	
+g. 	***DD*** Areas of unpaid support during last 3 days: Companionship
+	0	&&& No	
+	1	&&& Yes	
+	8	&&& No unpaid support 							
+
+5.	***QB*** TWO KEY SUPPORTS - Helper 2
+a.	***DD*** Relationship to person										  	
+	1	&&& Child or child-in-law	
+	2	&&& Spouse	
+	3	&&& Partner / significant other	
+	4	&&& Parent / guardian			
+	5	&&& Sibling
+	6	&&& Other relative	
+	7	&&& Friend
+	8	&&& Neighbour
+	9	&&& No informal helper
+b.	***DD*** Areas of unpaid support during last 3 days: General oversight or cueing	
+	0	&&& No	
+	1	&&& Yes	
+	8	&&& No unpaid support 										  
+c.	***DD*** Areas of unpaid support during last 3 days: IADL												  
+	0	&&& No	
+	1	&&& Yes	
+	8	&&& No unpaid support 	
+d.	***DD*** Areas of unpaid support during last 3 days: ADL												  
+	0	&&& No	
+	1	&&& Yes	
+	8	&&& No unpaid support 	
+e. 	***DD*** Areas of unpaid support during last 3 days: Crisis support											  
+	0	&&& No	
+	1	&&& Yes	
+	8	&&& No unpaid support 	
+f. 	***DD*** Areas of unpaid support during last 3 days: Social inclusion and participation									  
+	0	&&& No	
+	1	&&& Yes	
+	8	&&& No unpaid support 	
+g. 	***DD*** Areas of unpaid support during last 3 days: Companionship
+	0	&&& No	
+	1	&&& Yes	
+	8	&&& No unpaid support 	
+
+6.	***QB*** SUPPORT GIVEN TO OTHERS ^^^ Areas of support given by the person to others (exclude volunteer and paid activities)
+a.	***DD*** Companionship		
+	0	&&& No	
+	1	&&& Yes									 
+b.	***DD*** IADL 	
+	0	&&& No	
+	1	&&& Yes										
+c.	***DD*** ADL 
+	0	&&& No	
+	1	&&& Yes												
+
+7.	***T*** HOURS OF UNPAID SUPPORT AND ACTIVE MONITORING DURING LAST 3 DAYS ^^^ For instrumental and personal activities of daily living in the LAST 3 DAYS, indicate the total number of hours of unpaid support received from ALL family, friends, and neighbours
+
+8.	***QB*** STATUS OF SUPPORTS (exclude paid help)
+a.	***DD*** Support person(s) unable to continue in caring activities ^^^ e.g., decline in the health of the support person makes it difficult to continue	
+	0	&&& No	
+	1	&&& Yes
+b.	***DD*** Primary support person expresses feelings of distress, anger, or depression					
+	0	&&& No	
+	1	&&& Yes
+c.	***DD*** Family or close friends report feeling overwhelmed by person’s support needs					
+	0	&&& No	
+	1	&&& Yes
+
+9.	***DD*** PLANS FOR FUTURE NEEDS ^^^ Plan in place for alternative future support or living arrangements, if required (e.g., if current support person is unable to continue in that role)	
+0	&&& Alternative plans not considered OR not required
+1	&&& Alternative plans not made, but under consideration
+2	&&& Alternative plans made	
+
+10.	***QB*** LIFE EVENTS ^^^ Code for most recent time of event
+a.	***DD*** Serious accident or physical impairment	
+	0	&&& Never 	
+	1	&&& More than 1 year ago	
+	2	&&& 31 days–1 year ago		
+	3	&&& 8–30 days ago
+	4	&&& 4–7 days ago
+	5	&&& In last 3 days							
+b.	***DD*** Distress about health of another person									
+	0	&&& Never 	
+	1	&&& More than 1 year ago	
+	2	&&& 31 days–1 year ago		
+	3	&&& 8–30 days ago
+	4	&&& 4–7 days ago
+	5	&&& In last 3 days
+c.	***DD*** Death of close family member or friend									
+	0	&&& Never 	
+	1	&&& More than 1 year ago	
+	2	&&& 31 days–1 year ago		
+	3	&&& 8–30 days ago
+	4	&&& 4–7 days ago
+	5	&&& In last 3 days
+d.	***DD*** Victim of sexual assault or abuse									
+	0	&&& Never 	
+	1	&&& More than 1 year ago	
+	2	&&& 31 days–1 year ago		
+	3	&&& 8–30 days ago
+	4	&&& 4–7 days ago
+	5	&&& In last 3 days
+e.	***DD*** Victim of physical assault or abuse 									
+	0	&&& Never 	
+	1	&&& More than 1 year ago	
+	2	&&& 31 days–1 year ago		
+	3	&&& 8–30 days ago
+	4	&&& 4–7 days ago
+	5	&&& In last 3 days
+f.	***DD*** Victim of emotional abuse										
+	0	&&& Never 	
+	1	&&& More than 1 year ago	
+	2	&&& 31 days–1 year ago		
+	3	&&& 8–30 days ago
+	4	&&& 4–7 days ago
+	5	&&& In last 3 days
+g.	***DD*** Victim of bullying										
+	0	&&& Never 	
+	1	&&& More than 1 year ago	
+	2	&&& 31 days–1 year ago		
+	3	&&& 8–30 days ago
+	4	&&& 4–7 days ago
+	5	&&& In last 3 days
+
+11.	***DD*** DESCRIBES ONE OR MORE OF THESE LIFE EVENTS (D9) AS INVOKING A SENSE OF HORROR OR INTENSE FEAR		
+	0	&&& No, or not applicable	
+	1	&&& Yes	
+	8	&&& Could not (would not) respond	
+
+SECTION ***E*** Lifestyle 
+1.	***DD*** CAFFEINE USE ^^^ Highest number of caffeinated beverages consumed in any single day of the LAST 3 DAYS
+	0	&&& No coffee or caffeinated beverages
+	1	&&& 1–2 cups of coffee or 1–4 caffeinated beverages
+	2	&&& 3–5 cups of coffee or 5–9 caffeinated beverages
+	3	&&& 6 or more cups of coffee or 10 or more caffeinated beverages
+	
+2.	***DD*** SMOKES TOBACCO DAILY										
+	0	&&& No
+	1	&&& Not in last 3 days, but is usually a daily smoker
+	2	&&& Yes
+
+3.	***DD*** ALCOHOL ^^^ Highest number of drinks in any “single sitting” in LAST 14 DAYS
+0	&&& None	
+1	&&& 1	
+2	&&& 2–4
+3	&&& 5 or more
+
+4.	***DD*** TOTAL HOURS OF EXERCISE OR PHYSICAL ACTIVITY IN LAST 3 DAYS—e.g., walking					
+0	&&& None	
+1 	&&& Less than 1 hour	
+2	&&& 1–2 hours
+3	&&& 3–4 hours
+4	&&& More than 4 hours
+
+SECTION ***F*** Environmental Assessment
+1.	***QB*** HOME ENVIRONMENT ^^^ Code for any of the following that make home environment hazardous or uninhabitable (if temporarily in institution, base assessment on home visit)	
+a.	***DD*** Disrepair of the home ^^^ e.g., hazardous clutter; inadequate or no lighting in living room, sleeping room, kitchen, toilet, corridors; holes in floor; leaking pipes	
+	0	&&& No
+	1	&&& Yes
+	8	&&& Unknown, home not visited or no information													
+b.	***DD*** Squalid condition ^^^ e.g., extremely dirty, infestation by rats or bugs							
+	0	&&& No
+	1	&&& Yes
+	8	&&& Unknown, home not visited or no information	
+c.	***DD*** Inadequate heating or cooling ^^^ e.g., too hot in summer, too cold in winter						
+	0	&&& No
+	1	&&& Yes
+	8	&&& Unknown, home not visited or no information	
+d.	***DD*** Lack of personal safety ^^^ e.g., fear of violence, safety problem in going to mailbox or visiting neighbours, heavy traffic in street		
+	0	&&& No
+	1	&&& Yes
+	8	&&& Unknown, home not visited or no information	
+e.	***DD*** Limited access to home or rooms in home ^^^ e.g., difficulty entering or leaving home, unable to climb stairs, difficulty manoeuvring within rooms, no railings although needed											
+	0	&&& No
+	1	&&& Yes
+	8	&&& Unknown, home not visited or no information	
+
+SECTION ***G*** Communication and Vision
+1.	***DD*** COMMUNICATION METHODS ^^^ Code for primary type of expressive communication
+0	&&& Verbal—i.e., speech
+1 	&&& Nonverbal—e.g., gestures, sign language, sounds, writing
+
+2.	***DD*** MAKING SELF UNDERSTOOD (Expression) ^^^ Expressing information content—both verbal and nonverbal
+0	&&& Understood—Expresses ideas without difficulty
+1	&&& Usually understood—Difficulty finding words or finishing thoughts BUT if given time, little or no prompting required
+2	&&& Often understood—Difficulty finding words or finishing thoughts AND prompting usually required
+3	&&& Sometimes understood—Ability is limited to making concrete requests
+4	&&& Rarely or never understood
+
+3.	***DD*** ABILITY TO UNDERSTAND OTHERS (Comprehension) ^^^ Understanding verbal information content (however able; with hearing appliance normally used)
+0	&&& Understands—Clear comprehension
+1	&&& Usually understands—Misses some part / intent of message BUT comprehends most conversation
+2	&&& Often understands—Misses some part / intent of message BUT with repetition or explanation can often comprehend conversation
+3	&&& Sometimes understands—Responds adequately to simple, direct communication only
+4	&&& Rarely or never understands
+
+4.	***DD*** HEARING	^^^ Ability to hear (with hearing appliance normally used)
+0	&&& Adequate—No difficulty in normal conversation, social interaction, listening to TV
+1	&&& Minimal difficulty—Difficulty in some environments (e.g., when person speaks softly or is more than 2 metres [6 feet] away)
+2	&&& Moderate difficulty—Problem hearing normal conversation, requires quiet setting to hear well
+3	&&& Severe difficulty—Difficulty in all situations (e.g., speaker has to talk loudly or speak very slowly; or person reports that all speech is mumbled)
+4	&&& No hearing 
+
+5.	***DD*** VISION	^^^ Ability to see in adequate light (with glasses or with other visual appliance normally used)
+0	&&& Adequate—Sees fine detail, including regular print in newspapers / books
+1	&&& Minimal difficulty—Sees large print, but not regular print in newspapers / books
+2	&&& Moderate difficulty—Limited vision; not able to see newspaper headlines, but can identify objects
+3	&&& Severe difficulty—Object identification in question, but eyes appear to follow objects; sees only light, colours, shapes
+4	&&& No vision
+
+
+SECTION ***H*** Cognition
+1.	***DD*** COGNITIVE SKILLS FOR DAILY DECISION MAKING ^^^ Making decisions regarding tasks of daily life—e.g., when to get up or have meals, which clothes to wear or activities to do
+0	&&& Independent—Decisions consistent, reasonable, and safe
+1	&&& Modified independence—Some difficulty in new situations only
+2	&&& Minimally impaired—In specific recurring situations, decisions become poor or unsafe; cues / supervision necessary at those times
+3	&&& Moderately impaired—Decisions consistently poor or unsafe; cues / supervision required at all times
+4	&&& Severely impaired—Never or rarely makes decisions
+5	&&& No discernible consciousness, coma
+
+2.	***QB*** MEMORY / RECALL ABILITY ^^^ Code for recall of what was learned or known
+a.	***DD*** Short-term memory OK ^^^ Seems / appears to recall after 5 minutes	
+	0	&&& Yes, memory OK	
+	1	&&& Memory problem						
+b.	***DD*** Procedural memory OK ^^^ Can perform all or almost all steps in a multitask sequence without cues 	
+	0	&&& Yes, memory OK	
+	1	&&& Memory problem			
+c.	***DD*** Situational memory OK—Both ^^^ Recognizes caregivers’ names / faces frequently encountered AND knows location of places regularly visited (bedroom, dining room, activity room, therapy room) 									
+	0	&&& Yes, memory OK	
+	1	&&& Memory problem
+
+3.	***QB*** PERIODIC DISORDERED THINKING OR AWARENESS ^^^ Note: Accurate assessment requires conversations with staff, family, or others who have direct knowledge of the person’s behaviour over this time
+a.	***DD*** Easily distracted—e.g., episodes of difficulty paying attention; gets sidetracked						
+	0	&&& Behaviour not present
+	1	&&& Behaviour present, consistent with usual functioning
+	2	&&& Behaviour present, appears different from usual functioning—e.g., new onset or worsening; different from a few weeks ago
+b.	***DD*** Episodes of disorganized speech—e.g., speech is nonsensical, irrelevant, or rambling from subject to subject; loses train of thought	
+	0	&&& Behaviour not present
+	1	&&& Behaviour present, consistent with usual functioning
+	2	&&& Behaviour present, appears different from usual functioning—e.g., new onset or worsening; different from a few weeks ago
+c.	***DD*** Mental function varies over the course of the day—e.g., sometimes better, sometimes worse				
+	0	&&& Behaviour not present
+	1	&&& Behaviour present, consistent with usual functioning
+	2	&&& Behaviour present, appears different from usual functioning—e.g., new onset or worsening; different from a few weeks ago
+
+4.	***DD*** ACUTE CHANGE IN MENTAL STATUS FROM PERSON’S USUAL FUNCTIONING ^^^ e.g., restlessness, lethargy, difficult to arouse, altered environmental perception										
+	0	&&& No	
+	1	&&& Yes
+	
+5.	***DD*** CHANGE IN DECISION MAKING AS COMPARED TO 90 DAYS AGO (or since last assessment)				
+	0	&&& Improved	
+	1	&&& No change	
+	2	&&& Declined
+	8 	&&& Uncertain
+
+SECTION ***I*** Health Conditions 
+1.	***DD*** SELF-REPORTED HEALTH ^^^ Ask: “In general, how would you rate your health?”
+	0	&&& Excellent	
+	1	&&& Good	
+	2	&&& Fair
+	3	&&& Poor
+	8	&&& Could not (would not) respond		
+
+2.	***QB*** PROBLEM FREQUENCY ^^^ Code for presence in last 3 days	 	
+a.	***DD*** Balance - Difficult or unable to move self to standing position unassisted		
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1 of last 3 days
+	3	&&& Exhibited on 2 of last 3 days
+	4	&&& Exhibited daily in last 3 days						
+b.	***DD*** Balance - Difficult or unable to turn self around and face the opposite direction when standing					
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1 of last 3 days
+	3	&&& Exhibited on 2 of last 3 days
+	4	&&& Exhibited daily in last 3 days	
+c.	***DD*** Balance - Dizziness											
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1 of last 3 days
+	3	&&& Exhibited on 2 of last 3 days
+	4	&&& Exhibited daily in last 3 days	
+d.	***DD*** Balance - Unsteady gait											
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1 of last 3 days
+	3	&&& Exhibited on 2 of last 3 days
+	4	&&& Exhibited daily in last 3 days	
+e.	***DD*** Psychiatric - Abnormal thought process—e.g., loosening of associations, blocking, flight of ideas, tangentiality, circumstantiality			
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1 of last 3 days
+	3	&&& Exhibited on 2 of last 3 days
+	4	&&& Exhibited daily in last 3 days	
+f.	***DD*** Psychiatric - Delusions—Fixed false beliefs 									
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1 of last 3 days
+	3	&&& Exhibited on 2 of last 3 days
+	4	&&& Exhibited daily in last 3 days	
+g. 	***DD*** Psychiatric - Hallucinations—False sensory perceptions								
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1 of last 3 days
+	3	&&& Exhibited on 2 of last 3 days
+	4	&&& Exhibited daily in last 3 days	
+h.	***DD*** GI Status -Acid reflux—Regurgitation of acid from stomach to throat							
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1 of last 3 days
+	3	&&& Exhibited on 2 of last 3 days
+	4	&&& Exhibited daily in last 3 days	
+i.	***DD*** GI Status -Constipation—No bowel movement in 3 days or difficult passage of hard stool						
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1 of last 3 days
+	3	&&& Exhibited on 2 of last 3 days
+	4	&&& Exhibited daily in last 3 days	
+j. 	***DD*** GI Status -Diarrhea											
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1 of last 3 days
+	3	&&& Exhibited on 2 of last 3 days
+	4	&&& Exhibited daily in last 3 days	
+k.	***DD*** GI Status -Dry mouth											
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1 of last 3 days
+	3	&&& Exhibited on 2 of last 3 days
+	4	&&& Exhibited daily in last 3 days	
+l.	***DD*** GI Status -Hypersalivation or drooling										
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1 of last 3 days
+	3	&&& Exhibited on 2 of last 3 days
+	4	&&& Exhibited daily in last 3 days	
+m.	***DD*** GI Status -Increase or decrease in normal appetite								
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1 of last 3 days
+	3	&&& Exhibited on 2 of last 3 days
+	4	&&& Exhibited daily in last 3 days	
+n.	***DD*** GI Status -Vomiting											
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1 of last 3 days
+	3	&&& Exhibited on 2 of last 3 days
+	4	&&& Exhibited daily in last 3 days	
+o.	***DD*** Other - Aspiration											
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1 of last 3 days
+	3	&&& Exhibited on 2 of last 3 days
+	4	&&& Exhibited daily in last 3 days	
+p.	***DD*** Other - Daytime drowsiness or sedation									
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1 of last 3 days
+	3	&&& Exhibited on 2 of last 3 days
+	4	&&& Exhibited daily in last 3 days	
+q.	***DD*** Other - Headache											
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1 of last 3 days
+	3	&&& Exhibited on 2 of last 3 days
+	4	&&& Exhibited daily in last 3 days	
+r.	***DD*** Other - Peripheral edema										
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1 of last 3 days
+	3	&&& Exhibited on 2 of last 3 days
+	4	&&& Exhibited daily in last 3 days	
+s.	***DD*** Other - Seizures											
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1 of last 3 days
+	3	&&& Exhibited on 2 of last 3 days
+	4	&&& Exhibited daily in last 3 days	
+
+3.	***DD*** DYSPNEA (Shortness of breath) 									
+0	&&& Absence of symptom
+1	&&& Absent at rest, but present when performed moderate activities
+2	&&& Absent at rest, but present when performed normal day-to-day activities
+3	&&& Present at rest
+
+4.	***DD*** FATIGUE ^^^ Inability to complete normal daily activities- e.g., ADLs, IADLs
+0	&&& None 
+1	&&& Minimal—Diminished energy but completes normal day-to-day activities 
+2	&&& Moderate—Due to diminished energy, UNABLE TO FINISH normal day-to-day activities
+3	&&& Severe—Due to diminished energy, UNABLE TO START SOME normal day-to-day activities
+4	&&& Unable to commence any normal day-to-day activities—Due to diminished energy
+
+5.	***QB*** EXTRAPYRAMIDAL SYMPTOMS DURING LAST 3 DAYS
+a.	***DD*** Akathisia ^^^ Subjective feeling of restlessness or need for movement	
+	0	&&& No	
+	1	&&& Yes						
+b.	***DD*** Dyskinesia ^^^ e.g., chewing, puckering movements of mouth; abnormal irregular movements of lips; rocking or writhing of trunk		
+	0	&&& No	
+	1	&&& Yes
+c.	***DD*** Tremor ^^^ Involuntary rhythmic movements of the fingers, limbs, head, mouth, tongue					
+	0	&&& No	
+	1	&&& Yes
+d.	***DD*** Bradykinesia ^^^ Decrease in spontaneous movements (e.g., reduced body movement, or poverty of facial expression, gestures, speech) 	
+	0	&&& No	
+	1	&&& Yes
+e.	***DD*** Rigidity ^^^ Resistance to flexion and extension of muscles (e.g., continuous or cogwheeling rigidity) 				
+	0	&&& No	
+	1	&&& Yes
+f.	***DD*** Dystonia ^^^ Muscle hypertonicity (e.g., muscle spasms or stiffness, protruding tongue, upward deviation of the eyes) 			
+	0	&&& No	
+	1	&&& Yes
+g.	***DD*** Slow shuffling gait ^^^ Reduction in speed and stride length, usually with a decrease in pendular arm movement			
+	0	&&& No	
+	1	&&& Yes
+
+6.	***DD*** FALLS												
+0	&&& No fall in last 90 days
+1	&&& No fall in last 30 days, but fell 31–90 days ago
+2	&&& One fall in last 30 days
+3	&&& Two or more falls in last 30 days
+
+7.	***QB*** PAIN SYMPTOMS ^^^ Note: Always ask the person about pain frequency, intensity, and control. Observe person and ask others who are in contact with the person.
+a.	***DD*** Frequency with which person complains or shows evidence of pain (including grimacing, teeth clenching, moaning, withdrawal when touched, or other nonverbal signs suggesting pain) 							
+	0	&&& No pain
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1–2 of last 3 days
+	3	&&& Exhibited daily in last 3 days
+b.	***DD*** Intensity of highest level of pain present								
+	0	&&& No pain		
+	1	&&& Mild	
+	2	&&& Moderate		
+	3	&&& Severe
+	4	&&& Times when pain is horrible or excruciating
+c.	***DD*** Consistency of pain										
+	0	&&& No pain
+	1	&&& Single episode during last 3 days	
+	2	&&& Intermittent
+	3	&&& Constant
+d.	***DD*** Pain control—Adequacy of current therapeutic regimen to control pain (from person’s point of view) 			
+	0	&&& No issue of pain
+	1	&&& Pain intensity acceptable to person; no treatment regimen or change in regimen required	
+	2	&&& Controlled adequately by therapeutic regimen
+	3	&&& Controlled when therapeutic regimen followed, but not always followed as ordered
+	4	&&& Therapeutic regimen followed, but pain control not adequate
+	5	&&& No therapeutic regimen being followed for pain; pain not adequately controlled
+
+8.	***DD*** SCHEDULED TOILETING										
+0	&&& No	
+1	&&& Yes
+
+9.	***DD*** BLADDER CONTINENCE										
+0	&&& Continent—Complete control; DOES NOT USE any type of catheter or other urinary collection device
+1	&&& Control with any catheter or ostomy over last 3 days
+2	&&& Infrequently incontinent—Not incontinent over last 3 days, but does have incontinent episodes
+3	&&& Occasionally incontinent—Less than daily
+4	&&& Frequently incontinent—Daily, but some control present
+5	&&& Incontinent—No control present
+8	&&& Did not occur—No urine output from bladder in last 3 days
+
+10.	***DD*** BOWEL CONTINENCE										
+0	&&& Continent—Complete control; DOES NOT USE any type of ostomy device
+1	&&& Control with ostomy—Control with ostomy device over last 3 days
+2	&&& Infrequently incontinent—Not incontinent over last 3 days, but does have incontinent episodes
+3	&&& Occasionally incontinent—Less than daily
+4	&&& Frequently incontinent—Daily, but some control present
+5	&&& Incontinent—No control present
+8	&&& Did not occur—No bowel movement in last 3 days 
+
+11.	***DD*** MOST SEVERE PRESSURE ULCER									
+0	&&& No pressure ulcer
+1	&&& Any area of persistent skin redness
+2	&&& Partial loss of skin layers
+3	&&& Deep craters in the skin
+4	&&& Breaks in skin exposing muscle or bone
+5	&&& Not codeable—e.g., necrotic eschar predominant
+
+12.	***DD*** PRESENCE OF SKIN ULCER OTHER THAN PRESSURE ULCER ^^^ e.g., venous ulcer, arterial ulcer, mixed venous-arterial ulcer, diabetic foot ulcer 
+0	&&& No	
+1	&&& Yes
+
+13.	***DD*** MAJOR SKIN PROBLEMS ^^^ e.g., lesions, second- or third-degree burns, healing surgical wounds				
+0	&&& No	
+1	&&& Yes
+
+14.	***DD*** OTHER SKIN CONDITIONS OR CHANGES IN SKIN CONDITION^^^ e.g., bruises, rashes, itching, mottling, herpes zoster, intertrigo, eczema	
+0	&&& No	
+1	&&& Yes
+
+15.	***DD*** FOOT PROBLEMS ^^^ e.g., bunions, hammertoes, overlapping toes, structural problems, infections, ulcers				
+0	&&& No foot problems
+1	&&& Foot problems, no limitation in walking
+2	&&& Foot problems limit walking
+3	&&& Foot problems prevent walking
+4	&&& Foot problems, does not walk for other reasons
+
+SECTION ***J*** Independence in Everyday Activities
+1.	***QB*** IADL SELF-PERFORMANCE AND CAPACITY ^^^ Code for PERFORMANCE in routine activities around the home or in the community during the LAST 3 DAYS 
+a.	***DD*** Meal preparation ^^^ How meals are prepared (e.g., planning meals, assembling ingredients, cooking, setting out food and utensils)
+	0	&&& Independent—No help, set-up, or supervision
+	1	&&& Set-up help only
+	2	&&& Supervision—Oversight / cueing
+	3	&&& Limited assistance—Help on some occasions
+	4	&&& Extensive assistance—Help throughout task, but performs 50% or more of task on own
+	5	&&& Maximal assistance—Help throughout task, but performs less than 50% of task on own
+	6	&&& Total dependence—Full performance by others during entire period
+	8	&&& Activity did not occur—During entire period (DO NOT USE THIS CODE IN SCORING CAPACITY)
+b.	***DD*** Ordinary housework ^^^ How ordinary work around the house is performed e.g., doing dishes, dusting, making bed, tidying up, laundry
+	0	&&& Independent—No help, set-up, or supervision
+	1	&&& Set-up help only
+	2	&&& Supervision—Oversight / cueing
+	3	&&& Limited assistance—Help on some occasions
+	4	&&& Extensive assistance—Help throughout task, but performs 50% or more of task on own
+	5	&&& Maximal assistance—Help throughout task, but performs less than 50% of task on own
+	6	&&& Total dependence—Full performance by others during entire period
+	8	&&& Activity did not occur—During entire period (DO NOT USE THIS CODE IN SCORING CAPACITY)
+c.	***DD*** Managing finances ^^^ How bills are paid, chequebook is balanced, household expenses are budgeted, credit card account is monitored
+	0	&&& Independent—No help, set-up, or supervision
+	1	&&& Set-up help only
+	2	&&& Supervision—Oversight / cueing
+	3	&&& Limited assistance—Help on some occasions
+	4	&&& Extensive assistance—Help throughout task, but performs 50% or more of task on own
+	5	&&& Maximal assistance—Help throughout task, but performs less than 50% of task on own
+	6	&&& Total dependence—Full performance by others during entire period
+	8	&&& Activity did not occur—During entire period (DO NOT USE THIS CODE IN SCORING CAPACITY)
+d.	***DD*** Managing medications ^^^ How medications are managed e.g., remembering to take medicines, opening bottles, taking correct drug dosages, giving injections, applying ointments
+	0	&&& Independent—No help, set-up, or supervision
+	1	&&& Set-up help only
+	2	&&& Supervision—Oversight / cueing
+	3	&&& Limited assistance—Help on some occasions
+	4	&&& Extensive assistance—Help throughout task, but performs 50% or more of task on own
+	5	&&& Maximal assistance—Help throughout task, but performs less than 50% of task on own
+	6	&&& Total dependence—Full performance by others during entire period
+	8	&&& Activity did not occur—During entire period (DO NOT USE THIS CODE IN SCORING CAPACITY)
+e.	***DD*** Phone use ^^^ How telephone calls are made or received (with assistive devices such as large numbers on telephone, amplification as needed)
+	0	&&& Independent—No help, set-up, or supervision
+	1	&&& Set-up help only
+	2	&&& Supervision—Oversight / cueing
+	3	&&& Limited assistance—Help on some occasions
+	4	&&& Extensive assistance—Help throughout task, but performs 50% or more of task on own
+	5	&&& Maximal assistance—Help throughout task, but performs less than 50% of task on own
+	6	&&& Total dependence—Full performance by others during entire period
+	8	&&& Activity did not occur—During entire period (DO NOT USE THIS CODE IN SCORING CAPACITY)
+f.	***DD*** Stairs ^^^ How manages full flight of stairs (12–14 stairs) 							 
+	0	&&& Independent—No help, set-up, or supervision
+	1	&&& Set-up help only
+	2	&&& Supervision—Oversight / cueing
+	3	&&& Limited assistance—Help on some occasions
+	4	&&& Extensive assistance—Help throughout task, but performs 50% or more of task on own
+	5	&&& Maximal assistance—Help throughout task, but performs less than 50% of task on own
+	6	&&& Total dependence—Full performance by others during entire period
+	8	&&& Activity did not occur—During entire period (DO NOT USE THIS CODE IN SCORING CAPACITY)
+g.	***DD*** Shopping ^^^ How shopping for food and household items is performed (e.g., selecting items, paying money)—EXCLUDE TRANSPORTATION
+	0	&&& Independent—No help, set-up, or supervision
+	1	&&& Set-up help only
+	2	&&& Supervision—Oversight / cueing
+	3	&&& Limited assistance—Help on some occasions
+	4	&&& Extensive assistance—Help throughout task, but performs 50% or more of task on own
+	5	&&& Maximal assistance—Help throughout task, but performs less than 50% of task on own
+	6	&&& Total dependence—Full performance by others during entire period
+	8	&&& Activity did not occur—During entire period (DO NOT USE THIS CODE IN SCORING CAPACITY)
+h.	***DD*** Transportation ^^^ How travels by public transportation (navigating system, paying fare) or driving self (including getting out of house, in and out of vehicles)
+	0	&&& Independent—No help, set-up, or supervision
+	1	&&& Set-up help only
+	2	&&& Supervision—Oversight / cueing
+	3	&&& Limited assistance—Help on some occasions
+	4	&&& Extensive assistance—Help throughout task, but performs 50% or more of task on own
+	5	&&& Maximal assistance—Help throughout task, but performs less than 50% of task on own
+	6	&&& Total dependence—Full performance by others during entire period
+	8	&&& Activity did not occur—During entire period (DO NOT USE THIS CODE IN SCORING CAPACITY)
+	
+2.	***QB*** IADL CAPACITY ^^^ Code for CAPACITY based on presumed ability to carry out activity as independently as possible. This will require “speculation” by the assessor.
+a.	***DD*** Meal preparation ^^^ How meals are prepared (e.g., planning meals, assembling ingredients, cooking, setting out food and utensils)
+	0	&&& Independent—No help, set-up, or supervision
+	1	&&& Set-up help only
+	2	&&& Supervision—Oversight / cueing
+	3	&&& Limited assistance—Help on some occasions
+	4	&&& Extensive assistance—Help throughout task, but performs 50% or more of task on own
+	5	&&& Maximal assistance—Help throughout task, but performs less than 50% of task on own
+	6	&&& Total dependence—Full performance by others during entire period
+	8	&&& Activity did not occur—During entire period (DO NOT USE THIS CODE IN SCORING CAPACITY)
+b.	***DD*** Ordinary housework ^^^ How ordinary work around the house is performed e.g., doing dishes, dusting, making bed, tidying up, laundry
+	0	&&& Independent—No help, set-up, or supervision
+	1	&&& Set-up help only
+	2	&&& Supervision—Oversight / cueing
+	3	&&& Limited assistance—Help on some occasions
+	4	&&& Extensive assistance—Help throughout task, but performs 50% or more of task on own
+	5	&&& Maximal assistance—Help throughout task, but performs less than 50% of task on own
+	6	&&& Total dependence—Full performance by others during entire period
+	8	&&& Activity did not occur—During entire period (DO NOT USE THIS CODE IN SCORING CAPACITY)
+c.	***DD*** Managing finances ^^^ How bills are paid, chequebook is balanced, household expenses are budgeted, credit card account is monitored
+	0	&&& Independent—No help, set-up, or supervision
+	1	&&& Set-up help only
+	2	&&& Supervision—Oversight / cueing
+	3	&&& Limited assistance—Help on some occasions
+	4	&&& Extensive assistance—Help throughout task, but performs 50% or more of task on own
+	5	&&& Maximal assistance—Help throughout task, but performs less than 50% of task on own
+	6	&&& Total dependence—Full performance by others during entire period
+	8	&&& Activity did not occur—During entire period (DO NOT USE THIS CODE IN SCORING CAPACITY)
+d.	***DD*** Managing medications ^^^ How medications are managed e.g., remembering to take medicines, opening bottles, taking correct drug dosages, giving injections, applying ointments
+	0	&&& Independent—No help, set-up, or supervision
+	1	&&& Set-up help only
+	2	&&& Supervision—Oversight / cueing
+	3	&&& Limited assistance—Help on some occasions
+	4	&&& Extensive assistance—Help throughout task, but performs 50% or more of task on own
+	5	&&& Maximal assistance—Help throughout task, but performs less than 50% of task on own
+	6	&&& Total dependence—Full performance by others during entire period
+	8	&&& Activity did not occur—During entire period (DO NOT USE THIS CODE IN SCORING CAPACITY)
+e.	***DD*** Phone use ^^^ How telephone calls are made or received (with assistive devices such as large numbers on telephone, amplification as needed)
+	0	&&& Independent—No help, set-up, or supervision
+	1	&&& Set-up help only
+	2	&&& Supervision—Oversight / cueing
+	3	&&& Limited assistance—Help on some occasions
+	4	&&& Extensive assistance—Help throughout task, but performs 50% or more of task on own
+	5	&&& Maximal assistance—Help throughout task, but performs less than 50% of task on own
+	6	&&& Total dependence—Full performance by others during entire period
+	8	&&& Activity did not occur—During entire period (DO NOT USE THIS CODE IN SCORING CAPACITY)
+f.	***DD*** Stairs ^^^ How manages full flight of stairs (12–14 stairs) 							 
+	0	&&& Independent—No help, set-up, or supervision
+	1	&&& Set-up help only
+	2	&&& Supervision—Oversight / cueing
+	3	&&& Limited assistance—Help on some occasions
+	4	&&& Extensive assistance—Help throughout task, but performs 50% or more of task on own
+	5	&&& Maximal assistance—Help throughout task, but performs less than 50% of task on own
+	6	&&& Total dependence—Full performance by others during entire period
+	8	&&& Activity did not occur—During entire period (DO NOT USE THIS CODE IN SCORING CAPACITY)
+g.	***DD*** Shopping ^^^ How shopping for food and household items is performed (e.g., selecting items, paying money)—EXCLUDE TRANSPORTATION
+	0	&&& Independent—No help, set-up, or supervision
+	1	&&& Set-up help only
+	2	&&& Supervision—Oversight / cueing
+	3	&&& Limited assistance—Help on some occasions
+	4	&&& Extensive assistance—Help throughout task, but performs 50% or more of task on own
+	5	&&& Maximal assistance—Help throughout task, but performs less than 50% of task on own
+	6	&&& Total dependence—Full performance by others during entire period
+	8	&&& Activity did not occur—During entire period (DO NOT USE THIS CODE IN SCORING CAPACITY)
+h.	***DD*** Transportation ^^^ How travels by public transportation (navigating system, paying fare) or driving self (including getting out of house, in and out of vehicles)
+	0	&&& Independent—No help, set-up, or supervision
+	1	&&& Set-up help only
+	2	&&& Supervision—Oversight / cueing
+	3	&&& Limited assistance—Help on some occasions
+	4	&&& Extensive assistance—Help throughout task, but performs 50% or more of task on own
+	5	&&& Maximal assistance—Help throughout task, but performs less than 50% of task on own
+	6	&&& Total dependence—Full performance by others during entire period
+	8	&&& Activity did not occur—During entire period (DO NOT USE THIS CODE IN SCORING CAPACITY)
+
+3.	***DD*** WORK - PERFORMANCE ^^^ Code performance (P) regarding job-related activities, including both cognitive (e.g., planning, sequencing of tasks, adherence to schedules) and physical aspects (e.g., strength, coordination, stamina)
+	0	&&& Independent—No help, set-up, or supervision
+	1	&&& Set-up help only
+	2	&&& Supervision—Oversight / cueing
+	3	&&& Limited assistance—Help on some occasions
+	4	&&& Extensive assistance—Help throughout task, but performs 50% or more of task on own
+	5	&&& Maximal assistance—Help throughout task, but performs less than 50% of task on own
+	6	&&& Total dependence—Full performance by others during entire period
+	8	&&& Activity did not occur—During entire period (DO NOT USE THIS CODE IN SCORING CAPACITY)
+
+4.	***DD*** WORK - CAPACITY ^^^ Code capacity (C) regarding job-related activities, including both cognitive (e.g., planning, sequencing of tasks, adherence to schedules) and physical aspects (e.g., strength, coordination, stamina)
+	0	&&& Independent—No help, set-up, or supervision
+	1	&&& Set-up help only
+	2	&&& Supervision—Oversight / cueing
+	3	&&& Limited assistance—Help on some occasions
+	4	&&& Extensive assistance—Help throughout task, but performs 50% or more of task on own
+	5	&&& Maximal assistance—Help throughout task, but performs less than 50% of task on own
+	6	&&& Total dependence—Full performance by others during entire period
+	8	&&& Activity did not occur—During entire period (DO NOT USE THIS CODE IN SCORING CAPACITY)
+
+5.	***QB*** ADL SELF-PERFORMANCE ^^^ Consider all episodes over 3-day period. If all episodes are performed at the same level, score ADL at that level. If any episodes at level 6, and others less dependent, score ADL as 5. Otherwise, focus on the three most dependent episodes (or all episodes if performed fewer than three times). If most dependent episode is 1, score ADL as 1. If not, score ADL as least dependent of those episodes in range 2–5.
+a.	***DD*** Bathing—How takes a full-body bath / shower ^^^ Includes how transfers in and out of tub or shower AND how each part of body is bathed: arms, upper and lower legs, chest, abdomen, perineal area—EXCLUDE WASHING OF BACK AND HAIR 					
+	0	&&& Independent—No physical assistance, set-up, or supervision in any episode
+	1	&&& Independent, set-up help only—Article or device provided or placed within reach, no physical assistance or supervision in any episode
+	2	&&& Supervision—Oversight / cueing
+	3	&&& Limited assistance—Guided manoeuvring of limbs, physical guidance without taking weight
+	4	&&& Extensive assistance—Weight-bearing support (including lifting limbs) by 1 helper where person still performs 50% or more of subtasks
+	5	&&& Maximal assistance—Weight-bearing support (including lifting limbs) by 2+ helpers—OR—Weight-bearing support for more than 50% of subtasks
+	6	&&& Total dependence—Full performance by others during all episodes
+	8	&&& Activity did not occur during entire period
+b.	***DD*** Personal hygiene—How manages personal hygiene, including combing hair, brushing teeth, shaving, applying make-up, washing and drying face and hands ^^^ EXCLUDE BATHS AND SHOWERS									
+	0	&&& Independent—No physical assistance, set-up, or supervision in any episode
+	1	&&& Independent, set-up help only—Article or device provided or placed within reach, no physical assistance or supervision in any episode
+	2	&&& Supervision—Oversight / cueing
+	3	&&& Limited assistance—Guided manoeuvring of limbs, physical guidance without taking weight
+	4	&&& Extensive assistance—Weight-bearing support (including lifting limbs) by 1 helper where person still performs 50% or more of subtasks
+	5	&&& Maximal assistance—Weight-bearing support (including lifting limbs) by 2+ helpers—OR—Weight-bearing support for more than 50% of subtasks
+	6	&&& Total dependence—Full performance by others during all episodes
+	8	&&& Activity did not occur during entire period
+c.	***DD*** Dressing upper body—How dresses and undresses (street clothes, underwear) above the waist ^^^ including prostheses, orthotics, fasteners, pullovers, etc. 													
+	0	&&& Independent—No physical assistance, set-up, or supervision in any episode
+	1	&&& Independent, set-up help only—Article or device provided or placed within reach, no physical assistance or supervision in any episode
+	2	&&& Supervision—Oversight / cueing
+	3	&&& Limited assistance—Guided manoeuvring of limbs, physical guidance without taking weight
+	4	&&& Extensive assistance—Weight-bearing support (including lifting limbs) by 1 helper where person still performs 50% or more of subtasks
+	5	&&& Maximal assistance—Weight-bearing support (including lifting limbs) by 2+ helpers—OR—Weight-bearing support for more than 50% of subtasks
+	6	&&& Total dependence—Full performance by others during all episodes
+	8	&&& Activity did not occur during entire period
+d.	***DD*** Dressing lower body—How dresses and undresses (street clothes, underwear) from the waist down ^^^ including prostheses, orthotics, belts, pants, skirts, shoes, fasteners, etc. 										
+	0	&&& Independent—No physical assistance, set-up, or supervision in any episode
+	1	&&& Independent, set-up help only—Article or device provided or placed within reach, no physical assistance or supervision in any episode
+	2	&&& Supervision—Oversight / cueing
+	3	&&& Limited assistance—Guided manoeuvring of limbs, physical guidance without taking weight
+	4	&&& Extensive assistance—Weight-bearing support (including lifting limbs) by 1 helper where person still performs 50% or more of subtasks
+	5	&&& Maximal assistance—Weight-bearing support (including lifting limbs) by 2+ helpers—OR—Weight-bearing support for more than 50% of subtasks
+	6	&&& Total dependence—Full performance by others during all episodes
+	8	&&& Activity did not occur during entire period
+e.	***DD*** Walking ^^^ How walks between locations on same floor indoors							
+	0	&&& Independent—No physical assistance, set-up, or supervision in any episode
+	1	&&& Independent, set-up help only—Article or device provided or placed within reach, no physical assistance or supervision in any episode
+	2	&&& Supervision—Oversight / cueing
+	3	&&& Limited assistance—Guided manoeuvring of limbs, physical guidance without taking weight
+	4	&&& Extensive assistance—Weight-bearing support (including lifting limbs) by 1 helper where person still performs 50% or more of subtasks
+	5	&&& Maximal assistance—Weight-bearing support (including lifting limbs) by 2+ helpers—OR—Weight-bearing support for more than 50% of subtasks
+	6	&&& Total dependence—Full performance by others during all episodes
+	8	&&& Activity did not occur during entire period
+f.	***DD*** Locomotion ^^^ How moves between locations on same floor (walking or wheeling). If in wheelchair, self-sufficiency once in chair		
+	0	&&& Independent—No physical assistance, set-up, or supervision in any episode
+	1	&&& Independent, set-up help only—Article or device provided or placed within reach, no physical assistance or supervision in any episode
+	2	&&& Supervision—Oversight / cueing
+	3	&&& Limited assistance—Guided manoeuvring of limbs, physical guidance without taking weight
+	4	&&& Extensive assistance—Weight-bearing support (including lifting limbs) by 1 helper where person still performs 50% or more of subtasks
+	5	&&& Maximal assistance—Weight-bearing support (including lifting limbs) by 2+ helpers—OR—Weight-bearing support for more than 50% of subtasks
+	6	&&& Total dependence—Full performance by others during all episodes
+	8	&&& Activity did not occur during entire period
+g.	***DD*** Transfer toilet ^^^ How moves on and off toilet or commode							
+	0	&&& Independent—No physical assistance, set-up, or supervision in any episode
+	1	&&& Independent, set-up help only—Article or device provided or placed within reach, no physical assistance or supervision in any episode
+	2	&&& Supervision—Oversight / cueing
+	3	&&& Limited assistance—Guided manoeuvring of limbs, physical guidance without taking weight
+	4	&&& Extensive assistance—Weight-bearing support (including lifting limbs) by 1 helper where person still performs 50% or more of subtasks
+	5	&&& Maximal assistance—Weight-bearing support (including lifting limbs) by 2+ helpers—OR—Weight-bearing support for more than 50% of subtasks
+	6	&&& Total dependence—Full performance by others during all episodes
+	8	&&& Activity did not occur during entire period
+h.	***DD*** Toilet use ^^^ How uses the toilet room (or commode, bedpan, urinal), cleanses self after toilet use or incontinent episode(s), changes bed pad, manages ostomy or catheter, adjusts clothes—EXCLUDE TRANSFER ON AND OFF TOILET						
+	0	&&& Independent—No physical assistance, set-up, or supervision in any episode
+	1	&&& Independent, set-up help only—Article or device provided or placed within reach, no physical assistance or supervision in any episode
+	2	&&& Supervision—Oversight / cueing
+	3	&&& Limited assistance—Guided manoeuvring of limbs, physical guidance without taking weight
+	4	&&& Extensive assistance—Weight-bearing support (including lifting limbs) by 1 helper where person still performs 50% or more of subtasks
+	5	&&& Maximal assistance—Weight-bearing support (including lifting limbs) by 2+ helpers—OR—Weight-bearing support for more than 50% of subtasks
+	6	&&& Total dependence—Full performance by others during all episodes
+	8	&&& Activity did not occur during entire period
+i.	***DD*** Bed mobility ^^^ How moves to and from lying position, turns from side to side, and positions body while in bed			
+	0	&&& Independent—No physical assistance, set-up, or supervision in any episode
+	1	&&& Independent, set-up help only—Article or device provided or placed within reach, no physical assistance or supervision in any episode
+	2	&&& Supervision—Oversight / cueing
+	3	&&& Limited assistance—Guided manoeuvring of limbs, physical guidance without taking weight
+	4	&&& Extensive assistance—Weight-bearing support (including lifting limbs) by 1 helper where person still performs 50% or more of subtasks
+	5	&&& Maximal assistance—Weight-bearing support (including lifting limbs) by 2+ helpers—OR—Weight-bearing support for more than 50% of subtasks
+	6	&&& Total dependence—Full performance by others during all episodes
+	8	&&& Activity did not occur during entire period
+j.	***DD*** Eating ^^^ How eats and drinks (regardless of skill). Includes intake of nourishment by other means (e.g., tube feeding, total parenteral nutrition)
+	0	&&& Independent—No physical assistance, set-up, or supervision in any episode
+	1	&&& Independent, set-up help only—Article or device provided or placed within reach, no physical assistance or supervision in any episode
+	2	&&& Supervision—Oversight / cueing
+	3	&&& Limited assistance—Guided manoeuvring of limbs, physical guidance without taking weight
+	4	&&& Extensive assistance—Weight-bearing support (including lifting limbs) by 1 helper where person still performs 50% or more of subtasks
+	5	&&& Maximal assistance—Weight-bearing support (including lifting limbs) by 2+ helpers—OR—Weight-bearing support for more than 50% of subtasks
+	6	&&& Total dependence—Full performance by others during all episodes
+	8	&&& Activity did not occur during entire period
+
+6.	***DD*** PRIMARY MODE OF LOCOMOTION									
+0	&&& Walking, no assistive device
+1	&&& Walking, uses assistive device—e.g., cane, walker, crutch, pushing wheelchair
+2	&&& Wheelchair, scooter
+3	&&& Bed-bound
+
+7.	***DD*** DISTANCE WHEELED SELF ^^^ Farthest distance wheeled self at one time in the LAST 3 DAYS (includes independent use of motorized wheelchair)
+0	&&& Wheeled by others
+1	&&& Used motorized wheelchair / scooter	
+2	&&& Wheeled self less than 5 metres (under 15 feet)
+3	&&& Wheeled self 5–49 metres (15–149 feet)
+4	&&& Wheeled self 50–99 metres (150–299 feet)
+5	&&& Wheeled self 100+ metres (300+ feet)
+8	&&& Did not use wheelchair
+
+8.	***DD*** PHYSICALLY RESTRAINED ^^^ Limbs restrained, chair prevents rising
+0	&&& No	
+1	&&& Yes
+
+9.	***QB*** PHYSICAL FUNCTION IMPROVEMENT POTENTIAL
+a.	***DD*** Person believes he / she is capable of improved performance in physical function	
+0	&&& No	
+1	&&& Yes	
+8 	&&& Could not (would not) respond				
+b.	***DD*** Care professional believes person is capable of improved performance in physical function 	
+0	&&& No	
+1	&&& Yes	
+8 	&&& Could not (would not) respond			
+
+10.	***DD*** CHANGE IN ADL STATUS AS COMPARED TO 90 DAYS AGO, OR SINCE LAST ASSESSMENT IF LESS THAN 90 DAYS AGO		
+0	&&& Improved 	
+1	&&& No change	
+2	&&& Declined 
+8	&&& Uncertain
+
+SECTION ***K*** Oral and Nutritional Status
+1.	***QB*** HEIGHT AND WEIGHT ^^^ Record (a.) height in centimetres and (b.) weight in kilograms. Base weight on most recent measure in LAST 30 DAYS.
+a.	***T*** Height (cm) 	
+b.	***T*** Weight (kg) 
+
+2.	***QB*** NUTRITIONAL ISSUES
+a.	***DD*** Weight loss ^^^ Of 5% or more in LAST 30 DAYS, or 10% or more in LAST 180 DAYS			
+	0	&&& No	
+	1	&&& Yes		
+b.	***DD*** Weight gain ^^^ Of 5% or more in LAST 30 DAYS, or 10% or more in LAST 180 DAYS		
+	0	&&& No	
+	1	&&& Yes				
+c.	***DD*** Fluid intake ^^^ Less than 1,000 cc per day (less than four 8-oz. cups / day) 	
+	0	&&& No	
+	1	&&& Yes					
+
+3.	***DD*** CHEWING PROBLEM ^^^ e.g., pain while eating								
+0	&&& No	
+1	&&& Yes
+
+4.	***DD*** MODE OF NUTRITIONAL INTAKE									
+0	&&& Normal—Swallows all types of foods
+1	&&& Modified independent—e.g., liquid is sipped, takes limited solid food, need for modification may be unknown
+2	&&& Requires diet modification to swallow solid food—e.g., mechanical diet (e.g., pureed, minced) or only able to ingest specific foods 
+3	&&& Requires modification to swallow liquids—e.g., thickened liquids
+4	&&& Can swallow only puréed solids—AND—thickened liquids
+5	&&& Combined oral and parenteral or tube feeding
+6	&&& Nasogastric tube feeding only
+7	&&& Abdominal tube feeding—e.g., PEG tube
+8	&&& Parenteral feeding only—Includes all types of parenteral feedings, such as total parenteral nutrition (TPN)
+9	&&& Activity did not occur—During entire period 
+
+5.	***QB*** DENTAL OR ORAL
+a.	***DD*** Wears a denture (removable prosthesis)
+	0	&&& No	
+	1	&&& Yes
+b.	***DD*** Has broken, fragmented, loose, or otherwise non-intact natural teeth						
+	0	&&& No	
+	1	&&& Yes
+c.	***DD*** Presents with gum (soft tissue) inflammation or bleeding adjacent to natural teeth or tooth fragments			
+	0	&&& No	
+	1	&&& Yes
+
+
+SECTION ***L*** Mood and Behaviour 
+1.	***QB*** INDICATORS OF POSSIBLE DEPRESSED, ANXIOUS, OR SAD MOOD ^^^ Code for indicators observed in last 3 days, irrespective of the assumed cause [Note: Whenever possible, ask person]	 
+a.	***DD*** Mood - Cheerful, happy facial expressions—e.g., smiles or laughs, appears relaxed	
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1–2 of last 3 days
+	3	&&& Exhibited daily in last 3 days					
+b.	***DD*** Mood - Sad, pained, or worried facial expressions—e.g., furrowed brow, constant frowning					
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1–2 of last 3 days
+	3	&&& Exhibited daily in last 3 days
+c.	***DD*** Mood - Crying, tearfulness										
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1–2 of last 3 days
+	3	&&& Exhibited daily in last 3 days
+d.	***DD*** Mood - Made positive statements—e.g., “I have a lot to look forward to; I am happy; I enjoy what I am doing” 				
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1–2 of last 3 days
+	3	&&& Exhibited daily in last 3 days
+e.	***DD*** Mood - Made negative statements—e.g., “Nothing matters; Would rather be dead; What’s the use; Regret having lived so long; Let me die” 	
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1–2 of last 3 days
+	3	&&& Exhibited daily in last 3 days
+f.	***DD*** Mood - Hyperarousal—Motor excitation; unusually high activity; increased reactivity						
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1–2 of last 3 days
+	3	&&& Exhibited daily in last 3 days
+g.	***DD*** Mood - Irritability—Marked increase in being short-tempered or easily upset						
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1–2 of last 3 days
+	3	&&& Exhibited daily in last 3 days
+h.	***DD*** Mood - Pressured speech or racing thoughts—Rapid speech, rapid transition from topic to topic					
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1–2 of last 3 days
+	3	&&& Exhibited daily in last 3 days
+i.	***DD*** Mood - Labile affect—Affect fluctuates frequently with or without an external explanation					
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1–2 of last 3 days
+	3	&&& Exhibited daily in last 3 days
+j.	***DD*** Mood - Flat or blunted affect—Indifference, non-responsiveness, hard to get to smile, etc. 					
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1–2 of last 3 days
+	3	&&& Exhibited daily in last 3 days
+k.	***DD*** Anxiety - Repetitive anxious complaints / concerns (non-health related)—e.g., persistently seeks attention / reassurance regarding schedules, meals, laundry, clothing, relationships										
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1–2 of last 3 days
+	3	&&& Exhibited daily in last 3 days
+l.	***DD*** Anxiety - Expressions, including nonverbal, of what appear to be unrealistic fears—e.g., fear of being abandoned, being left alone, being with others; intense fear of specific objects or situations									
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1–2 of last 3 days
+	3	&&& Exhibited daily in last 3 days
+m.	***DD*** Anxiety - Obsessive thoughts—Unwanted ideas or thoughts that cannot be eliminated						
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1–2 of last 3 days
+	3	&&& Exhibited daily in last 3 days
+n.	***DD*** Anxiety - Compulsive behaviour—e.g., hand washing, repetitive checking of room, counting					
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1–2 of last 3 days
+	3	&&& Exhibited daily in last 3 days
+o.	***DD*** Anxiety - Episodes of panic—Cascade of symptoms of fear, anxiety, loss of control						
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1–2 of last 3 days
+	3	&&& Exhibited daily in last 3 days
+p.	***DD*** Negative Symptoms - Expressions, including nonverbal, of a lack of pleasure in life (anhedonia)—e.g., “I don’t enjoy anything anymore” 		
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1–2 of last 3 days
+	3	&&& Exhibited daily in last 3 days
+q.	***DD*** Negative Symptoms - Withdrawal from activities of interest—e.g., long-standing activities, being with family / friends				
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1–2 of last 3 days
+	3	&&& Exhibited daily in last 3 days
+r.	***DD*** Negative Symptoms - Lack of motivation—Absence of spontaneous goal-directed activity							
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1–2 of last 3 days
+	3	&&& Exhibited daily in last 3 days
+s.	***DD*** Negative Symptoms - Reduced social interactions									
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1–2 of last 3 days
+	3	&&& Exhibited daily in last 3 days
+t.	***DD*** Other Indicators - Repetitive health complaints—e.g., persistently seeks medical attention, incessant concern with body functions				
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1–2 of last 3 days
+	3	&&& Exhibited daily in last 3 days
+u.	***DD*** Other Indicators - Recurrent statements that something terrible is about to happen—e.g., believes he or she is about to die, have a heart attack		
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1–2 of last 3 days
+	3	&&& Exhibited daily in last 3 days
+v.	***DD*** Other Indicators - Persistent anger with self or others—e.g., easily annoyed, anger at care received					
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1–2 of last 3 days
+	3	&&& Exhibited daily in last 3 days
+w.	***DD*** Other Indicators - Unusual or abnormal physical movements—Unusual facial expressions or mannerisms; peculiar motor behaviour or body posturing (e.g., stereotypies, waxy flexibility) 											
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1–2 of last 3 days
+	3	&&& Exhibited daily in last 3 days
+x.	***DD*** Other Indicators - Hygiene—Unusually poor hygiene, unkempt, dishevelled								
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1–2 of last 3 days
+	3	&&& Exhibited daily in last 3 days
+y.	***DD*** Other Indicators - Difficulty falling asleep or staying asleep; waking up too early; restlessness; nonrestful sleep				
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1–2 of last 3 days
+	3	&&& Exhibited daily in last 3 days
+z.	***DD*** Other Indicators - Too much sleep—Excessive amount of sleep that interferes with person’s normal functioning					
+	0	&&& Not present
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1–2 of last 3 days
+	3	&&& Exhibited daily in last 3 days
+
+2.	***QB*** SELF-REPORTED MOOD	^^^ Ask: “In the last 3 days, how often have you felt . . .”
+a.	***DD*** Little interest or pleasure in things you normally enjoy? 								
+	0	&&& Not in last 3 days
+	1	&&& Not in last 3 days, but often feels that way
+	2	&&& In 1–2 of last 3 days
+	3	&&& Daily in the last 3 days
+	8	&&& Could not (would not) respond						
+b.	***DD*** Anxious, restless, or uneasy? 									
+	0	&&& Not in last 3 days
+	1	&&& Not in last 3 days, but often feels that way
+	2	&&& In 1–2 of last 3 days
+	3	&&& Daily in the last 3 days
+	8	&&& Could not (would not) respond								
+c.	***DD*** Sad, depressed, or hopeless? 							
+	0	&&& Not in last 3 days
+	1	&&& Not in last 3 days, but often feels that way
+	2	&&& In 1–2 of last 3 days
+	3	&&& Daily in the last 3 days
+	8	&&& Could not (would not) respond									
+
+3.	***DD*** ADJUSTED EASILY TO CHANGES IN ROUTINES IN LAST 30 DAYS						
+0	&&& No	
+1	&&& Yes
+
+4.	***QB*** BEHAVIOURAL SYMPTOMS ^^^ Code for indicators observed, irrespective of the assumed cause
+a.	***DD*** Wandering ^^^ Moved with no rational purpose, seemingly oblivious to needs or safety	
+	0	&&& Not present	
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1–2 of last 3 days
+	3	&&& Exhibited daily in last 3 days				
+b.	***DD*** Verbal abuse ^^^ e.g., others were threatened, screamed at, cursed at							
+	0	&&& Not present	
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1–2 of last 3 days
+	3	&&& Exhibited daily in last 3 days
+c. 	***DD*** Physical abuse ^^^ e.g., others were hit, shoved, scratched, sexually abused						
+	0	&&& Not present	
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1–2 of last 3 days
+	3	&&& Exhibited daily in last 3 days
+d.	***DD*** Socially inappropriate or disruptive behaviour ^^^ e.g., made disruptive sounds or noises, screamed out, smeared or threw food or feces, hoarded, rummaged through others’ belongings									
+	0	&&& Not present	
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1–2 of last 3 days
+	3	&&& Exhibited daily in last 3 days
+e.	***DD*** Inappropriate public sexual behaviour or public disrobing							
+	0	&&& Not present	
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1–2 of last 3 days
+	3	&&& Exhibited daily in last 3 days
+f.	***DD*** Resists care ^^^ e.g., taking medications / injections, ADL assistance, eating						
+	0	&&& Not present	
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1–2 of last 3 days
+	3	&&& Exhibited daily in last 3 days
+g.	***DD*** Self-injurious behaviour ^^^ e.g., banging head on wall; pinching, biting, scratching, hitting, or punching self; pulling own hair		
+	0	&&& Not present	
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1–2 of last 3 days
+	3	&&& Exhibited daily in last 3 days
+h.	***DD*** Destructive behaviour ^^^ e.g., throwing objects, turning over beds or tables, vandalism					
+	0	&&& Not present	
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1–2 of last 3 days
+	3	&&& Exhibited daily in last 3 days
+i.	***DD*** Outburst of anger ^^^ Intense flare-up of anger in reaction to a specific action or event (e.g., upset with decisions of others) 		
+	0	&&& Not present	
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1–2 of last 3 days
+	3	&&& Exhibited daily in last 3 days
+j.	***DD*** Echolalia ^^^ Repeats the words spoken by others								
+	0	&&& Not present	
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1–2 of last 3 days
+	3	&&& Exhibited daily in last 3 days
+k.	***DD*** Self-talk ^^^ Talks to self										
+	0	&&& Not present	
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1–2 of last 3 days
+	3	&&& Exhibited daily in last 3 days
+l.	***DD*** Pica ^^^ Ingestion of non-food items (e.g., soap, dirt, feces)							
+	0	&&& Not present	
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1–2 of last 3 days
+	3	&&& Exhibited daily in last 3 days
+m.	***DD*** Rumination ^^^ Regurgitation and re-chewing of previously swallowed food						
+	0	&&& Not present	
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1–2 of last 3 days
+	3	&&& Exhibited daily in last 3 days
+n.	***DD*** Polydipsia ^^^ Inappropriate or excessive fluid consumption (e.g., drinks fluids many times during the day, drinks a huge amount at a time, refuses to stop drinking, drinks secretly from unusual sources) 								
+	0	&&& Not present	
+	1	&&& Present but not exhibited in last 3 days
+	2	&&& Exhibited on 1–2 of last 3 days
+	3	&&& Exhibited daily in last 3 days
+
+5.	***QB*** VIOLENCE ^^^ Code for most recent instance
+a.	***DD*** Intimidation of others or threatened violence ^^^ e.g., threatening gestures or stance with no physical contact, shouting angrily, throwing furniture, explicit threats of violence											
+	0	&&& Never	
+	1	&&& More than 1 year ago	
+	2	&&& 31 days–1 year ago	
+	3	&&& 8–30 days ago
+	4	&&& 4–7 days ago
+	5	&&& In last 3 days
+b.	***DD*** Violence to others ^^^ Acts with purposeful, malicious, or vicious intent, resulting in physical harm to another (e.g., stabbing, choking, beating) 		
+	0	&&& Never	
+	1	&&& More than 1 year ago	
+	2	&&& 31 days–1 year ago	
+	3	&&& 8–30 days ago
+	4	&&& 4–7 days ago
+	5	&&& In last 3 days
+
+6.	***DD*** EXTREME BEHAVIOUR DISTURBANCE ^^^ History of extreme behaviour(s) that suggests serious risk of harm to self (e.g., severe self-mutilation) or others (e.g., fire setting, homicide)
+0	&&& No
+1	&&& Yes, but not exhibited in last 7 days
+2	&&& Yes, exhibited in last 7 days
+
+
+SECTION ***M*** Medications
+1.	***T*** LIST OF ALL MEDICATIONS
+
+2.	***DD*** ALLERGY TO ANY DRUG										
+0	&&& No known drug allergies 		
+1	&&& Yes
+
+3.	***DD*** PHYSICIAN REVIEWED PERSON’S MEDICATIONS AS A WHOLE IN LAST 180 DAYS OR SINCE LAST ASSESSMENT		
+0	&&& Discussed with at least one physician (or no medication taken)
+1	&&& No single physician reviewed all medications
+
+4.	***DD*** ADHERENT WITH MEDICATIONS PRESCRIBED BY PHYSICIAN							
+0	&&& Always adherent
+1	&&& Adherent 80% of time or more	
+2	&&& Adherent less than 80% of time, including failure to purchase prescribed medications
+8	&&& No medications prescribed
+
+
+SECTION ***N*** Supports and Services
+1. ***QB*** PREVENTION
+a.	***DD*** Complete physical examination in LAST YEAR 	
+	0	&&& No	
+	1	&&& Yes							
+b.	***DD*** Dental exam in LAST YEAR										
+	0	&&& No	
+	1	&&& Yes
+c.	***DD*** Eye exam in LAST YEAR										
+	0	&&& No	
+	1	&&& Yes
+d.	***DD*** Hearing exam in LAST 2 YEARS									
+	0	&&& No	
+	1	&&& Yes
+e.	***DD*** Influenza vaccine in LAST YEAR 
+	0	&&& No	
+	1	&&& Yes
+									
+2.	***QB *** FORMAL SERVICE PROVIDERS ^^^ Contact with paid care provider in last 30 days (or since admission if LESS THAN 30 DAYS)
+a.	***DD*** Developmental services worker or direct care staff 							
+	0	&&& No contact in last 30 days	
+	1	&&& No contact in last 7 days, but contact 8–30 days ago
+	2	&&& Contact in last 7 days but not daily 
+	3	&&& Daily contact in last 7 days
+b.	***DD*** Occupational therapist, physical therapist, or speech therapist							
+	0	&&& No contact in last 30 days	
+	1	&&& No contact in last 7 days, but contact 8–30 days ago
+	2	&&& Contact in last 7 days but not daily 
+	3	&&& Daily contact in last 7 days
+c.	***DD*** Recreation therapist										
+	0	&&& No contact in last 30 days	
+	1	&&& No contact in last 7 days, but contact 8–30 days ago
+	2	&&& Contact in last 7 days but not daily 
+	3	&&& Daily contact in last 7 days
+d.	***DD*** Nurse	
+	0	&&& No contact in last 30 days	
+	1	&&& No contact in last 7 days, but contact 8–30 days ago
+	2	&&& Contact in last 7 days but not daily 
+	3	&&& Daily contact in last 7 days
+										
+3.	***QB*** FOCUS OF SUPPORTS ^^^ Code for types of issues that were a major focus of formal services and training programs in LAST 30 DAYS or since admission if less than 30 days ago
+a.	***DD*** Self-care skills—e.g., dressing, eating, hygiene								
+	0	&&& No service or program of this type
+	1	&&& Offered, but refused
+	2	&&& Not received, but scheduled to start within next 30 days
+	3	&&& Received 8–30 days ago
+	4	&&& Received in last 7 days
+b.	***DD*** Community skills—e.g., vocational rehabilitation, transportation, shopping						
+	0	&&& No service or program of this type
+	1	&&& Offered, but refused
+	2	&&& Not received, but scheduled to start within next 30 days
+	3	&&& Received 8–30 days ago
+	4	&&& Received in last 7 days
+c.	***DD*** Social skills—e.g., interpersonal skills, etiquette								
+	0	&&& No service or program of this type
+	1	&&& Offered, but refused
+	2	&&& Not received, but scheduled to start within next 30 days
+	3	&&& Received 8–30 days ago
+	4	&&& Received in last 7 days
+d.	***DD*** Cognitive skills—e.g., reading, letters, colour recognition							
+	0	&&& No service or program of this type
+	1	&&& Offered, but refused
+	2	&&& Not received, but scheduled to start within next 30 days
+	3	&&& Received 8–30 days ago
+	4	&&& Received in last 7 days
+e. 	***DD*** Education on special topics—e.g., sexuality, safety								
+	0	&&& No service or program of this type
+	1	&&& Offered, but refused
+	2	&&& Not received, but scheduled to start within next 30 days
+	3	&&& Received 8–30 days ago
+	4	&&& Received in last 7 days
+f.	***DD*** Behaviour management—e.g., program to reduce unwanted behaviour or increase pro-social behaviour				
+	0	&&& No service or program of this type
+	1	&&& Offered, but refused
+	2	&&& Not received, but scheduled to start within next 30 days
+	3	&&& Received 8–30 days ago
+	4	&&& Received in last 7 days
+g.	***DD*** Sensory stimulation—e.g., aromatherapy, Snoezelen room, music therapy						
+	0	&&& No service or program of this type
+	1	&&& Offered, but refused
+	2	&&& Not received, but scheduled to start within next 30 days
+	3	&&& Received 8–30 days ago
+	4	&&& Received in last 7 days
+
+4.	***QB*** HOSPITAL USE, EMERGENCY ROOM USE, PHYSICIAN VISIT ^^^ Code for number of times during the LAST 90 DAYS (or since last assessment if LESS THAN 90 DAYS AGO)
+a.	***T*** In-patient acute hospital with overnight stay 									
+b.	***T*** Emergency room visit (not counting overnight stay) 							
+c.	***T*** Visit with physician (or authorized assistant or practitioner) 							
+d.	***T*** Visit with licensed mental health professional—e.g., psychiatrist, psychologist, social worker, behavioural therapist			
+
+5.	***DD*** TIME SINCE LAST HOSPITAL STAY ^^^ Code for most recent instance in LAST 90 DAYS
+0	&&& No hospitalization within 90 days	  
+1 	&&& 31–90 days ago	
+2	&&& 15–30 days ago	
+3	&&& 8–14 days ago
+4	&&& In the last 7 days
+5	&&& Now in hospital
+
+6.	***DD*** NUMBER OF LIFETIME PSYCHIATRIC HOSPITAL / UNIT ADMISSIONS						
+0	&&& None		
+1	&&& 1–3	
+2	&&& 4–5		
+3	&&& 6 or more
+
+
+
+SECTION ***O*** Diagnostic Information 
+1.	***QB*** MEDICAL DIAGNOSES
+a.	***DD*** Asthma				
+	0	&&& Not present
+	1	&&& Primary diagnosis / diagnoses for current stay
+	2	&&& Diagnosis present, receiving active treatment
+	3	&&& Diagnosis present, monitored but no active treatment							
+b.	***DD*** Cerebral palsy		
+	0	&&& Not present
+	1	&&& Primary diagnosis / diagnoses for current stay
+	2	&&& Diagnosis present, receiving active treatment
+	3	&&& Diagnosis present, monitored but no active treatment									
+c.	***DD*** Diabetes mellitus										
+	0	&&& Not present
+	1	&&& Primary diagnosis / diagnoses for current stay
+	2	&&& Diagnosis present, receiving active treatment
+	3	&&& Diagnosis present, monitored but no active treatment
+d.	***DD*** Epilepsy or seizure disorder											
+	0	&&& Not present
+	1	&&& Primary diagnosis / diagnoses for current stay
+	2	&&& Diagnosis present, receiving active treatment
+	3	&&& Diagnosis present, monitored but no active treatment
+e.	***DD*** Hypothyroidism											
+	0	&&& Not present
+	1	&&& Primary diagnosis / diagnoses for current stay
+	2	&&& Diagnosis present, receiving active treatment
+	3	&&& Diagnosis present, monitored but no active treatment
+f. 	***DD*** Traumatic brain injury										
+	0	&&& Not present
+	1	&&& Primary diagnosis / diagnoses for current stay
+	2	&&& Diagnosis present, receiving active treatment
+	3	&&& Diagnosis present, monitored but no active treatment
+
+g.	***T*** Other Medical Diagnosis 1 ^^^ Format (Diagnosis), (Disease Code), (ICD-10-CA-Code)
+h.	***T*** Other Medical Diagnosis 2 ^^^ Format (Diagnosis), (Disease Code), (ICD-10-CA-Code)
+i.	***T*** Other Medical Diagnosis 3 ^^^ Format (Diagnosis), (Disease Code), (ICD-10-CA-Code)
+
+2.	***QB*** MENTAL HEALTH DIAGNOSIS BY CATEGORY ^^^ See manual for help with diagnoses within each category
+a.	***DD*** Delirium, dementia, and amnestic and other cognitive disorders	
+	0	&&& No	
+	1	&&& Yes					
+b.	***DD*** Schizophrenia and other psychotic disorders								
+	0	&&& No	
+	1	&&& Yes
+c.	***DD*** Mood disorder												
+	0	&&& No	
+	1	&&& Yes
+d.	***DD*** Anxiety disorder											
+	0	&&& No	
+	1	&&& Yes
+
+
+SECTION ***P*** Discharge Information
+1.	***Date*** LAST DAY OF INVOLVEMENT WITH PROGRAM OR AGENCY
+
+2.	***DD*** DISCHARGED TO											
+	1	&&& Private home / apartment / rented room
+	2 	&&& Board and care
+	3	&&& Assisted living or semi-independent living
+	4  	&&& Mental health residence—e.g., psychiatric group home
+	5	&&& Group home for persons with physical disability
+	6	&&& Setting for persons with intellectual disability
+	7	&&& Psychiatric hospital or unit
+	8	&&& Homeless (with or without shelter)
+	9	&&& Long-term care facility (nursing home)
+	10 	&&& Rehabilitation hospital / unit
+	11 	&&& Hospice facility / palliative care unit
+	12 	&&& Acute care hospital
+	13 	&&& Correctional facility
+	14 	&&& Other
+	15 	&&& Deceased
+
+
+SECTION ***Q*** Assessment Information 
+1.	***T*** SIGNATURE OF PERSON COORDINATING / COMPLETING THE ASSESSMENT
+
+2. 	***Date*** Date assessment signed as complete

@@ -1,7 +1,6 @@
 ﻿using AssessmentAutogen.Model;
 using System.Globalization;
 using System.Text.RegularExpressions;
-using static System.Collections.Specialized.BitVector32;
 
 namespace AssessmentAutogen.Library
 {
