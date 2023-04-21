@@ -137,7 +137,7 @@ b.	***DD*** Usual residential status
 	8 	&&& With nonrelative(s)
 
 
-SECTION ***B*** Intake and Initial History ^^^ NOTE: Complete Section B at Admission / First Assessment only
+SECTION ***B*** Intake and Initial History (NOTE: Complete Section B at Admission / First Assessment only)
 1.	***Date*** DATE CASE OPENED
 
 2. 	***QB*** ABORIGINAL IDENTITY ^^^ Person identifies self as First Nations, Metis, or Inuit 
@@ -1468,7 +1468,7 @@ e.	***DD*** Influenza vaccine in LAST YEAR
 	0	&&& No	
 	1	&&& Yes
 									
-2.	***QB *** FORMAL SERVICE PROVIDERS ^^^ Contact with paid care provider in last 30 days (or since admission if LESS THAN 30 DAYS)
+2.	***QB*** FORMAL SERVICE PROVIDERS ^^^ Contact with paid care provider in last 30 days (or since admission if LESS THAN 30 DAYS)
 a.	***DD*** Developmental services worker or direct care staff 							
 	0	&&& No contact in last 30 days	
 	1	&&& No contact in last 7 days, but contact 8–30 days ago
